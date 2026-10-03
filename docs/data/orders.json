@@ -1,5 +1,5 @@
 {
- "status": "pending",
+ "status": "done",
  "createdAt": "2026-10-03T23:30:36Z",
  "model": "claude-sonnet-5",
  "candidatesSeen": 60,
@@ -16,5 +16,6 @@
   "Colts Commanders betting line odds moved after Jayden Daniels ruled out spread",
   "Colts 2026 season record Week 4 undefeated"
  ],
- "trades": []
+ "trades": [],
+ "processedAt": "2026-10-03T23:31:14.701Z"
 }
