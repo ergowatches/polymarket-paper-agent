@@ -1,0 +1,20 @@
+{
+ "status": "pending",
+ "createdAt": "2026-10-03T23:30:36Z",
+ "model": "claude-sonnet-5",
+ "candidatesSeen": 60,
+ "summary": "I checked the Brazil presidential election polls, NFL injury reports for Sunday's games, and the US-Iran ceasefire status. The Commanders are missing QB Jayden Daniels, their starting RB and a starting guard against the Colts, but that news broke two days ago and sportsbook lines (Colts -205) already match Polymarket's price almost exactly, so there is no edge left there. Brazil election prices are close to what other prediction markets and recent polls imply, and the gap was too small once fees are included. No outcome cleared the 5 percentage point edge bar after fees, so I am holding all cash this cycle with zero trades.",
+ "queries": [
+  "Brazil presidential election 2026 first round polls October Lula Bolsonaro",
+  "NFL injury report week Colts Commanders October 4 2026",
+  "US Iran ceasefire status October 2026",
+  "NFL week injury report Vikings Dolphins Chiefs Raiders Cardinals Giants October 2026",
+  "Jayden Daniels out Commanders Colts London backup quarterback Marcus Mariota",
+  "Brazil election first round October 4 2026 outright majority chance",
+  "Lula win probability 2026 election runoff odds betting markets",
+  "Brazil election 2026 Datafolha poll breakdown Renan Santos Augusto Cury first round percentage",
+  "Colts Commanders betting line odds moved after Jayden Daniels ruled out spread",
+  "Colts 2026 season record Week 4 undefeated"
+ ],
+ "trades": []
+}
