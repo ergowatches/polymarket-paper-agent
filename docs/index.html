@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Paper Agent Live</title>
+<meta name="description" content="An AI agent paper-trading Polymarket with $50 of fake money, paying its own API bill. Live results.">
+<meta name="theme-color" content="#f6f6f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151514" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f6f6f3;
+  --card: #ffffff;
+  --line: #e6e5e0;
+  --grid: #ecebe6;
+  --ink: #0b0b0b;
+  --ink-2: #52514e;
+  --ink-3: #7a7974;
+  --ai: #2a78d6;
+  --rand: #eb6834;
+  --hold: #9a9994;
+  --up: #0a7d0a;
+  --down: #c23434;
+  --chip: #f0efec;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #151514; --card: #1e1e1d; --line: #2e2e2c; --grid: #2a2a28;
+    --ink: #ffffff; --ink-2: #c3c2b7; --ink-3: #8f8e88;
+    --ai: #3987e5; --rand: #d95926; --hold: #6f6e69;
+    --up: #3fbf5a; --down: #e66767; --chip: #2a2a28;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #151514; --card: #1e1e1d; --line: #2e2e2c; --grid: #2a2a28;
+  --ink: #ffffff; --ink-2: #c3c2b7; --ink-3: #8f8e88;
+  --ai: #3987e5; --rand: #d95926; --hold: #6f6e69;
+  --up: #3fbf5a; --down: #e66767; --chip: #2a2a28;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.5 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-feature-settings: "tnum" 1, "cv11" 1;
+}
+main { max-width: 760px; margin: 0 auto; padding: 20px 16px calc(40px + env(safe-area-inset-bottom)); }
+a { color: inherit; text-underline-offset: 3px; text-decoration-color: var(--line); }
+a:hover { text-decoration-color: var(--ink-3); }
+h1 { font-size: 15px; font-weight: 600; margin: 0; letter-spacing: -0.005em; }
+h2 { font-size: 13px; font-weight: 600; color: var(--ink-2); margin: 32px 0 10px; text-transform: uppercase; letter-spacing: 0.06em; }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.status { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ink-2); }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--up); flex: none; }
+.dot.stale { background: var(--hold); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+.hero { margin-top: 16px; padding: 20px 16px 18px; }
+.hero .label { font-size: 13px; color: var(--ink-2); }
+.hero .big { font-size: 44px; font-weight: 700; letter-spacing: -0.03em; line-height: 1.15; margin: 4px 0 2px; padding-bottom: 2px; }
+.hero .delta { font-size: 15px; font-weight: 600; }
+.hero .sub { font-size: 13px; color: var(--ink-2); margin-top: 8px; }
+.up { color: var(--up); } .down { color: var(--down); } .flat { color: var(--ink-2); }
+.tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 8px; }
+.tile { padding: 12px; }
+.tile .name { font-size: 12px; color: var(--ink-2); display: flex; align-items: center; gap: 6px; }
+.tile .val { font-size: 19px; font-weight: 650; margin-top: 2px; letter-spacing: -0.01em; }
+.tile .chg { font-size: 12px; font-weight: 600; }
+.swatch { width: 10px; height: 3px; border-radius: 2px; flex: none; }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 8px; }
+.fact { padding: 12px; }
+.fact .k { font-size: 12px; color: var(--ink-2); }
+.fact .v { font-size: 16px; font-weight: 600; margin-top: 2px; }
+.chart-card { padding: 14px 8px 8px; margin-top: 8px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; padding: 0 8px 8px; font-size: 12px; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.chart { position: relative; touch-action: pan-y; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart .empty { padding: 32px 8px; text-align: center; color: var(--ink-3); font-size: 13px; }
+.tip {
+  position: absolute; top: 4px; pointer-events: none; background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; padding: 8px 10px; font-size: 12px; min-width: 150px; box-shadow: 0 4px 16px rgba(0,0,0,.08); display: none;
+}
+.tip .t { color: var(--ink-2); margin-bottom: 4px; }
+.tip .row { display: flex; align-items: center; gap: 6px; justify-content: space-between; }
+.tip .row span:first-child { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); }
+.list { display: grid; gap: 8px; }
+.pos .q { font-weight: 500; }
+.pos .meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: var(--ink-2); margin-top: 6px; }
+.pos .why { font-size: 13px; color: var(--ink-2); margin-top: 8px; }
+.pill { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--ink); }
+.pill.won { color: var(--up); } .pill.lost { color: var(--down); }
+.dec .when { font-size: 12px; color: var(--ink-3); display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.dec .sum { margin-top: 6px; }
+.trade { border-top: 1px solid var(--line); margin-top: 12px; padding-top: 12px; font-size: 14px; }
+.trade .head { font-weight: 500; }
+.trade .detail { font-size: 13px; color: var(--ink-2); margin-top: 4px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.chips span { font-size: 12px; background: var(--chip); color: var(--ink-2); padding: 3px 8px; border-radius: 8px; overflow-wrap: anywhere; }
+.muted { color: var(--ink-3); font-size: 13px; }
+details { margin-top: 8px; }
+summary { cursor: pointer; font-size: 14px; font-weight: 500; padding: 4px 0; }
+.about p { margin: 8px 0; color: var(--ink-2); font-size: 14px; }
+.about ul { margin: 8px 0; padding-left: 18px; color: var(--ink-2); font-size: 14px; }
+.theme-btn { font: inherit; font-size: 12px; color: var(--ink-2); background: none; border: 1px solid var(--line); border-radius: 999px; padding: 4px 10px; cursor: pointer; }
+.err { color: var(--down); font-size: 13px; margin-top: 12px; }
+@media (max-width: 380px) {
+  .hero .big { font-size: 38px; }
+  .tile .val { font-size: 17px; }
+}
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <h1>AI agent vs Polymarket</h1>
+    <div class="status"><span class="dot" id="dot"></span><span id="status">Loading</span></div>
+  </div>
+
+  <section class="card hero" aria-live="polite">
+    <div class="label">AI agent bankroll, after paying its own AI bill</div>
+    <div class="big" id="heroVal">$50.00</div>
+    <div class="delta flat" id="heroDelta">Started with $50.00</div>
+    <div class="sub" id="heroSub"></div>
+  </section>
+
+  <div class="tiles">
+    <div class="card tile"><div class="name"><span class="swatch" style="background:var(--ai)"></span>AI agent</div><div class="val" id="tAi"></div><div class="chg" id="tAiC"></div></div>
+    <div class="card tile"><div class="name"><span class="swatch" style="background:var(--rand)"></span>Random picks</div><div class="val" id="tRand"></div><div class="chg" id="tRandC"></div></div>
+    <div class="card tile"><div class="name"><span class="swatch" style="background:var(--hold)"></span>Do nothing</div><div class="val">$50.00</div><div class="chg flat">0.0%</div></div>
+  </div>
+
+  <section class="card chart-card">
+    <div class="legend">
+      <span><span class="swatch" style="background:var(--ai)"></span>AI agent (net of bill)</span>
+      <span><span class="swatch" style="background:var(--rand)"></span>Random picks</span>
+      <span><span class="swatch" style="background:var(--hold)"></span>Start $50</span>
+    </div>
+    <div class="chart" id="chart"></div>
+  </section>
+
+  <div class="facts">
+    <div class="card fact"><div class="k">AI bill paid</div><div class="v" id="fBill"></div></div>
+    <div class="card fact"><div class="k">Bets settled</div><div class="v" id="fSettled"></div></div>
+    <div class="card fact"><div class="k">Web searches</div><div class="v" id="fSearch"></div></div>
+    <div class="card fact"><div class="k">Experiment ends</div><div class="v" id="fEnds"></div></div>
+  </div>
+
+  <h2>AI open bets</h2>
+  <div class="list" id="open"></div>
+
+  <h2>AI decision log</h2>
+  <div class="list" id="log"></div>
+
+  <h2>Settled and sold</h2>
+  <div class="list" id="closed"></div>
+
+  <details class="card">
+    <summary>Random picks portfolio</summary>
+    <div class="list" id="monkey" style="margin-top:10px"></div>
+  </details>
+
+  <h2>How this works</h2>
+  <section class="card about">
+    <p>An AI agent gets $50 of fake money and trades real Polymarket markets that resolve within a week. Prices, order books and taker fees are live. Only the money is fake.</p>
+    <ul>
+      <li>Every 6 hours it reads the busiest markets, searches the web, estimates odds and decides whether to bet.</li>
+      <li>Same rules as the viral reel: at most 6% of the bankroll per bet, sized with Kelly.</li>
+      <li>Its real API bill is deducted from the bankroll. It has to pay for itself.</li>
+      <li>Every 20 minutes a cloud job re-prices open bets and settles finished markets.</li>
+      <li>"Random picks" makes coin-flip bets on the same markets with the same sizing and fees. If the AI can't beat it, it has no edge.</li>
+    </ul>
+    <p id="aboutModel" class="muted"></p>
+    <button class="theme-btn" id="themeBtn" type="button">Switch theme</button>
+  </section>
+  <div class="err" id="err"></div>
+</main>
+
+<script>
+const START = 50;
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const usd = (n) => (n < 0 ? "-$" : "$") + Math.abs(n).toFixed(2);
+const pct = (n) => (n > 0 ? "+" : "") + n.toFixed(1) + "%";
+const cents = (p) => p == null ? "n/a" : (Math.round(p * 1000) / 10) + "¢";
+const cls = (n) => (n > 0.005 ? "up" : n < -0.005 ? "down" : "flat");
+const fmtTime = (iso) => new Date(iso).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" });
+const fmtDay = (iso) => new Date(iso).toLocaleString([], { weekday: "short", month: "short", day: "numeric" });
+
+function ago(iso) {
+  const m = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (m < 1) return "just now";
+  if (m < 60) return m + " min ago";
+  const h = Math.floor(m / 60);
+  return h + "h " + (m % 60) + "m ago";
+}
+function until(iso) {
+  const m = Math.round((new Date(iso) - Date.now()) / 60000);
+  if (m <= 0) return "due now";
+  const h = Math.floor(m / 60);
+  return h ? h + "h " + (m % 60) + "m" : m + " min";
+}
+const pmUrl = (p) => p.eventSlug ? `https://polymarket.com/event/${encodeURIComponent(p.eventSlug)}` : "https://polymarket.com";
+
+// Theme toggle, remembered per device.
+(function () {
+  try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+  $("themeBtn").addEventListener("click", () => {
+    const dark = getComputedStyle(document.documentElement).colorScheme === "dark";
+    const next = dark ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem("theme", next); } catch {}
+    if (window.__hist) drawChart(window.__hist);
+  });
+})();
+
+function renderSummary(s, hist) {
+  const last = hist[hist.length - 1] ?? { ai: START, monkey: START, aiGross: START };
+  const ai = last.ai, rand = last.monkey;
+  const aiBot = s.bots.ai, mBot = s.bots.monkey;
+
+  $("heroVal").textContent = usd(ai);
+  const d = ai - START;
+  $("heroDelta").className = "delta " + cls(d);
+  $("heroDelta").textContent = `${d >= 0 ? "+" : "-"}$${Math.abs(d).toFixed(2)} (${pct((d / START) * 100)}) since start`;
+  const tradingPnl = last.aiGross - START;
+  $("heroSub").textContent = `Trading result before the bill: ${tradingPnl >= 0 ? "+" : "-"}$${Math.abs(tradingPnl).toFixed(2)}. AI bill paid: ${usd(aiBot.bill.usd)}.`;
+
+  $("tAi").textContent = usd(ai);
+  $("tAiC").className = "chg " + cls(ai - START); $("tAiC").textContent = pct(((ai - START) / START) * 100);
+  $("tRand").textContent = usd(rand);
+  $("tRandC").className = "chg " + cls(rand - START); $("tRandC").textContent = pct(((rand - START) / START) * 100);
+
+  $("fBill").textContent = `${usd(aiBot.bill.usd)} of ${usd(s.budgetUsd)}`;
+  const won = aiBot.closed.filter((c) => c.pnl > 0).length;
+  $("fSettled").textContent = aiBot.closed.length ? `${won} won, ${aiBot.closed.length - won} lost` : "None yet";
+  $("fSearch").textContent = `${aiBot.bill.searches} in ${aiBot.bill.calls} cycles`;
+  $("fEnds").textContent = fmtDay(s.endsAt);
+
+  const stale = Date.now() - new Date(s.lastRunAt) > 75 * 60000;
+  $("dot").className = "dot" + (stale || !s.live ? " stale" : "");
+  const parts = [s.live ? (stale ? "Delayed" : "Live") : "Finished", "updated " + ago(s.lastRunAt)];
+  if (s.live && s.nextDecisionAt) parts.push("next decision " + until(s.nextDecisionAt));
+  $("status").textContent = parts.join(" · ");
+  $("aboutModel").textContent = `Model: ${s.model}. Decision every ${s.decideEveryHours}h. API budget ${usd(s.budgetUsd)}. Started ${fmtDay(s.startedAt)}.`;
+}
+
+function posCard(p, showWhy) {
+  const value = p.shares * p.mark;
+  const paid = p.cost + p.fees;
+  const pnl = value - paid;
+  return `<div class="card pos">
+    <div class="q"><a href="${pmUrl(p)}" target="_blank" rel="noopener">${esc(p.question)}</a></div>
+    <div class="meta">
+      <span class="pill">${esc(p.outcome)}</span>
+      <span>Paid ${usd(paid)} at ${cents(p.avgPrice)}</span>
+      <span>Now ${cents(p.mark)}</span>
+      <span class="${cls(pnl)}">${pnl >= 0 ? "+" : ""}${usd(pnl)}</span>
+      <span>Ends ${fmtTime(p.endDate)}</span>
+    </div>
+    ${showWhy && p.reasoning ? `<div class="why">${p.myProbability != null ? `Its odds: ${Math.round(p.myProbability * 100)}%. ` : ""}${esc(p.reasoning)}</div>` : ""}
+  </div>`;
+}
+
+function closedCard(c) {
+  const label = c.exit === "won" ? "Won" : c.exit === "lost" ? "Lost" : "Sold";
+  return `<div class="card pos">
+    <div class="q"><a href="${pmUrl(c)}" target="_blank" rel="noopener">${esc(c.question)}</a></div>
+    <div class="meta">
+      <span class="pill ${c.pnl > 0 ? "won" : "lost"}">${label}</span>
+      <span>${esc(c.outcome)} at ${cents(c.avgPrice)}</span>
+      <span class="${cls(c.pnl)}">${c.pnl >= 0 ? "+" : ""}${usd(c.pnl)}</span>
+      <span>${fmtTime(c.closedAt)}</span>
+    </div>
+  </div>`;
+}
+
+function renderLists(s) {
+  const ai = s.bots.ai;
+  $("open").innerHTML = ai.positions.length ? ai.positions.map((p) => posCard(p, true)).join("") : `<div class="muted">No open bets right now.</div>`;
+  const closed = [...ai.closed];
+  $("closed").innerHTML = closed.length ? closed.map(closedCard).join("") : `<div class="muted">Nothing has settled yet. Most markets here resolve within a few days.</div>`;
+  const m = s.bots.monkey;
+  $("monkey").innerHTML = (m.positions.map((p) => posCard(p, false)).join("") + m.closed.map(closedCard).join("")) || `<div class="muted">No bets yet.</div>`;
+
+  $("log").innerHTML = s.decisions.length ? s.decisions.map((d) => {
+    const trades = (d.trades ?? []).map((t) => {
+      const verb = t.action === "buy" ? "Bought" : "Sold";
+      const head = t.ok
+        ? `${verb} ${esc(t.outcome ?? "")} on “${esc(t.question)}”`
+        : `Skipped ${t.action} on “${esc(t.question)}”`;
+      const fill = t.ok && t.filled ? `${usd(t.filled.usd)} for ${t.filled.shares.toFixed(2)} shares at ${cents(t.filled.avgPrice)}. ` : "";
+      const odds = t.my_probability != null ? `Its odds: ${Math.round(t.my_probability * 100)}%. ` : "";
+      return `<div class="trade"><div class="head">${head}</div><div class="detail">${fill}${odds}${esc(t.reasoning)}${!t.ok && t.why ? ` <em>(${esc(t.why)})</em>` : ""}</div></div>`;
+    }).join("");
+    const chips = (d.queries ?? []).length ? `<div class="chips">${d.queries.map((q) => `<span>${esc(q)}</span>`).join("")}</div>` : "";
+    const cost = d.costUsd != null ? `cost ${usd(d.costUsd)}` : "";
+    return `<div class="card dec">
+      <div class="when"><span>${fmtTime(d.at)}</span><span>${[d.candidates ? d.candidates + " markets scanned" : "", cost].filter(Boolean).join(" · ")}</span></div>
+      <div class="sum">${esc(d.summary)}</div>${trades}${chips}
+    </div>`;
+  }).join("") : `<div class="muted">The first decision appears after the next cycle.</div>`;
+}
+
+function drawChart(hist) {
+  const el = $("chart");
+  if (hist.length < 2) {
+    el.innerHTML = `<div class="empty">The chart fills in as the week runs. One point is logged every 20 minutes.</div>`;
+    return;
+  }
+  const css = getComputedStyle(document.documentElement);
+  const W = Math.max(280, el.clientWidth), H = Math.round(Math.min(300, Math.max(200, W * 0.55)));
+  const pad = { l: 44, r: 58, t: 10, b: 26 };
+  const t0 = new Date(hist[0].t).getTime(), t1 = new Date(hist[hist.length - 1].t).getTime();
+  const vals = hist.flatMap((p) => [p.ai, p.monkey]).concat(START);
+  let lo = Math.min(...vals), hi = Math.max(...vals);
+  const span = Math.max(hi - lo, 2);
+  lo -= span * 0.12; hi += span * 0.12;
+  const x = (t) => pad.l + ((t - t0) / Math.max(1, t1 - t0)) * (W - pad.l - pad.r);
+  const y = (v) => pad.t + (1 - (v - lo) / (hi - lo)) * (H - pad.t - pad.b);
+  const path = (k) => hist.map((p, i) => `${i ? "L" : "M"}${x(new Date(p.t).getTime()).toFixed(1)},${y(p[k]).toFixed(1)}`).join("");
+
+  const ticks = 4, grid = [];
+  for (let i = 0; i <= ticks; i++) {
+    const v = lo + ((hi - lo) * i) / ticks;
+    grid.push(`<line x1="${pad.l}" x2="${W - pad.r}" y1="${y(v)}" y2="${y(v)}" stroke="${css.getPropertyValue("--grid")}" stroke-width="1"/>
+      <text x="${pad.l - 8}" y="${y(v) + 4}" text-anchor="end" font-size="11" fill="${css.getPropertyValue("--ink-3")}">$${v.toFixed(0)}</text>`);
+  }
+  const xt = [];
+  const days = (t1 - t0) / 86400e3;
+  for (let i = 0; i <= 2; i++) {
+    const t = t0 + ((t1 - t0) * i) / 2;
+    const lab = new Date(t).toLocaleString([], days > 1.5 ? { weekday: "short", day: "numeric" } : { hour: "numeric", minute: "2-digit" });
+    xt.push(`<text x="${x(t)}" y="${H - 6}" text-anchor="${i === 0 ? "start" : i === 2 ? "end" : "middle"}" font-size="11" fill="${css.getPropertyValue("--ink-3")}">${lab}</text>`);
+  }
+  const last = hist[hist.length - 1];
+  let ya = y(last.ai), ym = y(last.monkey);
+  if (Math.abs(ya - ym) < 14) { const mid = (ya + ym) / 2; if (ya <= ym) { ya = mid - 7; ym = mid + 7; } else { ya = mid + 7; ym = mid - 7; } }
+  const lx = W - pad.r + 8;
+
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Bankroll over time: AI agent ${usd(last.ai)}, random picks ${usd(last.monkey)}, start $50">
+    ${grid.join("")}${xt.join("")}
+    <line x1="${pad.l}" x2="${W - pad.r}" y1="${y(START)}" y2="${y(START)}" stroke="${css.getPropertyValue("--hold")}" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <path d="${path("monkey")}" fill="none" stroke="${css.getPropertyValue("--rand")}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="${path("ai")}" fill="none" stroke="${css.getPropertyValue("--ai")}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="${lx}" y="${ya + 4}" font-size="11" font-weight="600" fill="${css.getPropertyValue("--ink")}">AI</text>
+    <text x="${lx}" y="${ym + 4}" font-size="11" font-weight="600" fill="${css.getPropertyValue("--ink-2")}">Random</text>
+    <g id="hover" style="display:none">
+      <line id="hx" y1="${pad.t}" y2="${H - pad.b}" stroke="${css.getPropertyValue("--ink-3")}" stroke-width="1"/>
+      <circle id="ha" r="4" fill="${css.getPropertyValue("--ai")}" stroke="${css.getPropertyValue("--card")}" stroke-width="2"/>
+      <circle id="hm" r="4" fill="${css.getPropertyValue("--rand")}" stroke="${css.getPropertyValue("--card")}" stroke-width="2"/>
+    </g>
+    <rect id="hit" x="${pad.l}" y="0" width="${W - pad.l - pad.r}" height="${H}" fill="transparent"/>
+  </svg><div class="tip" id="tip"></div>`;
+
+  const svg = el.querySelector("svg"), tip = $("tip"), g = el.querySelector("#hover");
+  const move = (ev) => {
+    const r = svg.getBoundingClientRect();
+    const px = ((ev.clientX - r.left) / r.width) * W;
+    const t = t0 + ((px - pad.l) / (W - pad.l - pad.r)) * (t1 - t0);
+    let best = 0;
+    for (let i = 1; i < hist.length; i++) if (Math.abs(new Date(hist[i].t) - t) < Math.abs(new Date(hist[best].t) - t)) best = i;
+    const p = hist[best], X = x(new Date(p.t).getTime());
+    g.style.display = "";
+    el.querySelector("#hx").setAttribute("x1", X); el.querySelector("#hx").setAttribute("x2", X);
+    el.querySelector("#ha").setAttribute("cx", X); el.querySelector("#ha").setAttribute("cy", y(p.ai));
+    el.querySelector("#hm").setAttribute("cx", X); el.querySelector("#hm").setAttribute("cy", y(p.monkey));
+    tip.innerHTML = `<div class="t">${fmtTime(p.t)}</div>
+      <div class="row"><span><span class="swatch" style="background:var(--ai)"></span>AI agent</span><b>${usd(p.ai)}</b></div>
+      <div class="row"><span><span class="swatch" style="background:var(--rand)"></span>Random</span><b>${usd(p.monkey)}</b></div>`;
+    tip.style.display = "block";
+    const left = (X / W) * r.width;
+    tip.style.left = Math.min(Math.max(0, left - tip.offsetWidth / 2), r.width - tip.offsetWidth) + "px";
+  };
+  const hide = () => { g.style.display = "none"; tip.style.display = "none"; };
+  const hit = el.querySelector("#hit");
+  hit.addEventListener("pointermove", move);
+  hit.addEventListener("pointerdown", move);
+  hit.addEventListener("pointerleave", hide);
+}
+
+async function load() {
+  try {
+    const bust = "?t=" + Date.now();
+    const [s, hist] = await Promise.all([
+      fetch("data/state.json" + bust, { cache: "no-store" }).then((r) => r.json()),
+      fetch("data/history.json" + bust, { cache: "no-store" }).then((r) => r.json()),
+    ]);
+    window.__hist = hist;
+    renderSummary(s, hist);
+    renderLists(s);
+    drawChart(hist);
+    $("err").textContent = "";
+  } catch (e) {
+    $("err").textContent = "Could not load the latest data. Retrying in a minute.";
+  }
+}
+load();
+setInterval(load, 60000);
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => window.__hist && drawChart(window.__hist), 150); });
+</script>
+</body>
+</html>

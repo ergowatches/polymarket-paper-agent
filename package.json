@@ -1,0 +1,14 @@
+{
+  "name": "polymarket-paper-agent",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tick": "node src/run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0"
+  }
+}
