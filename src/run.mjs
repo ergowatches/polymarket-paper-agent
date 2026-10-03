@@ -36,11 +36,11 @@ const save = (file, data, pretty = true) =>
 
 const equityOf = (bot) => bot.cash + bot.positions.reduce((s, p) => s + p.shares * p.mark, 0);
 
-// Next routine fire: the routine runs at 00, 06, 12 and 18 UTC.
+// Next routine fire: the routine runs at 26 past 00, 06, 12 and 18 UTC; orders land a few minutes later.
 function nextSlot(now) {
   const d = new Date(now);
-  d.setUTCMinutes(0, 0, 0);
-  d.setUTCHours(Math.floor(d.getUTCHours() / DECIDE_EVERY_HOURS) * DECIDE_EVERY_HOURS + DECIDE_EVERY_HOURS);
+  d.setUTCMinutes(d.getUTCMinutes() - 35, 0, 0);
+  d.setUTCHours(Math.floor(d.getUTCHours() / DECIDE_EVERY_HOURS) * DECIDE_EVERY_HOURS + DECIDE_EVERY_HOURS, 35);
   return d.toISOString();
 }
 

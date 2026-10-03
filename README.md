@@ -9,7 +9,7 @@ Live dashboard: https://ergowatches.github.io/polymarket-paper-agent/
 - Fake: the money. No wallet, no keys, no orders. The code only reads public Polymarket APIs.
 
 ## How it runs
-- The AI is a scheduled Claude Code routine on Anthropic's cloud (every 6 hours, 00/06/12/18 UTC), running on the owner's Claude plan, so there is no API key or API bill. Its prompt is in `ROUTINE.md`. It reads `docs/data/candidates.json` and `docs/data/state.json`, researches with web search, and pushes `docs/data/orders.json`.
+- The AI is a scheduled Claude Code routine on Anthropic's cloud (every 6 hours, 26 minutes past 00/06/12/18 UTC), running on the owner's Claude plan, so there is no API key or API bill. Its prompt is in `ROUTINE.md`. It reads `docs/data/candidates.json` and `docs/data/state.json`, researches with web search, and pushes `docs/data/orders.json`.
 - `.github/workflows/tick.yml` runs `src/run.mjs` every 20 minutes and right after each orders push. It re-prices open bets, settles resolved markets, fills pending orders against the live book at the AI's limit price, lets the random baseline trade the same list, and refreshes the market list.
 - GitHub Pages serves `docs/index.html`.
 

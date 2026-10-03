@@ -1,6 +1,6 @@
 # Routine prompt
 
-This is the exact prompt the scheduled Claude Code routine runs every 6 hours (00, 06, 12, 18 UTC).
+This is the exact prompt the scheduled Claude Code routine runs every 6 hours (26 minutes past 00, 06, 12 and 18 UTC).
 
 ---
 
