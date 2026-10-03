@@ -246,6 +246,12 @@ async function main() {
     }
     // Only start the clock once the AI actually ran, so a missing key does not waste a cycle.
     if (!decision.skipped || decision.summary.startsWith("API budget") || decision.summary.startsWith("Bankroll")) {
+      if (!state.lastDecisionAt) {
+        // The week starts with the first real decision, not with the first deploy.
+        state.startedAt = now.toISOString();
+        state.endsAt = new Date(now.getTime() + DURATION_DAYS * 86400e3).toISOString();
+        history.length = 0;
+      }
       state.lastDecisionAt = now.toISOString();
       await monkeyCycle(state, candidates, log);
     }
