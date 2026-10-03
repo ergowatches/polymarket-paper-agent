@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Paper Agent Live</title>
-<meta name="description" content="An AI agent paper-trading Polymarket with $50 of fake money, paying its own API bill. Live results.">
+<meta name="description" content="An AI agent paper-trading Polymarket with $50 of fake money, Live results.">
 <meta name="theme-color" content="#f6f6f3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#151514" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -123,7 +123,7 @@ summary { cursor: pointer; font-size: 14px; font-weight: 500; padding: 4px 0; }
   </div>
 
   <section class="card hero" aria-live="polite">
-    <div class="label">AI agent bankroll, after paying its own AI bill</div>
+    <div class="label">AI agent bankroll</div>
     <div class="big" id="heroVal">$50.00</div>
     <div class="delta flat" id="heroDelta">Started with $50.00</div>
     <div class="sub" id="heroSub"></div>
@@ -137,7 +137,7 @@ summary { cursor: pointer; font-size: 14px; font-weight: 500; padding: 4px 0; }
 
   <section class="card chart-card">
     <div class="legend">
-      <span><span class="swatch" style="background:var(--ai)"></span>AI agent (net of bill)</span>
+      <span><span class="swatch" style="background:var(--ai)"></span>AI agent</span>
       <span><span class="swatch" style="background:var(--rand)"></span>Random picks</span>
       <span><span class="swatch" style="background:var(--hold)"></span>Start $50</span>
     </div>
@@ -145,7 +145,7 @@ summary { cursor: pointer; font-size: 14px; font-weight: 500; padding: 4px 0; }
   </section>
 
   <div class="facts">
-    <div class="card fact"><div class="k">AI bill paid</div><div class="v" id="fBill"></div></div>
+    <div class="card fact"><div class="k">AI decisions</div><div class="v" id="fBill"></div></div>
     <div class="card fact"><div class="k">Bets settled</div><div class="v" id="fSettled"></div></div>
     <div class="card fact"><div class="k">Web searches</div><div class="v" id="fSearch"></div></div>
     <div class="card fact"><div class="k">Experiment ends</div><div class="v" id="fEnds"></div></div>
@@ -169,9 +169,9 @@ summary { cursor: pointer; font-size: 14px; font-weight: 500; padding: 4px 0; }
   <section class="card about">
     <p>An AI agent gets $50 of fake money and trades real Polymarket markets that resolve within a week. Prices, order books and taker fees are live. Only the money is fake.</p>
     <ul>
-      <li>Every 6 hours it reads the busiest markets, searches the web, estimates odds and decides whether to bet.</li>
+      <li>Every 6 hours a Claude Code agent wakes up in Anthropic's cloud, reads the busiest markets, searches the web, estimates odds and decides whether to bet.</li>
       <li>Same rules as the viral reel: at most 6% of the bankroll per bet, sized with Kelly.</li>
-      <li>Its real API bill is deducted from the bankroll. It has to pay for itself.</li>
+      <li>Its orders are filled against the live order book minutes later, at a limit price it sets, so it can't chase a price that moved.</li>
       <li>Every 20 minutes a cloud job re-prices open bets and settles finished markets.</li>
       <li>"Random picks" makes coin-flip bets on the same markets with the same sizing and fees. If the AI can't beat it, it has no edge.</li>
     </ul>
@@ -220,7 +220,7 @@ const pmUrl = (p) => p.eventSlug ? `https://polymarket.com/event/${encodeURIComp
 })();
 
 function renderSummary(s, hist) {
-  const last = hist[hist.length - 1] ?? { ai: START, monkey: START, aiGross: START };
+  const last = hist[hist.length - 1] ?? { ai: START, monkey: START };
   const ai = last.ai, rand = last.monkey;
   const aiBot = s.bots.ai, mBot = s.bots.monkey;
 
@@ -228,18 +228,18 @@ function renderSummary(s, hist) {
   const d = ai - START;
   $("heroDelta").className = "delta " + cls(d);
   $("heroDelta").textContent = `${d >= 0 ? "+" : "-"}$${Math.abs(d).toFixed(2)} (${pct((d / START) * 100)}) since start`;
-  const tradingPnl = last.aiGross - START;
-  $("heroSub").textContent = `Trading result before the bill: ${tradingPnl >= 0 ? "+" : "-"}$${Math.abs(tradingPnl).toFixed(2)}. AI bill paid: ${usd(aiBot.bill.usd)}.`;
+  const openN = aiBot.positions.length;
+  $("heroSub").textContent = `Started with $50.00 on ${fmtDay(s.startedAt)}. ${openN} open bet${openN === 1 ? "" : "s"}, ${usd(aiBot.cash)} in cash.`;
 
   $("tAi").textContent = usd(ai);
   $("tAiC").className = "chg " + cls(ai - START); $("tAiC").textContent = pct(((ai - START) / START) * 100);
   $("tRand").textContent = usd(rand);
   $("tRandC").className = "chg " + cls(rand - START); $("tRandC").textContent = pct(((rand - START) / START) * 100);
 
-  $("fBill").textContent = `${usd(aiBot.bill.usd)} of ${usd(s.budgetUsd)}`;
+  $("fBill").textContent = `${aiBot.cycles} so far`;
   const won = aiBot.closed.filter((c) => c.pnl > 0).length;
   $("fSettled").textContent = aiBot.closed.length ? `${won} won, ${aiBot.closed.length - won} lost` : "None yet";
-  $("fSearch").textContent = `${aiBot.bill.searches} in ${aiBot.bill.calls} cycles`;
+  $("fSearch").textContent = `${aiBot.searches}`;
   $("fEnds").textContent = fmtDay(s.endsAt);
 
   const stale = Date.now() - new Date(s.lastRunAt) > 75 * 60000;
@@ -247,7 +247,7 @@ function renderSummary(s, hist) {
   const parts = [s.live ? (stale ? "Delayed" : "Live") : "Finished", "updated " + ago(s.lastRunAt)];
   if (s.live && s.nextDecisionAt) parts.push("next decision " + until(s.nextDecisionAt));
   $("status").textContent = parts.join(" · ");
-  $("aboutModel").textContent = `Model: ${s.model}. Decision every ${s.decideEveryHours}h. API budget ${usd(s.budgetUsd)}. Started ${fmtDay(s.startedAt)}.`;
+  $("aboutModel").textContent = `${s.model ? "Model: " + s.model + ". " : ""}Decision every ${s.decideEveryHours}h. Started ${fmtDay(s.startedAt)}.`;
 }
 
 function posCard(p, showWhy) {
@@ -299,7 +299,7 @@ function renderLists(s) {
       return `<div class="trade"><div class="head">${head}</div><div class="detail">${fill}${odds}${esc(t.reasoning)}${!t.ok && t.why ? ` <em>(${esc(t.why)})</em>` : ""}</div></div>`;
     }).join("");
     const chips = (d.queries ?? []).length ? `<div class="chips">${d.queries.map((q) => `<span>${esc(q)}</span>`).join("")}</div>` : "";
-    const cost = d.costUsd != null ? `cost ${usd(d.costUsd)}` : "";
+    const cost = d.queries?.length ? `${d.queries.length} searches` : "";
     return `<div class="card dec">
       <div class="when"><span>${fmtTime(d.at)}</span><span>${[d.candidates ? d.candidates + " markets scanned" : "", cost].filter(Boolean).join(" · ")}</span></div>
       <div class="sum">${esc(d.summary)}</div>${trades}${chips}

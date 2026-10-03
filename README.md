@@ -5,17 +5,17 @@ A one week experiment: give an AI agent $50 of fake money, let it trade real Pol
 Live dashboard: https://ergowatches.github.io/polymarket-paper-agent/
 
 ## What is real and what is not
-- Real: market list, prices, full order books, taker fees (`shares x rate x p x (1 - p)`), 5 share minimums, resolutions, the AI's web searches and its API bill.
+- Real: market list, prices, full order books, taker fees (`shares x rate x p x (1 - p)`), 5 share minimums, resolutions, the AI's web research.
 - Fake: the money. No wallet, no keys, no orders. The code only reads public Polymarket APIs.
 
 ## How it runs
-- `.github/workflows/tick.yml` runs every 20 minutes on GitHub Actions.
-- Each tick re-prices open bets and settles resolved markets (`src/run.mjs`).
-- Every 6 hours the AI (`src/agent.mjs`, Claude Opus 5 with web search) reviews about 60 busy markets that resolve within the week and submits trades. Rules: at most 6% of equity per new bet, at most 8 open bets.
-- State is committed to `docs/data/` and GitHub Pages serves `docs/index.html`.
+- The AI is a scheduled Claude Code routine on Anthropic's cloud (every 6 hours, 00/06/12/18 UTC), running on the owner's Claude plan, so there is no API key or API bill. Its prompt is in `ROUTINE.md`. It reads `docs/data/candidates.json` and `docs/data/state.json`, researches with web search, and pushes `docs/data/orders.json`.
+- `.github/workflows/tick.yml` runs `src/run.mjs` every 20 minutes and right after each orders push. It re-prices open bets, settles resolved markets, fills pending orders against the live book at the AI's limit price, lets the random baseline trade the same list, and refreshes the market list.
+- GitHub Pages serves `docs/index.html`.
+
+## Rules
+At most 6% of equity per new bet (a 5 share minimum may round a bet up to 10%), at most 8 open bets, only markets that resolve inside the week.
 
 ## Controls
-- Secret `ANTHROPIC_API_KEY`: required for the AI to trade.
-- Hard API budget: `BUDGET_USD` (default $10). When spent, the agent stops; open bets still settle.
-- Run a decision now: Actions tab, `tick`, Run workflow, tick `force_decide`.
-- Stop everything: `gh workflow disable tick`.
+- Pause the executor: `gh workflow disable tick`.
+- Pause or edit the AI: https://claude.ai/code/routines

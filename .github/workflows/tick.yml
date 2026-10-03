@@ -3,12 +3,10 @@ name: tick
 on:
   schedule:
     - cron: "*/20 * * * *"
+  push:
+    branches: [main]
+    paths: [docs/data/orders.json]
   workflow_dispatch:
-    inputs:
-      force_decide:
-        description: "Run an AI decision cycle now"
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -28,11 +26,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - name: Re-price, settle, and decide if due
+      - name: Re-price, settle, execute AI orders
         run: node src/run.mjs
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          FORCE_DECIDE: ${{ inputs.force_decide }}
       - name: Publish data
         run: |
           git config user.name "paper-agent-bot"

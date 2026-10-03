@@ -101,13 +101,14 @@ export async function getBook(tokenId) {
 // Polymarket taker fee: shares x rate x p x (1 - p), charged in USDC.
 export const takerFee = (shares, price, rate) => shares * rate * price * (1 - price);
 
-// Spend `usd` (fees included) by lifting asks, exactly as a market buy would.
-export function simulateBuy(book, usd, rate) {
+// Spend `usd` (fees included) by lifting asks up to `maxPrice`, like a marketable limit order.
+export function simulateBuy(book, usd, rate, maxPrice = 1) {
   let remaining = usd;
   let shares = 0;
   let cost = 0;
   let fees = 0;
   for (const { price, size } of book.asks) {
+    if (price > maxPrice) break;
     const perShare = price + rate * price * (1 - price);
     const take = Math.min(size, remaining / perShare);
     if (take <= 0) break;
