@@ -1,21 +1,22 @@
 {
-  "status": "pending",
-  "createdAt": "2026-10-04T18:28:57Z",
-  "model": "claude-sonnet-5",
-  "candidatesSeen": 60,
-  "summary": "Brazil's election is happening today, so I focused there. Polls closed in the late afternoon Brasilia time and there is no exit poll this year, so no fresh result data exists yet. My held position, Lula to win the most first-round votes, is backed by consistent poll leads of 3 to 6 points, but the ask price has risen from 62 to 65 cents since I bought, which eats most of the edge after fees, so I am not adding to it. I also checked the Bahia governor race, where a late Quaest poll showed a reversal with the incumbent Jeronimo Rodrigues at 52 percent of valid votes against ACM Neto's 48, but four earlier rounds of polling had Neto ahead, so I do not trust one poll enough to bet against that volatility. NFL injury reports for today's games (Chiefs-Raiders, Chargers-Seahawks, Lions-Panthers, Broncos-49ers) are all final, game-day reports that sportsbook and Polymarket lines already reflect, so none offered an edge. I could not get a reliable live count for the Elon Musk tweet-count markets, so I skipped those rather than guess. No trade cleared the 5 point edge bar after fees this cycle.",
-  "queries": [
-    "Brazil election October 4 2026 voting day news turnout Lula Flavio Bolsonaro",
-    "eleição 2026 primeiro turno boca de urna resultado parcial outubro 4",
-    "Bahia governor election 2026 Jerônimo Rodrigues ACM Neto poll October",
-    "Chiefs Raiders injury report October 4 2026 inactive",
-    "Chargers Seahawks injury report October 4 2026 inactive",
-    "Lions Panthers injury report October 4 2026 inactive",
-    "pesquisa Bahia governador outubro 2026 Jerônimo ACM Neto Quaest Genial últimos dias",
-    "Lula 50% primeiro turno vitória outright pesquisa outubro 2026",
-    "49ers Broncos injury report inactive October 4 2026",
-    "Elon Musk tweet count tracker October 2026 live count today",
-    "\"Elon Musk\" tweets count \"October 4\" OR \"October 5\" 2026 total posts since"
-  ],
-  "trades": []
+ "status": "done",
+ "createdAt": "2026-10-04T18:28:57Z",
+ "model": "claude-sonnet-5",
+ "candidatesSeen": 60,
+ "summary": "Brazil's election is happening today, so I focused there. Polls closed in the late afternoon Brasilia time and there is no exit poll this year, so no fresh result data exists yet. My held position, Lula to win the most first-round votes, is backed by consistent poll leads of 3 to 6 points, but the ask price has risen from 62 to 65 cents since I bought, which eats most of the edge after fees, so I am not adding to it. I also checked the Bahia governor race, where a late Quaest poll showed a reversal with the incumbent Jeronimo Rodrigues at 52 percent of valid votes against ACM Neto's 48, but four earlier rounds of polling had Neto ahead, so I do not trust one poll enough to bet against that volatility. NFL injury reports for today's games (Chiefs-Raiders, Chargers-Seahawks, Lions-Panthers, Broncos-49ers) are all final, game-day reports that sportsbook and Polymarket lines already reflect, so none offered an edge. I could not get a reliable live count for the Elon Musk tweet-count markets, so I skipped those rather than guess. No trade cleared the 5 point edge bar after fees this cycle.",
+ "queries": [
+  "Brazil election October 4 2026 voting day news turnout Lula Flavio Bolsonaro",
+  "eleição 2026 primeiro turno boca de urna resultado parcial outubro 4",
+  "Bahia governor election 2026 Jerônimo Rodrigues ACM Neto poll October",
+  "Chiefs Raiders injury report October 4 2026 inactive",
+  "Chargers Seahawks injury report October 4 2026 inactive",
+  "Lions Panthers injury report October 4 2026 inactive",
+  "pesquisa Bahia governador outubro 2026 Jerônimo ACM Neto Quaest Genial últimos dias",
+  "Lula 50% primeiro turno vitória outright pesquisa outubro 2026",
+  "49ers Broncos injury report inactive October 4 2026",
+  "Elon Musk tweet count tracker October 2026 live count today",
+  "\"Elon Musk\" tweets count \"October 4\" OR \"October 5\" 2026 total posts since"
+ ],
+ "trades": [],
+ "processedAt": "2026-10-04T18:29:29.381Z"
 }
