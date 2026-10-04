@@ -22,8 +22,8 @@
      "avgPrice": 0.62,
      "cost": 3.131,
      "fees": 0.0476,
-     "mark": 0.625,
-     "bid": 0.62,
+     "mark": 0.645,
+     "bid": 0.64,
      "myProbability": 0.7,
      "reasoning": "AtlasIntel (Sept 29, n=5005, MoE 1pt) has Lula at 45.3-46.2% vs Flavio 42.2-43.1%; Datafolha (Oct 1) has Lula 45% vs Flavio 40%; Quaest (Sept 28) has Lula 39% vs Flavio 34%. All three major pollsters agree Lula leads the first-round vote count by 3 to 6 points, but the market prices Lula to win the first round at only 62 cents, which undervalues that consistent lead even after discounting for Brazil's history of underestimating right-wing turnout."
     }
@@ -67,7 +67,7 @@
      "avgPrice": 0.47,
      "cost": 3.0979,
      "fees": 0,
-     "mark": 0.47,
+     "mark": 0.465,
      "bid": 0.46
     }
    ],
@@ -201,8 +201,8 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-04T12:29:36.364Z",
- "nextDecisionAt": "2026-10-04T12:35:00.000Z",
+ "lastRunAt": "2026-10-04T14:49:43.636Z",
+ "nextDecisionAt": "2026-10-04T18:35:00.000Z",
  "live": true,
  "log": [],
  "lastDecisionAt": "2026-10-04T12:35:00Z",
