@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T18:29:29.381Z",
+ "updatedAt": "2026-10-04T18:32:05.749Z",
  "experimentEndsAt": "2026-10-10T23:31:14.701Z",
  "note": "asks and bids are prices per share in dollars for each outcome. fee = shares x feeRate x p x (1 - p).",
  "markets": [
@@ -11,14 +11,14 @@
     {
      "index": 0,
      "name": "Vitality",
-     "ask": 0.66,
-     "bid": 0.65
+     "ask": 0.67,
+     "bid": 0.66
     },
     {
      "index": 1,
      "name": "Natus Vincere",
-     "ask": 0.35,
-     "bid": 0.34
+     "ask": 0.34,
+     "bid": 0.33
     }
    ],
    "volume24h": 1638372,
@@ -34,14 +34,14 @@
     {
      "index": 0,
      "name": "Nemiga",
-     "ask": 0.51,
-     "bid": 0.5
+     "ask": 0.45,
+     "bid": 0.44
     },
     {
      "index": 1,
      "name": "Astralis",
-     "ask": 0.5,
-     "bid": 0.49
+     "ask": 0.56,
+     "bid": 0.55
     }
    ],
    "volume24h": 1181750,
@@ -126,14 +126,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.71,
-     "bid": 0.7
+     "ask": 0.7,
+     "bid": 0.69
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.3,
-     "bid": 0.29
+     "ask": 0.31,
+     "bid": 0.3
     }
    ],
    "volume24h": 246559,
@@ -287,14 +287,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.053,
+     "ask": 0.056,
      "bid": 0.048
     },
     {
      "index": 1,
      "name": "No",
      "ask": 0.952,
-     "bid": 0.947
+     "bid": 0.944
     }
    ],
    "volume24h": 133520,
@@ -310,14 +310,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.48,
-     "bid": 0.46
+     "ask": 0.49,
+     "bid": 0.48
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.54,
-     "bid": 0.52
+     "ask": 0.52,
+     "bid": 0.51
     }
    ],
    "volume24h": 131983,
@@ -402,14 +402,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.384,
-     "bid": 0.367
+     "ask": 0.368,
+     "bid": 0.36
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.633,
-     "bid": 0.616
+     "ask": 0.64,
+     "bid": 0.632
     }
    ],
    "volume24h": 69212,
@@ -448,14 +448,14 @@
     {
      "index": 0,
      "name": "⁠Movistar KOI Fénix",
-     "ask": 0.878,
-     "bid": 0.86
+     "ask": 0.9,
+     "bid": 0.884
     },
     {
      "index": 1,
      "name": "UCAM Esports Club",
-     "ask": 0.14,
-     "bid": 0.122
+     "ask": 0.116,
+     "bid": 0.1
     }
    ],
    "volume24h": 61980,
@@ -471,14 +471,14 @@
     {
      "index": 0,
      "name": "Nemiga",
-     "ask": 0.52,
-     "bid": 0.51
+     "ask": 0.43,
+     "bid": 0.41
     },
     {
      "index": 1,
      "name": "Astralis",
-     "ask": 0.49,
-     "bid": 0.48
+     "ask": 0.59,
+     "bid": 0.57
     }
    ],
    "volume24h": 55042,
@@ -533,29 +533,6 @@
    "url": "https://polymarket.com/event/elon-musk-of-tweets-october-3-october-5-2026"
   },
   {
-   "id": "5247452",
-   "question": "Map Handicap: BB (-1.5) vs M80 (+1.5)",
-   "endDate": "2026-10-04T23:10:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "BetBoom Team",
-     "ask": 0.72,
-     "bid": 0.69
-    },
-    {
-     "index": 1,
-     "name": "M80",
-     "ask": 0.31,
-     "bid": 0.28
-    }
-   ],
-   "volume24h": 48414,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/cs2-bb3-m80-2026-10-04"
-  },
-  {
    "id": "4877189",
    "question": "Will Croatia win on 2026-10-06?",
    "endDate": "2026-10-06T18:45:00Z",
@@ -586,14 +563,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.046,
-     "bid": 0.044
+     "ask": 0.047,
+     "bid": 0.046
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.956,
-     "bid": 0.954
+     "ask": 0.954,
+     "bid": 0.953
     }
    ],
    "volume24h": 44434,
@@ -632,14 +609,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.284,
+     "ask": 0.294,
      "bid": 0.257
     },
     {
      "index": 1,
      "name": "No",
      "ask": 0.743,
-     "bid": 0.716
+     "bid": 0.706
     }
    ],
    "volume24h": 41343,
@@ -747,14 +724,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.097,
-     "bid": 0.093
+     "ask": 0.096,
+     "bid": 0.091
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.907,
-     "bid": 0.903
+     "ask": 0.909,
+     "bid": 0.904
     }
    ],
    "volume24h": 34712,
@@ -1115,14 +1092,14 @@
     {
      "index": 0,
      "name": "ex-RUSTEC",
-     "ask": 0.54,
-     "bid": 0.53
+     "ask": 0.53,
+     "bid": 0.52
     },
     {
      "index": 1,
      "name": "ENJOY",
-     "ask": 0.47,
-     "bid": 0.46
+     "ask": 0.48,
+     "bid": 0.47
     }
    ],
    "volume24h": 17505,
@@ -1184,14 +1161,14 @@
     {
      "index": 0,
      "name": "⁠Movistar KOI Fénix",
-     "ask": 0.67,
-     "bid": 0.62
+     "ask": 0.75,
+     "bid": 0.74
     },
     {
      "index": 1,
      "name": "UCAM Esports Club",
-     "ask": 0.38,
-     "bid": 0.33
+     "ask": 0.26,
+     "bid": 0.25
     }
    ],
    "volume24h": 15918,
@@ -1269,6 +1246,29 @@
    "url": "https://polymarket.com/event/nhl-fla-ana-2026-10-04"
   },
   {
+   "id": "5262842",
+   "question": "Counter-Strike: Turma do Pagode vs Bounty Hunters Esports (BO3) - CCT South America Series 6 Playoffs",
+   "endDate": "2026-10-05T00:10:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Turma do Pagode",
+     "ask": 0.79,
+     "bid": 0.77
+    },
+    {
+     "index": 1,
+     "name": "Bounty Hunters Esports",
+     "ask": 0.23,
+     "bid": 0.21
+    }
+   ],
+   "volume24h": 14830,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/cs2-tdp-bhe-2026-10-04"
+  },
+  {
    "id": "3871438",
    "question": "Falcons vs. Saints",
    "endDate": "2026-10-06T00:15:00Z",
@@ -1299,14 +1299,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.818,
-     "bid": 0.783
+     "ask": 0.824,
+     "bid": 0.787
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.217,
-     "bid": 0.182
+     "ask": 0.213,
+     "bid": 0.176
     }
    ],
    "volume24h": 14693,
@@ -1345,14 +1345,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.53,
-     "bid": 0.51
+     "ask": 0.55,
+     "bid": 0.52
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.49,
-     "bid": 0.47
+     "ask": 0.48,
+     "bid": 0.45
     }
    ],
    "volume24h": 13756,
