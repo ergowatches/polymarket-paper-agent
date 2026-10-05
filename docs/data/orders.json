@@ -1,5 +1,5 @@
 {
- "status": "pending",
+ "status": "done",
  "createdAt": "2026-10-05T18:28:33Z",
  "model": "claude-sonnet-5",
  "candidatesSeen": 60,
@@ -15,5 +15,6 @@
   "elonjet tracker OR xtracker Elon Musk posts count October 2026 week",
   "Falcons Saints injury report October 5 2026 inactive quarterback"
  ],
- "trades": []
+ "trades": [],
+ "processedAt": "2026-10-05T18:29:10.068Z"
 }
