@@ -22,11 +22,13 @@
      "avgPrice": 0.16,
      "cost": 2.1575,
      "fees": 0.0725,
-     "mark": 0.175,
-     "bid": 0.17,
+     "mark": 0.165,
+     "bid": 0.16,
      "myProbability": 0.32,
      "reasoning": "Official count has Flavio leading Lula by only about 3 points (47 to 44 with 98 percent counted), a much narrower gap than the first partial counts suggested, and multiple post-first-round sources (CNBC, NPR) call the October 25 runoff roughly even while Kalshi prices Lula at 41 to 42 cents. Polymarket's own 16 cent ask looks like an overreaction to the first-round shock headlines rather than a reasoned runoff forecast."
-    },
+    }
+   ],
+   "closed": [
     {
      "id": "5225410-1-1791160255149",
      "marketId": "5225410",
@@ -44,10 +46,12 @@
      "mark": 0.0005,
      "bid": 0,
      "myProbability": 0.85,
-     "reasoning": "Multiple forecast sources put Chengdu's October 5 high around 23 to 26 degrees Celsius, clearly above the 21 degree threshold this market bets on, so the No side at a 75 cent ask looks underpriced relative to how unlikely an exact 21 degree high is."
-    }
-   ],
-   "closed": [
+     "reasoning": "Multiple forecast sources put Chengdu's October 5 high around 23 to 26 degrees Celsius, clearly above the 21 degree threshold this market bets on, so the No side at a 75 cent ask looks underpriced relative to how unlikely an exact 21 degree high is.",
+     "closedAt": "2026-10-05T21:47:57.830Z",
+     "exit": "lost",
+     "proceeds": 0,
+     "pnl": -3.8348
+    },
     {
      "id": "4037599-0-1791073880356",
      "marketId": "4037599",
@@ -110,8 +114,8 @@
      "avgPrice": 0.16,
      "cost": 3.0305,
      "fees": 0.1018,
-     "mark": 0.175,
-     "bid": 0.17
+     "mark": 0.165,
+     "bid": 0.16
     },
     {
      "id": "4970475-0-1791160255472",
@@ -127,8 +131,8 @@
      "avgPrice": 0.4,
      "cost": 3.0352,
      "fees": 0.0911,
-     "mark": 0.365,
-     "bid": 0.36
+     "mark": 0.15,
+     "bid": 0.14
     },
     {
      "id": "4409719-0-1791224954111",
@@ -144,8 +148,8 @@
      "avgPrice": 0.56,
      "cost": 3.1983,
      "fees": 0.0704,
-     "mark": 0.56,
-     "bid": 0.55
+     "mark": 0.565,
+     "bid": 0.56
     },
     {
      "id": "4877189-1-1791224954292",
@@ -161,8 +165,8 @@
      "avgPrice": 0.93,
      "cost": 4.6965,
      "fees": 0.0164,
-     "mark": 0.93,
-     "bid": 0.92
+     "mark": 0.915,
+     "bid": 0.91
     }
    ],
    "closed": [
@@ -487,8 +491,8 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-05T18:29:10.068Z",
- "nextDecisionAt": "2026-10-05T18:35:00.000Z",
+ "lastRunAt": "2026-10-05T21:47:57.496Z",
+ "nextDecisionAt": "2026-10-06T00:35:00.000Z",
  "live": true,
  "log": [],
  "lastDecisionAt": "2026-10-05T18:28:33Z",
