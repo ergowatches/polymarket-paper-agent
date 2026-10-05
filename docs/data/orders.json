@@ -1,19 +1,19 @@
 {
- "status": "done",
- "createdAt": "2026-10-05T12:29:55Z",
+ "status": "pending",
+ "createdAt": "2026-10-05T18:28:33Z",
  "model": "claude-sonnet-5",
  "candidatesSeen": 60,
- "summary": "I checked current Bitcoin and Ethereum prices against today's price-threshold markets, lineup and injury news for tonight's Italy-Turkey, France-Belgium, Sweden-Romania and Northern Ireland-Georgia Nations League games, and the Elon Musk tweet count trackers. Bitcoin is trading right around 86,000 dollars and Ethereum right around 2,700 dollars, so the thresholds near those levels are already fairly priced, and the far thresholds (84,000 and 88,000) only offer a one to two point edge after fees, not enough. Turkey's missing players against Italy and Mbappe's absence for France are both several days old and already reflected in prices, Sweden and Romania are both missing key players so that match looks balanced, and I could not reach the tweet tracker site to get a live Elon Musk post count. No market cleared the 5 point edge bar after fees, so I am holding all positions with zero trades this cycle.",
+ "summary": "I checked final lineups and injury news for tonight's four Nations League matches (Italy-Turkey, France-Belgium, Sweden-Romania, Northern Ireland-Georgia), the Falcons-Saints injury report, and tried the Elon Musk tweet tracker again. Kickoff for all four Europe matches is minutes away and the confirmed lineups and injury news I found, including Mbappe, Upamecano and Guendouzi out for France and Sweden missing seven players, are already reflected in prices that match outside bookmaker odds closely. Northern Ireland is missing both starting centre-backs against Georgia, but Georgia has not scored in five straight games, so I could not form a confident edge either way. The Elon Musk tracker site is still blocked from here and a cached search snippet is not reliable enough to trade on. No outcome cleared the 5 point edge bar after fees, so I am holding all positions with zero trades this cycle.",
  "queries": [
-  "Bitcoin price today October 5 2026",
-  "Ethereum price today October 5 2026",
-  "Italy Turkey Nations League October 5 2026 lineup injury news",
-  "France Belgium Nations League October 5 2026 Mbappe lineup",
-  "Elon Musk tweet count tracker October 2026",
-  "2026 Nobel Peace Prize frontrunner prediction winner announcement October 9",
+  "Italy Turkey Nations League October 5 2026 starting lineup confirmed",
+  "France Belgium Nations League October 5 2026 starting lineup Mbappe",
   "Sweden Romania Nations League October 5 2026 lineup injury news",
-  "Northern Ireland Georgia Nations League October 5 2026 lineup injury"
+  "Northern Ireland Georgia Nations League October 5 2026 lineup injury",
+  "Elon Musk tweet count today October 5 2026 total posts this week",
+  "Georgia Northern Ireland prediction odds Kvaratskhelia Nations League October 2026",
+  "Sweden vs Romania prediction odds betting October 5 2026",
+  "elonjet tracker OR xtracker Elon Musk posts count October 2026 week",
+  "Falcons Saints injury report October 5 2026 inactive quarterback"
  ],
- "trades": [],
- "processedAt": "2026-10-05T12:30:29.776Z"
+ "trades": []
 }
