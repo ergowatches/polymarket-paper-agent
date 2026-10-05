@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T00:24:26.869Z",
+ "updatedAt": "2026-10-05T00:30:51.610Z",
  "experimentEndsAt": "2026-10-10T23:31:14.701Z",
  "note": "asks and bids are prices per share in dollars for each outcome. fee = shares x feeRate x p x (1 - p).",
  "markets": [
@@ -34,14 +34,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.842,
-     "bid": 0.841
+     "ask": 0.85,
+     "bid": 0.839
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.159,
-     "bid": 0.158
+     "ask": 0.161,
+     "bid": 0.15
     }
    ],
    "volume24h": 1957162,
@@ -172,14 +172,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.46,
-     "bid": 0.45
+     "ask": 0.48,
+     "bid": 0.46
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.55,
-     "bid": 0.54
+     "ask": 0.54,
+     "bid": 0.52
     }
    ],
    "volume24h": 61900,
@@ -218,14 +218,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.128,
-     "bid": 0.124
+     "ask": 0.121,
+     "bid": 0.12
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.876,
-     "bid": 0.872
+     "ask": 0.88,
+     "bid": 0.879
     }
    ],
    "volume24h": 56612,
@@ -241,14 +241,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.078,
-     "bid": 0.075
+     "ask": 0.089,
+     "bid": 0.077
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.925,
-     "bid": 0.922
+     "ask": 0.923,
+     "bid": 0.911
     }
    ],
    "volume24h": 55289,
@@ -287,14 +287,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.062,
-     "bid": 0.056
+     "ask": 0.048,
+     "bid": 0.043
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.944,
-     "bid": 0.938
+     "ask": 0.957,
+     "bid": 0.952
     }
    ],
    "volume24h": 50410,
@@ -333,14 +333,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.53,
-     "bid": 0.52
+     "ask": 0.52,
+     "bid": 0.51
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.48,
-     "bid": 0.47
+     "ask": 0.49,
+     "bid": 0.48
     }
    ],
    "volume24h": 41739,
@@ -494,14 +494,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.316,
-     "bid": 0.292
+     "ask": 0.407,
+     "bid": 0.182
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.708,
-     "bid": 0.684
+     "ask": 0.818,
+     "bid": 0.593
     }
    ],
    "volume24h": 23982,
@@ -517,14 +517,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.64,
-     "bid": 0.63
+     "ask": 0.6,
+     "bid": 0.59
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.37,
-     "bid": 0.36
+     "ask": 0.41,
+     "bid": 0.4
     }
    ],
    "volume24h": 23981,
@@ -540,14 +540,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.065,
+     "ask": 0.058,
      "bid": 0.057
     },
     {
      "index": 1,
      "name": "No",
      "ask": 0.943,
-     "bid": 0.935
+     "bid": 0.942
     }
    ],
    "volume24h": 23714,
@@ -563,14 +563,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.108,
-     "bid": 0.081
+     "ask": 0.115,
+     "bid": 0.074
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.919,
-     "bid": 0.892
+     "ask": 0.926,
+     "bid": 0.885
     }
    ],
    "volume24h": 23333,
@@ -586,14 +586,14 @@
     {
      "index": 0,
      "name": "Up",
-     "ask": 0.82,
-     "bid": 0.81
+     "ask": 0.8,
+     "bid": 0.79
     },
     {
      "index": 1,
      "name": "Down",
-     "ask": 0.19,
-     "bid": 0.18
+     "ask": 0.21,
+     "bid": 0.2
     }
    ],
    "volume24h": 22716,
@@ -655,14 +655,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.9,
-     "bid": 0.872
+     "ask": 0.899,
+     "bid": 0.869
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.128,
-     "bid": 0.1
+     "ask": 0.131,
+     "bid": 0.101
     }
    ],
    "volume24h": 16475,
@@ -924,29 +924,6 @@
    "url": "https://polymarket.com/event/unl-ita-tur-2026-10-05"
   },
   {
-   "id": "5156678",
-   "question": "Will the price of Ethereum be above $2,900 on October 7?",
-   "endDate": "2026-10-07T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.052,
-     "bid": 0.042
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.958,
-     "bid": 0.948
-    }
-   ],
-   "volume24h": 9461,
-   "feeRate": 0.07,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/ethereum-above-on-october-7-2026"
-  },
-  {
    "id": "5263898",
    "question": "Will Ethereum reach $2,750 on October 4?",
    "endDate": "2026-10-05T04:00:00Z",
@@ -954,14 +931,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.158,
-     "bid": 0.11
+     "ask": 0.151,
+     "bid": 0.067
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.89,
-     "bid": 0.842
+     "ask": 0.933,
+     "bid": 0.849
     }
    ],
    "volume24h": 9369,
@@ -1024,12 +1001,12 @@
      "index": 0,
      "name": "Yes",
      "ask": 0.048,
-     "bid": 0.044
+     "bid": 0.045
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.956,
+     "ask": 0.955,
      "bid": 0.952
     }
    ],
@@ -1083,29 +1060,6 @@
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/elon-musk-of-tweets-october-2-october-9-2026"
-  },
-  {
-   "id": "5225410",
-   "question": "Will the highest temperature in Chengdu be 21°C on October 5?",
-   "endDate": "2026-10-05T12:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.28,
-     "bid": 0.25
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.75,
-     "bid": 0.72
-    }
-   ],
-   "volume24h": 7762,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/highest-temperature-in-chengdu-on-october-5-2026"
   },
   {
    "id": "5126863",
@@ -1207,14 +1161,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.061,
+     "ask": 0.063,
      "bid": 0.052
     },
     {
      "index": 1,
      "name": "No",
      "ask": 0.948,
-     "bid": 0.939
+     "bid": 0.937
     }
    ],
    "volume24h": 6822,
@@ -1276,14 +1230,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.21,
-     "bid": 0.2
+     "ask": 0.19,
+     "bid": 0.18
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.8,
-     "bid": 0.79
+     "ask": 0.82,
+     "bid": 0.81
     }
    ],
    "volume24h": 6546,
@@ -1299,14 +1253,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.083,
-     "bid": 0.079
+     "ask": 0.082,
+     "bid": 0.08
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.921,
-     "bid": 0.917
+     "ask": 0.92,
+     "bid": 0.918
     }
    ],
    "volume24h": 6326,
@@ -1382,6 +1336,52 @@
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/lal-bar-get-2026-10-10"
+  },
+  {
+   "id": "5233596",
+   "question": "LoL: Natus Vincere vs FlyQuest (BO3) - Demacia Cup Global Invitational Group Stage",
+   "endDate": "2026-10-05T15:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Natus Vincere",
+     "ask": 0.6,
+     "bid": 0.59
+    },
+    {
+     "index": 1,
+     "name": "FlyQuest",
+     "ask": 0.41,
+     "bid": 0.4
+    }
+   ],
+   "volume24h": 6099,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/lol-navi-fly-2026-10-05"
+  },
+  {
+   "id": "5247180",
+   "question": "Dota 2: Aurora vs 1win (BO3) - BLAST Slam Playoffs",
+   "endDate": "2026-10-08T18:30:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Aurora",
+     "ask": 0.53,
+     "bid": 0.51
+    },
+    {
+     "index": 1,
+     "name": "1win",
+     "ask": 0.49,
+     "bid": 0.47
+    }
+   ],
+   "volume24h": 5806,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/dota2-aur1-1win-2026-10-08"
   }
  ]
 }

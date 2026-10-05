@@ -1,5 +1,5 @@
 {
- "status": "pending",
+ "status": "done",
  "createdAt": "2026-10-05T00:30:24Z",
  "model": "claude-sonnet-5",
  "candidatesSeen": 60,
@@ -35,5 +35,6 @@
    "my_probability": 0.85,
    "reasoning": "Multiple forecast sources put Chengdu's October 5 high around 23 to 26 degrees Celsius, clearly above the 21 degree threshold this market bets on, so the No side at a 75 cent ask looks underpriced relative to how unlikely an exact 21 degree high is."
   }
- ]
+ ],
+ "processedAt": "2026-10-05T00:30:51.610Z"
 }
