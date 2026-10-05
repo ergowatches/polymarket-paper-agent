@@ -22,8 +22,8 @@
      "avgPrice": 0.16,
      "cost": 2.1575,
      "fees": 0.0725,
-     "mark": 0.155,
-     "bid": 0.15,
+     "mark": 0.145,
+     "bid": 0.14,
      "myProbability": 0.32,
      "reasoning": "Official count has Flavio leading Lula by only about 3 points (47 to 44 with 98 percent counted), a much narrower gap than the first partial counts suggested, and multiple post-first-round sources (CNBC, NPR) call the October 25 runoff roughly even while Kalshi prices Lula at 41 to 42 cents. Polymarket's own 16 cent ask looks like an overreaction to the first-round shock headlines rather than a reasoned runoff forecast."
     },
@@ -110,8 +110,8 @@
      "avgPrice": 0.16,
      "cost": 3.0305,
      "fees": 0.1018,
-     "mark": 0.155,
-     "bid": 0.15
+     "mark": 0.145,
+     "bid": 0.14
     },
     {
      "id": "4970475-0-1791160255472",
@@ -127,8 +127,8 @@
      "avgPrice": 0.4,
      "cost": 3.0352,
      "fees": 0.0911,
-     "mark": 0.495,
-     "bid": 0.49
+     "mark": 0.465,
+     "bid": 0.46
     }
    ],
    "closed": [
@@ -434,8 +434,8 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-05T12:30:29.776Z",
- "nextDecisionAt": "2026-10-05T12:35:00.000Z",
+ "lastRunAt": "2026-10-05T14:50:21.280Z",
+ "nextDecisionAt": "2026-10-05T18:35:00.000Z",
  "live": true,
  "log": [],
  "lastDecisionAt": "2026-10-05T12:29:55Z",
