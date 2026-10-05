@@ -22,8 +22,8 @@
      "avgPrice": 0.16,
      "cost": 2.1575,
      "fees": 0.0725,
-     "mark": 0.185,
-     "bid": 0.18,
+     "mark": 0.155,
+     "bid": 0.15,
      "myProbability": 0.32,
      "reasoning": "Official count has Flavio leading Lula by only about 3 points (47 to 44 with 98 percent counted), a much narrower gap than the first partial counts suggested, and multiple post-first-round sources (CNBC, NPR) call the October 25 runoff roughly even while Kalshi prices Lula at 41 to 42 cents. Polymarket's own 16 cent ask looks like an overreaction to the first-round shock headlines rather than a reasoned runoff forecast."
     },
@@ -41,8 +41,8 @@
      "avgPrice": 0.75,
      "cost": 3.7875,
      "fees": 0.0473,
-     "mark": 0.36,
-     "bid": 0.25,
+     "mark": 0.0005,
+     "bid": 0,
      "myProbability": 0.85,
      "reasoning": "Multiple forecast sources put Chengdu's October 5 high around 23 to 26 degrees Celsius, clearly above the 21 degree threshold this market bets on, so the No side at a 75 cent ask looks underpriced relative to how unlikely an exact 21 degree high is."
     }
@@ -72,8 +72,8 @@
      "pnl": -3.1786
     }
    ],
-   "searches": 70,
-   "cycles": 7
+   "searches": 78,
+   "cycles": 8
   },
   "monkey": {
    "name": "Random picks",
@@ -110,8 +110,8 @@
      "avgPrice": 0.16,
      "cost": 3.0305,
      "fees": 0.1018,
-     "mark": 0.185,
-     "bid": 0.18
+     "mark": 0.155,
+     "bid": 0.15
     },
     {
      "id": "4970475-0-1791160255472",
@@ -127,8 +127,8 @@
      "avgPrice": 0.4,
      "cost": 3.0352,
      "fees": 0.0911,
-     "mark": 0.44,
-     "bid": 0.43
+     "mark": 0.495,
+     "bid": 0.49
     }
    ],
    "closed": [
@@ -218,10 +218,28 @@
     }
    ],
    "searches": 0,
-   "cycles": 7
+   "cycles": 8
   }
  },
  "decisions": [
+  {
+   "at": "2026-10-05T12:29:55Z",
+   "executedAt": "2026-10-05T12:30:29.776Z",
+   "model": "claude-sonnet-5",
+   "summary": "I checked current Bitcoin and Ethereum prices against today's price-threshold markets, lineup and injury news for tonight's Italy-Turkey, France-Belgium, Sweden-Romania and Northern Ireland-Georgia Nations League games, and the Elon Musk tweet count trackers. Bitcoin is trading right around 86,000 dollars and Ethereum right around 2,700 dollars, so the thresholds near those levels are already fairly priced, and the far thresholds (84,000 and 88,000) only offer a one to two point edge after fees, not enough. Turkey's missing players against Italy and Mbappe's absence for France are both several days old and already reflected in prices, Sweden and Romania are both missing key players so that match looks balanced, and I could not reach the tweet tracker site to get a live Elon Musk post count. No market cleared the 5 point edge bar after fees, so I am holding all positions with zero trades this cycle.",
+   "queries": [
+    "Bitcoin price today October 5 2026",
+    "Ethereum price today October 5 2026",
+    "Italy Turkey Nations League October 5 2026 lineup injury news",
+    "France Belgium Nations League October 5 2026 Mbappe lineup",
+    "Elon Musk tweet count tracker October 2026",
+    "2026 Nobel Peace Prize frontrunner prediction winner announcement October 9",
+    "Sweden Romania Nations League October 5 2026 lineup injury news",
+    "Northern Ireland Georgia Nations League October 5 2026 lineup injury"
+   ],
+   "candidates": 60,
+   "trades": []
+  },
   {
    "at": "2026-10-05T06:30:19Z",
    "executedAt": "2026-10-05T06:30:48.098Z",
@@ -416,11 +434,11 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-05T06:30:48.098Z",
- "nextDecisionAt": "2026-10-05T06:35:00.000Z",
+ "lastRunAt": "2026-10-05T12:30:29.776Z",
+ "nextDecisionAt": "2026-10-05T12:35:00.000Z",
  "live": true,
  "log": [],
- "lastDecisionAt": "2026-10-05T06:30:19Z",
- "lastOrdersCreatedAt": "2026-10-05T06:30:19Z",
+ "lastDecisionAt": "2026-10-05T12:29:55Z",
+ "lastOrdersCreatedAt": "2026-10-05T12:29:55Z",
  "model": "claude-sonnet-5"
 }
