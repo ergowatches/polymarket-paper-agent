@@ -1,24 +1,20 @@
 {
- "status": "done",
- "createdAt": "2026-10-06T06:28:58Z",
+ "status": "pending",
+ "createdAt": "2026-10-06T12:28:49Z",
  "model": "claude-sonnet-5",
  "candidatesSeen": 60,
- "summary": "I checked tonight's Nations League games (Spain-Croatia, England-Czechia), the USA-Canada friendly, Bitcoin and Ethereum prices against today's threshold markets, NHL injury reports for Blues-Blackhawks and Panthers-Kings, the 2026 Nobel Peace Prize field, Elon Musk's tweet count, and fresh news on the Brazil runoff. Spain's 80 cent price to beat Croatia matches bookmaker odds almost exactly, England's absences are backups already reflected in its price, and Bitcoin and Ethereum are trading right near their threshold lines so those markets look fairly priced. Canada is missing six regulars including captain Alphonso Davies against the USA, but Canada has still kept clean sheets this window with that same thin squad, so I could not build enough confidence to bet. Nobel odds for Save the Children and Mykola Kuleba come in around 9 to 12 percent on other trackers versus 7 to 10 cents here, which is too small a gap after fees, and the Brazil runoff news only confirms my existing Lula position's thesis that the race is close, so I am holding everything with zero trades this cycle.",
+ "summary": "I checked injury news for the Cowboys-Buccaneers NFL game, tonight's NHL games (Predators-Maple Leafs, Blues-Blackhawks), the USA-Canada and Mexico-Chile friendlies, Venezuela-Jordan, Bitcoin's current price, and Elon Musk's tweet count. None of it gave a tradeable edge: the Cowboys-Bucs injuries are old news already priced into the line, confirmed lineups for tonight's international friendlies are not out yet, and NHL scratches were not reported. Web search gave wildly inconsistent Bitcoin price figures, from under 65,000 to over 100,000 dollars, so I could not size a confident crypto trade on unreliable data, and the Musk tweet tracker is still not reachable for a live count. My only open position, Lula to win the Brazil runoff, is unchanged since my probability estimate of 32 percent is still well above its 16 cent bid, so I am holding it. No market cleared the 5 point edge bar after fees, so I made zero trades this cycle.",
  "queries": [
-  "Spain vs Croatia Nations League October 6 2026 injury news lineup",
-  "England vs Czechia Nations League October 6 2026 injury lineup news",
-  "Bitcoin price today October 6 2026",
-  "Ethereum price today October 6 2026",
-  "2026 Nobel Peace Prize announcement October 9 frontrunner favorite odds",
+  "Cowboys vs Buccaneers injury report October 9 2026 Week 5",
+  "Predators vs Maple Leafs October 6 2026 injury report lineup",
   "Blues vs Blackhawks October 6 2026 injury report lineup",
-  "Elon Musk tweet count this week October 2026 tracker total posts",
-  "Panthers vs Kings October 6 2026 NHL injury report",
-  "Mykola Kuleba Nobel Peace Prize 2026 odds percentage chance",
-  "\"Save the Children\" Nobel Peace Prize 2026 odds chance",
-  "Spain vs Croatia odds prediction October 6 2026 betting odds moneyline",
-  "USA vs Canada soccer October 6 2026 lineup injury news friendly",
-  "Brazil presidential runoff Lula Flavio Bolsonaro October 2026 latest poll news"
+  "USA vs Canada soccer October 6 2026 lineup news",
+  "Bitcoin price today October 6 2026",
+  "Elon Musk tweet count tracker October 6 2026 this week total",
+  "Bitcoin price now BTC/USD coindesk",
+  "Bitcoin price October 6 2026 CoinMarketCap 84000 85000 86000",
+  "Mexico vs Chile friendly October 5 2026 result score",
+  "Venezuela vs Jordan October 6 2026 friendly lineup news"
  ],
- "trades": [],
- "processedAt": "2026-10-06T06:29:28.530Z"
+ "trades": []
 }
