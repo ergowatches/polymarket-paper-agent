@@ -1,5 +1,5 @@
 {
- "status": "pending",
+ "status": "done",
  "createdAt": "2026-10-06T12:28:49Z",
  "model": "claude-sonnet-5",
  "candidatesSeen": 60,
@@ -16,5 +16,6 @@
   "Mexico vs Chile friendly October 5 2026 result score",
   "Venezuela vs Jordan October 6 2026 friendly lineup news"
  ],
- "trades": []
+ "trades": [],
+ "processedAt": "2026-10-06T12:29:14.943Z"
 }
