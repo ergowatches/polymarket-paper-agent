@@ -22,8 +22,8 @@
      "avgPrice": 0.16,
      "cost": 2.1575,
      "fees": 0.0725,
-     "mark": 0.155,
-     "bid": 0.15,
+     "mark": 0.165,
+     "bid": 0.16,
      "myProbability": 0.32,
      "reasoning": "Official count has Flavio leading Lula by only about 3 points (47 to 44 with 98 percent counted), a much narrower gap than the first partial counts suggested, and multiple post-first-round sources (CNBC, NPR) call the October 25 runoff roughly even while Kalshi prices Lula at 41 to 42 cents. Polymarket's own 16 cent ask looks like an overreaction to the first-round shock headlines rather than a reasoned runoff forecast."
     }
@@ -76,8 +76,8 @@
      "pnl": -3.1786
     }
    ],
-   "searches": 100,
-   "cycles": 10
+   "searches": 113,
+   "cycles": 11
   },
   "monkey": {
    "name": "Random picks",
@@ -114,8 +114,8 @@
      "avgPrice": 0.16,
      "cost": 3.0305,
      "fees": 0.1018,
-     "mark": 0.155,
-     "bid": 0.15
+     "mark": 0.165,
+     "bid": 0.16
     },
     {
      "id": "4970475-0-1791160255472",
@@ -131,8 +131,8 @@
      "avgPrice": 0.4,
      "cost": 3.0352,
      "fees": 0.0911,
-     "mark": 0.075,
-     "bid": 0.07
+     "mark": 0.0245,
+     "bid": 0.024
     },
     {
      "id": "4409719-0-1791224954111",
@@ -165,8 +165,8 @@
      "avgPrice": 0.93,
      "cost": 4.6965,
      "fees": 0.0164,
-     "mark": 0.925,
-     "bid": 0.92
+     "mark": 0.915,
+     "bid": 0.91
     },
     {
      "id": "5126851-0-1791246616968",
@@ -182,8 +182,8 @@
      "avgPrice": 0.96,
      "cost": 4.848,
      "fees": 0.0136,
-     "mark": 0.937,
-     "bid": 0.935
+     "mark": 0.9215,
+     "bid": 0.921
     },
     {
      "id": "4877193-1-1791246617074",
@@ -199,8 +199,8 @@
      "avgPrice": 0.21,
      "cost": 3.0075,
      "fees": 0.1188,
-     "mark": 0.205,
-     "bid": 0.2
+     "mark": 0.225,
+     "bid": 0.22
     }
    ],
    "closed": [
@@ -290,10 +290,33 @@
     }
    ],
    "searches": 0,
-   "cycles": 10
+   "cycles": 11
   }
  },
  "decisions": [
+  {
+   "at": "2026-10-06T06:28:58Z",
+   "executedAt": "2026-10-06T06:29:28.530Z",
+   "model": "claude-sonnet-5",
+   "summary": "I checked tonight's Nations League games (Spain-Croatia, England-Czechia), the USA-Canada friendly, Bitcoin and Ethereum prices against today's threshold markets, NHL injury reports for Blues-Blackhawks and Panthers-Kings, the 2026 Nobel Peace Prize field, Elon Musk's tweet count, and fresh news on the Brazil runoff. Spain's 80 cent price to beat Croatia matches bookmaker odds almost exactly, England's absences are backups already reflected in its price, and Bitcoin and Ethereum are trading right near their threshold lines so those markets look fairly priced. Canada is missing six regulars including captain Alphonso Davies against the USA, but Canada has still kept clean sheets this window with that same thin squad, so I could not build enough confidence to bet. Nobel odds for Save the Children and Mykola Kuleba come in around 9 to 12 percent on other trackers versus 7 to 10 cents here, which is too small a gap after fees, and the Brazil runoff news only confirms my existing Lula position's thesis that the race is close, so I am holding everything with zero trades this cycle.",
+   "queries": [
+    "Spain vs Croatia Nations League October 6 2026 injury news lineup",
+    "England vs Czechia Nations League October 6 2026 injury lineup news",
+    "Bitcoin price today October 6 2026",
+    "Ethereum price today October 6 2026",
+    "2026 Nobel Peace Prize announcement October 9 frontrunner favorite odds",
+    "Blues vs Blackhawks October 6 2026 injury report lineup",
+    "Elon Musk tweet count this week October 2026 tracker total posts",
+    "Panthers vs Kings October 6 2026 NHL injury report",
+    "Mykola Kuleba Nobel Peace Prize 2026 odds percentage chance",
+    "\"Save the Children\" Nobel Peace Prize 2026 odds chance",
+    "Spain vs Croatia odds prediction October 6 2026 betting odds moneyline",
+    "USA vs Canada soccer October 6 2026 lineup injury news friendly",
+    "Brazil presidential runoff Lula Flavio Bolsonaro October 2026 latest poll news"
+   ],
+   "candidates": 60,
+   "trades": []
+  },
   {
    "at": "2026-10-06T00:29:43Z",
    "executedAt": "2026-10-06T00:30:13.975Z",
@@ -548,11 +571,11 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-06T02:02:06.497Z",
+ "lastRunAt": "2026-10-06T06:29:28.530Z",
  "nextDecisionAt": "2026-10-06T06:35:00.000Z",
  "live": true,
  "log": [],
- "lastDecisionAt": "2026-10-06T00:29:43Z",
- "lastOrdersCreatedAt": "2026-10-06T00:29:43Z",
+ "lastDecisionAt": "2026-10-06T06:28:58Z",
+ "lastOrdersCreatedAt": "2026-10-06T06:28:58Z",
  "model": "claude-sonnet-5"
 }
