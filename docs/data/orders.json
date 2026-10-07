@@ -1,23 +1,21 @@
 {
- "status": "done",
- "createdAt": "2026-10-07T12:29:23Z",
- "model": "claude-sonnet-5",
- "candidatesSeen": 60,
- "summary": "I checked the Brazil runoff polls, the Nobel Peace Prize field two days before its announcement, and injury and form news for Cowboys-Buccaneers, Texas-Oklahoma, Arsenal-Leeds and Sunderland-Brighton. The closest thing to an edge was Sunderland vs Brighton, where Brighton are third in the table with a plus-11 goal difference and bookmaker odds imply around 46 to 50 percent for a Brighton win versus only 42 cents on this market, but that gap is too small to clear the fee-adjusted bar once it is split against a draw outcome. Everything else either matched outside odds closely or had stale or contradictory injury reports I could not trust. My three open positions, Lula to win the Brazil runoff, Sudan's Emergency Response Rooms for the Nobel Peace Prize, and Manchester United not winning against Tottenham, are all unchanged since the news this cycle confirms rather than contradicts the reasoning behind them, so I made zero trades.",
- "queries": [
-  "Cowboys vs Buccaneers Thursday Night Football October 8 2026 injury report odds",
-  "Texas vs Oklahoma Red River Rivalry October 10 2026 odds quarterback injury",
-  "Arsenal vs Leeds United October 10 2026 injury news lineup",
-  "Brighton vs Nottingham Forest OR Brighton October 10 2026 Premier League injury news",
-  "Brazil presidential runoff October 25 2026 Lula Flavio Bolsonaro latest poll",
-  "2026 Nobel Peace Prize winner announcement October 9 frontrunner odds",
-  "Sudan Emergency Response Rooms Nobel Peace Prize 2026 odds percentage chance Kalshi Polymarket",
-  "Arsenal vs Sunderland October 10 2026 injury news lineup Premier League",
-  "Brighton vs Sunderland October 10 2026 Premier League preview injury",
-  "Sunderland vs Brighton October 10 2026 betting odds prediction moneyline",
-  "Las Vegas Aces vs Golden State Valkyries October 7 2026 injury report lineup WNBA",
-  "Tampa Bay Rays vs New York Yankees October 7 2026 probable pitchers lineup"
- ],
- "trades": [],
- "processedAt": "2026-10-07T12:29:54.957Z"
+  "status": "pending",
+  "createdAt": "2026-10-07T18:28:27Z",
+  "model": "claude-sonnet-5",
+  "candidatesSeen": 60,
+  "summary": "I checked the Thursday night Cowboys-Buccaneers game, the Brighton-Sunderland Premier League match, current Bitcoin and S&P 500 levels against several threshold markets, the Elon Musk tweet count, and updated Nobel Peace Prize odds two days before the announcement. Search results were unusually unreliable this cycle: Bitcoin quotes differed by thousands of dollars across sources, the S&P 500 figure I found was six days stale, the Cowboys-Buccaneers injury reports were contradictory about which game Dallas even played this week, and Brighton-Sunderland team news has not been released yet. The Nobel odds update shows Vanessa Nakate now edging ahead of Sudan's Emergency Response Rooms on one tracker, but Kalshi and other bookmakers still have the Emergency Response Rooms as favorite near 24 to 27 percent, consistent with the thesis behind my existing position, so I am holding it along with my Lula and Manchester United positions unchanged. No market cleared the 5 point edge bar after fees with trustworthy evidence, so I made zero trades this cycle.",
+  "queries": [
+    "Cowboys vs Buccaneers Thursday Night Football October 8 2026 injury report inactives",
+    "Cowboys Buccaneers odds spread moneyline October 8 2026 week 5",
+    "Sunderland vs Brighton October 10 2026 injury news lineup Premier League",
+    "Brighton Sunderland odds prediction moneyline October 10 2026",
+    "Bitcoin price today October 7 2026 live USD",
+    "Elon Musk tweet count this week October 2026 tracker total posts",
+    "Cowboys Buccaneers Thursday Night Football week 6 2026 preview odds point spread",
+    "Dallas Cowboys injury report this week Micah Parsons DeMarvion Overshown Trevon Diggs status",
+    "Nobel Peace Prize 2026 winner announcement October 9 Sudan Emergency Response Rooms odds latest",
+    "S&P 500 today October 7 2026 close level points",
+    "Warriors vs Trail Blazers October 7 2026 injury report Stephen Curry"
+  ],
+  "trades": []
 }
