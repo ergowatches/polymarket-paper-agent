@@ -41,8 +41,8 @@
      "avgPrice": 0.155,
      "cost": 1.0554,
      "fees": 0.0446,
-     "mark": 0.154,
-     "bid": 0.153,
+     "mark": 0.1565,
+     "bid": 0.155,
      "myProbability": 0.25,
      "reasoning": "Kalshi prices Sudan's Emergency Response Rooms at 24 to 28.5 cents to win the 2026 Nobel Peace Prize and UK bookmakers also list them as the top favorite at 11/4 to 3/1, well above Polymarket's 15.5 cent ask here, a gap too large to be fully explained by bookmaker overround since Kalshi is a real-money market like this one."
     },
@@ -60,7 +60,7 @@
      "avgPrice": 0.43,
      "cost": 2.1715,
      "fees": 0.0619,
-     "mark": 0.43,
+     "mark": 0.425,
      "bid": 0.42,
      "myProbability": 0.53,
      "reasoning": "Manchester United are missing three regular defenders (Yoro, Shaw, Malacia all out) plus have knocks to Bruno Fernandes and Mazraoui ahead of Tottenham, and sportsbook moneyline odds (+125/+175/+290) imply only about 42 percent for a United win after removing the bookmaker margin, well below the 58 cent ask here for United to win, so the No side (draw or Tottenham win) looks underpriced."
@@ -114,8 +114,8 @@
      "pnl": -3.1786
     }
    ],
-   "searches": 157,
-   "cycles": 15
+   "searches": 169,
+   "cycles": 16
   },
   "monkey": {
    "name": "Random picks",
@@ -152,8 +152,8 @@
      "avgPrice": 0.32,
      "cost": 2.9968,
      "fees": 0.1019,
-     "mark": 0.4,
-     "bid": 0.39
+     "mark": 0.999,
+     "bid": 0.998
     },
     {
      "id": "5114458-0-1791354669450",
@@ -169,8 +169,8 @@
      "avgPrice": 0.33,
      "cost": 2.8449,
      "fees": 0.0953,
-     "mark": 0.33,
-     "bid": 0.32
+     "mark": 0.29,
+     "bid": 0.28
     }
    ],
    "closed": [
@@ -428,10 +428,32 @@
     }
    ],
    "searches": 0,
-   "cycles": 15
+   "cycles": 16
   }
  },
  "decisions": [
+  {
+   "at": "2026-10-07T12:29:23Z",
+   "executedAt": "2026-10-07T12:29:54.957Z",
+   "model": "claude-sonnet-5",
+   "summary": "I checked the Brazil runoff polls, the Nobel Peace Prize field two days before its announcement, and injury and form news for Cowboys-Buccaneers, Texas-Oklahoma, Arsenal-Leeds and Sunderland-Brighton. The closest thing to an edge was Sunderland vs Brighton, where Brighton are third in the table with a plus-11 goal difference and bookmaker odds imply around 46 to 50 percent for a Brighton win versus only 42 cents on this market, but that gap is too small to clear the fee-adjusted bar once it is split against a draw outcome. Everything else either matched outside odds closely or had stale or contradictory injury reports I could not trust. My three open positions, Lula to win the Brazil runoff, Sudan's Emergency Response Rooms for the Nobel Peace Prize, and Manchester United not winning against Tottenham, are all unchanged since the news this cycle confirms rather than contradicts the reasoning behind them, so I made zero trades.",
+   "queries": [
+    "Cowboys vs Buccaneers Thursday Night Football October 8 2026 injury report odds",
+    "Texas vs Oklahoma Red River Rivalry October 10 2026 odds quarterback injury",
+    "Arsenal vs Leeds United October 10 2026 injury news lineup",
+    "Brighton vs Nottingham Forest OR Brighton October 10 2026 Premier League injury news",
+    "Brazil presidential runoff October 25 2026 Lula Flavio Bolsonaro latest poll",
+    "2026 Nobel Peace Prize winner announcement October 9 frontrunner odds",
+    "Sudan Emergency Response Rooms Nobel Peace Prize 2026 odds percentage chance Kalshi Polymarket",
+    "Arsenal vs Sunderland October 10 2026 injury news lineup Premier League",
+    "Brighton vs Sunderland October 10 2026 Premier League preview injury",
+    "Sunderland vs Brighton October 10 2026 betting odds prediction moneyline",
+    "Las Vegas Aces vs Golden State Valkyries October 7 2026 injury report lineup WNBA",
+    "Tampa Bay Rays vs New York Yankees October 7 2026 probable pitchers lineup"
+   ],
+   "candidates": 60,
+   "trades": []
+  },
   {
    "at": "2026-10-07T06:30:28Z",
    "executedAt": "2026-10-07T06:31:06.279Z",
@@ -829,11 +851,11 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-07T06:31:06.279Z",
- "nextDecisionAt": "2026-10-07T06:35:00.000Z",
+ "lastRunAt": "2026-10-07T12:29:54.957Z",
+ "nextDecisionAt": "2026-10-07T12:35:00.000Z",
  "live": true,
  "log": [],
- "lastDecisionAt": "2026-10-07T06:30:28Z",
- "lastOrdersCreatedAt": "2026-10-07T06:30:28Z",
+ "lastDecisionAt": "2026-10-07T12:29:23Z",
+ "lastOrdersCreatedAt": "2026-10-07T12:29:23Z",
  "model": "claude-sonnet-5"
 }
