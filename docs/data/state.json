@@ -152,8 +152,8 @@
      "avgPrice": 0.33,
      "cost": 2.8449,
      "fees": 0.0953,
-     "mark": 0.024,
-     "bid": 0.023
+     "mark": 0.038,
+     "bid": 0.036
     }
    ],
    "closed": [
@@ -876,8 +876,8 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-07T18:28:53.053Z",
- "nextDecisionAt": "2026-10-07T18:35:00.000Z",
+ "lastRunAt": "2026-10-07T19:41:52.295Z",
+ "nextDecisionAt": "2026-10-08T00:35:00.000Z",
  "live": true,
  "log": [],
  "lastDecisionAt": "2026-10-07T18:28:27Z",
