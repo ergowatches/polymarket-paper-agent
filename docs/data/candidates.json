@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-07T06:24:37.663Z",
+ "updatedAt": "2026-10-07T06:31:06.279Z",
  "experimentEndsAt": "2026-10-10T23:31:14.701Z",
  "note": "asks and bids are prices per share in dollars for each outcome. fee = shares x feeRate x p x (1 - p).",
  "markets": [
@@ -219,12 +219,12 @@
      "index": 0,
      "name": "Yes",
      "ask": 0.054,
-     "bid": 0.051
+     "bid": 0.052
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.949,
+     "ask": 0.948,
      "bid": 0.946
     }
    ],
@@ -264,14 +264,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.717,
-     "bid": 0.679
+     "ask": 0.736,
+     "bid": 0.701
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.321,
-     "bid": 0.283
+     "ask": 0.299,
+     "bid": 0.264
     }
    ],
    "volume24h": 46752,
@@ -287,14 +287,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.616,
-     "bid": 0.597
+     "ask": 0.631,
+     "bid": 0.609
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.403,
-     "bid": 0.384
+     "ask": 0.391,
+     "bid": 0.369
     }
    ],
    "volume24h": 44227,
@@ -510,6 +510,29 @@
    "url": "https://polymarket.com/event/nfl-tb-dal-2026-10-09"
   },
   {
+   "id": "5309160",
+   "question": "Will Jynxzi, Ron and Los beat the Minecraft challenge by October 9?",
+   "endDate": "2026-10-10T03:59:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.46,
+     "bid": 0.43
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.57,
+     "bid": 0.54
+    }
+   ],
+   "volume24h": 24281,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/jynxzi-ron-and-los-beat-minecraft-byptptpt"
+  },
+  {
    "id": "5330765",
    "question": "Ethereum Up or Down on October 7?",
    "endDate": "2026-10-07T16:00:00Z",
@@ -517,14 +540,14 @@
     {
      "index": 0,
      "name": "Up",
-     "ask": 0.05,
-     "bid": 0.04
+     "ask": 0.06,
+     "bid": 0.05
     },
     {
      "index": 1,
      "name": "Down",
-     "ask": 0.96,
-     "bid": 0.95
+     "ask": 0.95,
+     "bid": 0.94
     }
    ],
    "volume24h": 24181,
@@ -563,14 +586,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.909,
-     "bid": 0.908
+     "ask": 0.91,
+     "bid": 0.909
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.092,
-     "bid": 0.091
+     "ask": 0.091,
+     "bid": 0.09
     }
    ],
    "volume24h": 23872,
@@ -632,14 +655,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.86,
+     "ask": 0.87,
      "bid": 0.85
     },
     {
      "index": 1,
      "name": "No",
      "ask": 0.15,
-     "bid": 0.14
+     "bid": 0.13
     }
    ],
    "volume24h": 19122,
@@ -977,14 +1000,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.393,
-     "bid": 0.364
+     "ask": 0.372,
+     "bid": 0.349
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.636,
-     "bid": 0.607
+     "ask": 0.651,
+     "bid": 0.628
     }
    ],
    "volume24h": 7830,
@@ -1046,14 +1069,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.56,
-     "bid": 0.54
+     "ask": 0.58,
+     "bid": 0.55
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.46,
-     "bid": 0.44
+     "ask": 0.45,
+     "bid": 0.42
     }
    ],
    "volume24h": 7135,
@@ -1161,14 +1184,14 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.69,
-     "bid": 0.64
+     "ask": 0.71,
+     "bid": 0.66
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.36,
-     "bid": 0.31
+     "ask": 0.34,
+     "bid": 0.29
     }
    ],
    "volume24h": 6336,
