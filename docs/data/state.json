@@ -81,25 +81,8 @@
   },
   "monkey": {
    "name": "Random picks",
-   "cash": 25.1415,
+   "cash": 30.1915,
    "positions": [
-    {
-     "id": "4877181-0-1791138573032",
-     "marketId": "4877181",
-     "question": "Will Iceland win on 2026-10-06?",
-     "outcome": "Yes",
-     "outcomeIndex": 0,
-     "slug": "unl-est-isl-2026-10-06-isl",
-     "eventSlug": "unl-est-isl-2026-10-06",
-     "endDate": "2026-10-06T18:45:00Z",
-     "openedAt": "2026-10-04T18:29:33.032Z",
-     "shares": 5.05,
-     "avgPrice": 0.61,
-     "cost": 3.0805,
-     "fees": 0.0601,
-     "mark": 0.0005,
-     "bid": null
-    },
     {
      "id": "601819-0-1791160255301",
      "marketId": "601819",
@@ -131,42 +114,8 @@
      "avgPrice": 0.56,
      "cost": 3.1983,
      "fees": 0.0704,
-     "mark": 0.575,
-     "bid": 0.57
-    },
-    {
-     "id": "4877189-1-1791224954292",
-     "marketId": "4877189",
-     "question": "Will Croatia win on 2026-10-06?",
-     "outcome": "No",
-     "outcomeIndex": 1,
-     "slug": "unl-hrv-esp-2026-10-06-hrv",
-     "eventSlug": "unl-hrv-esp-2026-10-06",
-     "endDate": "2026-10-06T18:45:00Z",
-     "openedAt": "2026-10-05T18:29:14.292Z",
-     "shares": 5.05,
-     "avgPrice": 0.93,
-     "cost": 4.6965,
-     "fees": 0.0164,
-     "mark": 0.9995,
-     "bid": 0.999
-    },
-    {
-     "id": "4877193-1-1791246617074",
-     "marketId": "4877193",
-     "question": "Will Spain win on 2026-10-06?",
-     "outcome": "No",
-     "outcomeIndex": 1,
-     "slug": "unl-hrv-esp-2026-10-06-esp",
-     "eventSlug": "unl-hrv-esp-2026-10-06",
-     "endDate": "2026-10-06T18:45:00Z",
-     "openedAt": "2026-10-06T00:30:17.074Z",
-     "shares": 14.3213,
-     "avgPrice": 0.21,
-     "cost": 3.0075,
-     "fees": 0.1188,
-     "mark": 0.0005,
-     "bid": 0
+     "mark": 0.565,
+     "bid": 0.56
     },
     {
      "id": "5239515-1-1791289758339",
@@ -199,8 +148,8 @@
      "avgPrice": 0.48,
      "cost": 2.9885,
      "fees": 0.0777,
-     "mark": 0.465,
-     "bid": 0.46
+     "mark": 0.53,
+     "bid": 0.52
     },
     {
      "id": "5311626-1-1791311354234",
@@ -216,11 +165,74 @@
      "avgPrice": 0.49,
      "cost": 2.9854,
      "fees": 0.0761,
-     "mark": 0.495,
-     "bid": 0.49
+     "mark": 0.635,
+     "bid": 0.63
     }
    ],
    "closed": [
+    {
+     "id": "4877193-1-1791246617074",
+     "marketId": "4877193",
+     "question": "Will Spain win on 2026-10-06?",
+     "outcome": "No",
+     "outcomeIndex": 1,
+     "slug": "unl-hrv-esp-2026-10-06-esp",
+     "eventSlug": "unl-hrv-esp-2026-10-06",
+     "endDate": "2026-10-06T18:45:00Z",
+     "openedAt": "2026-10-06T00:30:17.074Z",
+     "shares": 14.3213,
+     "avgPrice": 0.21,
+     "cost": 3.0075,
+     "fees": 0.1188,
+     "mark": 0.0005,
+     "bid": 0,
+     "closedAt": "2026-10-07T00:20:22.932Z",
+     "exit": "lost",
+     "proceeds": 0,
+     "pnl": -3.1263
+    },
+    {
+     "id": "4877189-1-1791224954292",
+     "marketId": "4877189",
+     "question": "Will Croatia win on 2026-10-06?",
+     "outcome": "No",
+     "outcomeIndex": 1,
+     "slug": "unl-hrv-esp-2026-10-06-hrv",
+     "eventSlug": "unl-hrv-esp-2026-10-06",
+     "endDate": "2026-10-06T18:45:00Z",
+     "openedAt": "2026-10-05T18:29:14.292Z",
+     "shares": 5.05,
+     "avgPrice": 0.93,
+     "cost": 4.6965,
+     "fees": 0.0164,
+     "mark": 0.9995,
+     "bid": 0.999,
+     "closedAt": "2026-10-07T00:20:22.868Z",
+     "exit": "won",
+     "proceeds": 5.05,
+     "pnl": 0.3371
+    },
+    {
+     "id": "4877181-0-1791138573032",
+     "marketId": "4877181",
+     "question": "Will Iceland win on 2026-10-06?",
+     "outcome": "Yes",
+     "outcomeIndex": 0,
+     "slug": "unl-est-isl-2026-10-06-isl",
+     "eventSlug": "unl-est-isl-2026-10-06",
+     "endDate": "2026-10-06T18:45:00Z",
+     "openedAt": "2026-10-04T18:29:33.032Z",
+     "shares": 5.05,
+     "avgPrice": 0.61,
+     "cost": 3.0805,
+     "fees": 0.0601,
+     "mark": 0.0005,
+     "bid": null,
+     "closedAt": "2026-10-07T00:20:22.598Z",
+     "exit": "lost",
+     "proceeds": 0,
+     "pnl": -3.1406
+    },
     {
      "id": "5126851-0-1791246616968",
      "marketId": "5126851",
@@ -673,7 +685,7 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-06T20:54:08.628Z",
+ "lastRunAt": "2026-10-07T00:20:22.400Z",
  "nextDecisionAt": "2026-10-07T00:35:00.000Z",
  "live": true,
  "log": [],
