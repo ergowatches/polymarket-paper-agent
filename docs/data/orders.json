@@ -1,19 +1,23 @@
 {
- "status": "done",
- "createdAt": "2026-10-08T00:28:39Z",
- "model": "claude-sonnet-5",
- "candidatesSeen": 56,
- "summary": "I checked tonight's Cowboys-Buccaneers Thursday night game, the Nobel Peace Prize field two days before its Friday announcement, fresh Brazil runoff polling, and Manchester United's team news ahead of Tottenham. Cowboys-Buccaneers odds across two sportsbooks imply about 81 to 82 percent for Dallas, which matches Polymarket's 81 cent ask almost exactly, so there is no edge there. Nobel odds now show Vanessa Nakate slightly ahead of Sudan's Emergency Response Rooms on Oddschecker, but I already hold that position and the rules do not let me add to a market I am already in. Brazil polling still shows Lula and Flavio Bolsonaro essentially tied in the runoff, matching the thesis behind my existing Lula position, and Manchester United's injury news is mixed with no clear change from what I already priced in. I am holding all three open positions unchanged and made zero trades this cycle.",
- "queries": [
-  "2026 Nobel Peace Prize announcement October 9 favorite odds Sudan Emergency Response Rooms",
-  "Cowboys vs Buccaneers Thursday Night Football October 8 2026 injury report inactive",
-  "Cowboys Buccaneers odds spread moneyline week 6 October 8 2026",
-  "Elon Musk tweet count tracker this week October 2026 total posts",
-  "Georgia vs Alabama October 10 2026 odds injury report quarterback",
-  "Arsenal vs Leeds United October 10 2026 injury news lineup",
-  "Manchester United vs Tottenham October 10 2026 latest team news injury update",
-  "Brazil presidential runoff October 25 2026 Lula Flavio Bolsonaro latest poll news"
- ],
- "trades": [],
- "processedAt": "2026-10-08T00:29:07.784Z"
+  "status": "pending",
+  "createdAt": "2026-10-08T06:29:25Z",
+  "model": "claude-sonnet-5",
+  "candidatesSeen": 60,
+  "summary": "I focused on the Nobel Peace Prize field one day before Friday's announcement, tonight's Buccaneers-Cowboys Thursday night game, Bitcoin's current price against several threshold markets, Georgia-Alabama, Dortmund-Werder Bremen, the Brazil runoff, and Manchester United's injury news ahead of Tottenham. A fresh Nobel odds report shows Polymarket itself already pricing Sudan's Emergency Response Rooms at 15.3 percent, Mykola Kuleba at 9 percent and Save the Children at 7.6 percent, all matching the current asks almost exactly, so the earlier Kalshi-based gap that justified my Emergency Response Rooms position has closed and none of the three clears my edge bar now. Buccaneers-Cowboys odds imply about 84 percent for Dallas, matching the 81 cent ask closely, and three independent Bitcoin sources now cluster around 82,700 to 82,900 dollars, but that is too close to the 82,000 and 84,000 thresholds for a confident bet given how much the price estimate itself still varies across sources. Georgia-Alabama, Dortmund-Werder Bremen and the Brazil runoff polls gave no fresh, reliable edge, and Manchester United team news for Tottenham has not been published yet, so I am holding all three open positions unchanged and made zero trades this cycle.",
+  "queries": [
+    "2026 Nobel Peace Prize winner announcement October 9 frontrunner favorite odds",
+    "Nobel Peace Prize 2026 odds Kalshi Sudan Emergency Response Rooms Mykola Kuleba percentage chance",
+    "Nobel Peace Prize 2026 Sudan Emergency Response Rooms Vanessa Nakate odds October 8",
+    "Buccaneers vs Cowboys October 8 2026 injury report inactives Thursday Night Football",
+    "Buccaneers Cowboys odds spread moneyline October 9 2026 week 6",
+    "Borussia Dortmund vs Werder Bremen October 9 2026 injury news lineup prediction",
+    "Georgia vs Alabama October 10 2026 odds injury report quarterback",
+    "Georgia vs Alabama October 10 2026 total points prediction over under weather forecast Tuscaloosa",
+    "Bitcoin price today October 8 2026",
+    "bitcoin price live right now USD CoinMarketCap",
+    "Elon Musk tweet count tracker October 2026 total posts this week xtracker",
+    "Brazil presidential runoff October 25 2026 Lula Flavio Bolsonaro latest poll news",
+    "Manchester United vs Tottenham October 10 2026 latest team news injury update this week"
+  ],
+  "trades": []
 }
