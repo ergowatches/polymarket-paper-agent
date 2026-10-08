@@ -22,8 +22,8 @@
      "avgPrice": 0.16,
      "cost": 2.1575,
      "fees": 0.0725,
-     "mark": 0.155,
-     "bid": 0.15,
+     "mark": 0.135,
+     "bid": 0.13,
      "myProbability": 0.32,
      "reasoning": "Official count has Flavio leading Lula by only about 3 points (47 to 44 with 98 percent counted), a much narrower gap than the first partial counts suggested, and multiple post-first-round sources (CNBC, NPR) call the October 25 runoff roughly even while Kalshi prices Lula at 41 to 42 cents. Polymarket's own 16 cent ask looks like an overreaction to the first-round shock headlines rather than a reasoned runoff forecast."
     },
@@ -41,8 +41,8 @@
      "avgPrice": 0.155,
      "cost": 1.0554,
      "fees": 0.0446,
-     "mark": 0.1635,
-     "bid": 0.162,
+     "mark": 0.1685,
+     "bid": 0.168,
      "myProbability": 0.25,
      "reasoning": "Kalshi prices Sudan's Emergency Response Rooms at 24 to 28.5 cents to win the 2026 Nobel Peace Prize and UK bookmakers also list them as the top favorite at 11/4 to 3/1, well above Polymarket's 15.5 cent ask here, a gap too large to be fully explained by bookmaker overround since Kalshi is a real-money market like this one."
     },
@@ -133,12 +133,12 @@
      "pnl": -3.1786
     }
    ],
-   "searches": 210,
-   "cycles": 20
+   "searches": 217,
+   "cycles": 21
   },
   "monkey": {
    "name": "Random picks",
-   "cash": 42.0202,
+   "cash": 43.9061,
    "positions": [
     {
      "id": "601819-0-1791160255301",
@@ -154,8 +154,8 @@
      "avgPrice": 0.16,
      "cost": 3.0305,
      "fees": 0.1018,
-     "mark": 0.155,
-     "bid": 0.15
+     "mark": 0.135,
+     "bid": 0.13
     },
     {
      "id": "5114458-0-1791354669450",
@@ -171,25 +171,8 @@
      "avgPrice": 0.33,
      "cost": 2.8449,
      "fees": 0.0953,
-     "mark": 0.005,
-     "bid": 0.004
-    },
-    {
-     "id": "5179259-1-1791419351046",
-     "marketId": "5179259",
-     "question": "Will the price of Bitcoin be above $84,000 on October 8?",
-     "outcome": "No",
-     "outcomeIndex": 1,
-     "slug": "bitcoin-above-84k-on-october-8-2026",
-     "eventSlug": "bitcoin-above-on-october-8-2026",
-     "endDate": "2026-10-08T16:00:00Z",
-     "openedAt": "2026-10-08T00:29:11.046Z",
-     "shares": 5.05,
-     "avgPrice": 0.73,
-     "cost": 3.6865,
-     "fees": 0.0697,
-     "mark": 0.955,
-     "bid": 0.95
+     "mark": 0.0005,
+     "bid": null
     },
     {
      "id": "4469795-0-1791441002463",
@@ -205,11 +188,49 @@
      "avgPrice": 0.38,
      "cost": 3.0636,
      "fees": 0.095,
-     "mark": 0.375,
-     "bid": 0.37
+     "mark": 0.385,
+     "bid": 0.38
+    },
+    {
+     "id": "5425163-1-1791484156054",
+     "marketId": "5425163",
+     "question": "Game Handicap: CPD (-1.5) vs Maryville University (+1.5)",
+     "outcome": "Maryville University",
+     "outcomeIndex": 1,
+     "slug": "lol-mvu-cpd-2026-10-08-game-handicap-home-1pt5",
+     "eventSlug": "lol-mvu-cpd-2026-10-08",
+     "endDate": "2026-10-09T03:00:00Z",
+     "openedAt": "2026-10-08T18:29:16.054Z",
+     "shares": 5.5286,
+     "avgPrice": 0.56,
+     "cost": 3.096,
+     "fees": 0.0681,
+     "mark": 0.56,
+     "bid": 0.55
     }
    ],
    "closed": [
+    {
+     "id": "5179259-1-1791419351046",
+     "marketId": "5179259",
+     "question": "Will the price of Bitcoin be above $84,000 on October 8?",
+     "outcome": "No",
+     "outcomeIndex": 1,
+     "slug": "bitcoin-above-84k-on-october-8-2026",
+     "eventSlug": "bitcoin-above-on-october-8-2026",
+     "endDate": "2026-10-08T16:00:00Z",
+     "openedAt": "2026-10-08T00:29:11.046Z",
+     "shares": 5.05,
+     "avgPrice": 0.73,
+     "cost": 3.6865,
+     "fees": 0.0697,
+     "mark": 0.955,
+     "bid": 0.95,
+     "closedAt": "2026-10-08T18:29:13.233Z",
+     "exit": "won",
+     "proceeds": 5.05,
+     "pnl": 1.2938
+    },
     {
      "id": "5239515-1-1791289758339",
      "marketId": "5239515",
@@ -485,10 +506,27 @@
     }
    ],
    "searches": 0,
-   "cycles": 20
+   "cycles": 21
   }
  },
  "decisions": [
+  {
+   "at": "2026-10-08T18:27:15Z",
+   "executedAt": "2026-10-08T18:29:12.773Z",
+   "model": "claude-sonnet-5",
+   "summary": "I checked the Nobel Peace Prize field one day before Friday's announcement, tonight's Buccaneers-Cowboys game, Bitcoin's current price, Manchester United-Tottenham injury news, and Borussia Dortmund-Werder Bremen. Nobel odds are now split between Vanessa Nakate and Sudan's Emergency Response Rooms depending on the source, with no clear consensus, so there is no fresh edge on my existing Emergency Response Rooms position, and I already hold it so cannot add more. New reports show Tottenham also picked up injuries this week (Van Hecke, Van de Ven, Porro, Tonali, Maddison all affected), which makes the Manchester United game more balanced but does not undercut my existing No position. Web search could not give a reliable current Bitcoin price, the Buccaneers-Cowboys injury report for this week was not found, and Dortmund-Werder Bremen team news showed both sides with similar injury counts, matching the current price. No market cleared the 5 point edge bar after fees, so I made zero trades this cycle and I am holding my four open positions (Lula, Sudan's Emergency Response Rooms, Manchester United No, and Georgia-Alabama Over) unchanged.",
+   "queries": [
+    "2026 Nobel Peace Prize announcement October 9 favorite odds frontrunner",
+    "Sudan Emergency Response Rooms Nobel Peace Prize 2026 odds percentage chance October 8",
+    "Buccaneers vs Cowboys October 8 2026 injury report inactives Thursday Night Football",
+    "Elon Musk tweet count tracker October 2026 this week total posts xtracker",
+    "Borussia Dortmund vs Werder Bremen October 9 2026 injury news lineup prediction",
+    "Bitcoin price today October 8 2026 live USD",
+    "Manchester United vs Tottenham October 10 2026 injury news this week update"
+   ],
+   "candidates": 60,
+   "trades": []
+  },
   {
    "at": "2026-10-08T12:30:38Z",
    "executedAt": "2026-10-08T12:31:14.227Z",
@@ -1007,11 +1045,11 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-08T12:44:23.721Z",
+ "lastRunAt": "2026-10-08T18:29:12.773Z",
  "nextDecisionAt": "2026-10-08T18:35:00.000Z",
  "live": true,
  "log": [],
- "lastDecisionAt": "2026-10-08T12:30:38Z",
- "lastOrdersCreatedAt": "2026-10-08T12:30:38Z",
+ "lastDecisionAt": "2026-10-08T18:27:15Z",
+ "lastOrdersCreatedAt": "2026-10-08T18:27:15Z",
  "model": "claude-sonnet-5"
 }
