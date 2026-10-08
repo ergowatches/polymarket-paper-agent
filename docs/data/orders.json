@@ -1,30 +1,17 @@
 {
- "status": "done",
- "createdAt": "2026-10-08T12:30:38Z",
- "model": "claude-sonnet-5",
- "candidatesSeen": 60,
- "summary": "I checked tomorrow's Nobel Peace Prize announcement, Manchester United-Tottenham team news, the Brazil runoff, tonight's Buccaneers-Cowboys game, and the Georgia-Alabama college football total. The one clear opportunity was Georgia-Alabama: five sportsbooks (DraftKings, FanDuel, Fanatics, BetMGM, BetRivers) all have the real total line at 55.5 points, well above the 51.5 line this market bets on, so the Over side looks underpriced at a 47 cent ask and I bought it. Everything else was a hold: the Nobel field, Brazil polls, and Manchester United injury news only confirmed positions I already hold or showed no new edge, and bitcoin and football game lines matched outside odds too closely to trade.",
- "queries": [
-  "Nobel Peace Prize 2026 winner announcement October 9 favorite odds",
-  "Sudan Emergency Response Rooms Nobel Peace Prize 2026 odds Kalshi percentage chance October 8",
-  "Bitcoin price today October 8 2026 live USD",
-  "Manchester United vs Tottenham October 10 2026 team news injury update this week",
-  "Brazil presidential runoff October 25 2026 Lula Flavio Bolsonaro latest poll news",
-  "Buccaneers Cowboys Thursday Night Football October 8 2026 score result",
-  "Georgia vs Alabama October 10 2026 odds total points prediction injury quarterback",
-  "Georgia Alabama odds total over under DraftKings ESPN BET October 10 2026",
-  "Borussia Dortmund Werder Bremen October 9 2026 injury news prediction odds"
- ],
- "trades": [
-  {
-   "action": "buy",
-   "market_id": "5101559",
-   "outcome_index": 0,
-   "stake_usd": 2.3,
-   "max_price": 0.49,
-   "my_probability": 0.59,
-   "reasoning": "DraftKings, FanDuel, Fanatics, BetMGM and BetRivers all price this game's real total at 55.5 points, far above the 51.5 line Polymarket is asking about, which implies around a 59 to 62 percent chance the combined score clears 51.5, well above the 47 cent ask for Over."
-  }
- ],
- "processedAt": "2026-10-08T12:31:14.227Z"
+  "status": "pending",
+  "createdAt": "2026-10-08T18:27:15Z",
+  "model": "claude-sonnet-5",
+  "candidatesSeen": 60,
+  "summary": "I checked the Nobel Peace Prize field one day before Friday's announcement, tonight's Buccaneers-Cowboys game, Bitcoin's current price, Manchester United-Tottenham injury news, and Borussia Dortmund-Werder Bremen. Nobel odds are now split between Vanessa Nakate and Sudan's Emergency Response Rooms depending on the source, with no clear consensus, so there is no fresh edge on my existing Emergency Response Rooms position, and I already hold it so cannot add more. New reports show Tottenham also picked up injuries this week (Van Hecke, Van de Ven, Porro, Tonali, Maddison all affected), which makes the Manchester United game more balanced but does not undercut my existing No position. Web search could not give a reliable current Bitcoin price, the Buccaneers-Cowboys injury report for this week was not found, and Dortmund-Werder Bremen team news showed both sides with similar injury counts, matching the current price. No market cleared the 5 point edge bar after fees, so I made zero trades this cycle and I am holding my four open positions (Lula, Sudan's Emergency Response Rooms, Manchester United No, and Georgia-Alabama Over) unchanged.",
+  "queries": [
+    "2026 Nobel Peace Prize announcement October 9 favorite odds frontrunner",
+    "Sudan Emergency Response Rooms Nobel Peace Prize 2026 odds percentage chance October 8",
+    "Buccaneers vs Cowboys October 8 2026 injury report inactives Thursday Night Football",
+    "Elon Musk tweet count tracker October 2026 this week total posts xtracker",
+    "Borussia Dortmund vs Werder Bremen October 9 2026 injury news lineup prediction",
+    "Bitcoin price today October 8 2026 live USD",
+    "Manchester United vs Tottenham October 10 2026 injury news this week update"
+  ],
+  "trades": []
 }
