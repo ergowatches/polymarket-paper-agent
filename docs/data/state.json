@@ -41,8 +41,8 @@
      "avgPrice": 0.155,
      "cost": 1.0554,
      "fees": 0.0446,
-     "mark": 0.1675,
-     "bid": 0.167,
+     "mark": 0.12,
+     "bid": 0.113,
      "myProbability": 0.25,
      "reasoning": "Kalshi prices Sudan's Emergency Response Rooms at 24 to 28.5 cents to win the 2026 Nobel Peace Prize and UK bookmakers also list them as the top favorite at 11/4 to 3/1, well above Polymarket's 15.5 cent ask here, a gap too large to be fully explained by bookmaker overround since Kalshi is a real-money market like this one."
     },
@@ -79,8 +79,8 @@
      "avgPrice": 0.47,
      "cost": 2.3735,
      "fees": 0.0377,
-     "mark": 0.465,
-     "bid": 0.46,
+     "mark": 0.485,
+     "bid": 0.48,
      "myProbability": 0.59,
      "reasoning": "DraftKings, FanDuel, Fanatics, BetMGM and BetRivers all price this game's real total at 55.5 points, far above the 51.5 line Polymarket is asking about, which implies around a 59 to 62 percent chance the combined score clears 51.5, well above the 47 cent ask for Over."
     }
@@ -158,23 +158,6 @@
      "bid": 0.13
     },
     {
-     "id": "5114458-0-1791354669450",
-     "marketId": "5114458",
-     "question": "Will Elon Musk post 180-199 tweets from October 2 to October 9, 2026?",
-     "outcome": "Yes",
-     "outcomeIndex": 0,
-     "slug": "elon-musk-of-tweets-october-2-october-9-2026-180-199",
-     "eventSlug": "elon-musk-of-tweets-october-2-october-9-2026",
-     "endDate": "2026-10-09T16:00:00Z",
-     "openedAt": "2026-10-07T06:31:09.450Z",
-     "shares": 8.6208,
-     "avgPrice": 0.33,
-     "cost": 2.8449,
-     "fees": 0.0953,
-     "mark": 0.0005,
-     "bid": null
-    },
-    {
      "id": "4469795-0-1791441002463",
      "marketId": "4469795",
      "question": "Predators vs. Canadiens",
@@ -188,8 +171,8 @@
      "avgPrice": 0.38,
      "cost": 3.0636,
      "fees": 0.095,
-     "mark": 0.385,
-     "bid": 0.38
+     "mark": 0.415,
+     "bid": 0.41
     },
     {
      "id": "5425163-1-1791484156054",
@@ -205,11 +188,32 @@
      "avgPrice": 0.56,
      "cost": 3.096,
      "fees": 0.0681,
-     "mark": 0.555,
-     "bid": 0.55
+     "mark": 0.9995,
+     "bid": 0.999
     }
    ],
    "closed": [
+    {
+     "id": "5114458-0-1791354669450",
+     "marketId": "5114458",
+     "question": "Will Elon Musk post 180-199 tweets from October 2 to October 9, 2026?",
+     "outcome": "Yes",
+     "outcomeIndex": 0,
+     "slug": "elon-musk-of-tweets-october-2-october-9-2026-180-199",
+     "eventSlug": "elon-musk-of-tweets-october-2-october-9-2026",
+     "endDate": "2026-10-09T16:00:00Z",
+     "openedAt": "2026-10-07T06:31:09.450Z",
+     "shares": 8.6208,
+     "avgPrice": 0.33,
+     "cost": 2.8449,
+     "fees": 0.0953,
+     "mark": 0.0005,
+     "bid": null,
+     "closedAt": "2026-10-08T23:46:00.367Z",
+     "exit": "lost",
+     "proceeds": 0,
+     "pnl": -2.9402
+    },
     {
      "id": "5179259-1-1791419351046",
      "marketId": "5179259",
@@ -1045,7 +1049,7 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-08T19:07:20.068Z",
+ "lastRunAt": "2026-10-08T23:46:00.018Z",
  "nextDecisionAt": "2026-10-09T00:35:00.000Z",
  "live": true,
  "log": [],
