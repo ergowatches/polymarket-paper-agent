@@ -22,8 +22,8 @@
      "avgPrice": 0.16,
      "cost": 2.1575,
      "fees": 0.0725,
-     "mark": 0.125,
-     "bid": 0.12,
+     "mark": 0.105,
+     "bid": 0.1,
      "myProbability": 0.32,
      "reasoning": "Official count has Flavio leading Lula by only about 3 points (47 to 44 with 98 percent counted), a much narrower gap than the first partial counts suggested, and multiple post-first-round sources (CNBC, NPR) call the October 25 runoff roughly even while Kalshi prices Lula at 41 to 42 cents. Polymarket's own 16 cent ask looks like an overreaction to the first-round shock headlines rather than a reasoned runoff forecast."
     },
@@ -41,8 +41,8 @@
      "avgPrice": 0.43,
      "cost": 2.1715,
      "fees": 0.0619,
-     "mark": 0.425,
-     "bid": 0.42,
+     "mark": 0.435,
+     "bid": 0.43,
      "myProbability": 0.53,
      "reasoning": "Manchester United are missing three regular defenders (Yoro, Shaw, Malacia all out) plus have knocks to Bruno Fernandes and Mazraoui ahead of Tottenham, and sportsbook moneyline odds (+125/+175/+290) imply only about 42 percent for a United win after removing the bookmaker margin, well below the 58 cent ask here for United to win, so the No side (draw or Tottenham win) looks underpriced."
     },
@@ -79,8 +79,8 @@
      "avgPrice": 0.48,
      "cost": 2.424,
      "fees": 0.0378,
-     "mark": 0.465,
-     "bid": 0.46,
+     "mark": 0.495,
+     "bid": 0.49,
      "myProbability": 0.56,
      "reasoning": "Dimers and SI both list the real total for Florida-South Carolina at 62.5 points and other books have it between 61.5 and 62, all well above the 59.5 line this market bets on, which implies roughly 56 to 58 percent for the total to clear 59.5 versus a 48 cent ask for Over."
     },
@@ -98,8 +98,8 @@
      "avgPrice": 0.42,
      "cost": 2.121,
      "fees": 0.0369,
-     "mark": 0.415,
-     "bid": 0.41,
+     "mark": 0.445,
+     "bid": 0.44,
      "myProbability": 0.53,
      "reasoning": "A Sports Illustrated preview citing DraftKings lines this South Carolina-Florida game's real total at 62.5 points, only one point above the 61.5 line here, which implies about 52 to 53 percent for the total to clear 61.5 versus a 42 cent ask for Over."
     }
@@ -196,24 +196,7 @@
      "avgPrice": 0.16,
      "cost": 3.0305,
      "fees": 0.1018,
-     "mark": 0.125,
-     "bid": 0.12
-    },
-    {
-     "id": "5391208-1-1791527475929",
-     "marketId": "5391208",
-     "question": "LoL: ⁠Movistar KOI Fénix vs TLN Pirates (BO5) - EMEA Masters Playoffs",
-     "outcome": "TLN Pirates",
-     "outcomeIndex": 1,
-     "slug": "lol-koia-tlnpir-2026-10-09",
-     "eventSlug": "lol-koia-tlnpir-2026-10-09",
-     "endDate": "2026-10-09T22:00:00Z",
-     "openedAt": "2026-10-09T06:31:15.929Z",
-     "shares": 6.6424,
-     "avgPrice": 0.53,
-     "cost": 3.5205,
-     "fees": 0.0827,
-     "mark": 0.11,
+     "mark": 0.105,
      "bid": 0.1
     },
     {
@@ -230,7 +213,7 @@
      "avgPrice": 0.96,
      "cost": 4.848,
      "fees": 0.0136,
-     "mark": 0.96,
+     "mark": 0.955,
      "bid": 0.95
     },
     {
@@ -247,11 +230,32 @@
      "avgPrice": 0.51,
      "cost": 3.4705,
      "fees": 0.085,
-     "mark": 0.51,
+     "mark": 0.505,
      "bid": 0.5
     }
    ],
    "closed": [
+    {
+     "id": "5391208-1-1791527475929",
+     "marketId": "5391208",
+     "question": "LoL: ⁠Movistar KOI Fénix vs TLN Pirates (BO5) - EMEA Masters Playoffs",
+     "outcome": "TLN Pirates",
+     "outcomeIndex": 1,
+     "slug": "lol-koia-tlnpir-2026-10-09",
+     "eventSlug": "lol-koia-tlnpir-2026-10-09",
+     "endDate": "2026-10-09T22:00:00Z",
+     "openedAt": "2026-10-09T06:31:15.929Z",
+     "shares": 6.6424,
+     "avgPrice": 0.53,
+     "cost": 3.5205,
+     "fees": 0.0827,
+     "mark": 0.11,
+     "bid": 0.1,
+     "closedAt": "2026-10-09T21:51:55.156Z",
+     "exit": "lost",
+     "proceeds": 0,
+     "pnl": -3.6032
+    },
     {
      "id": "5431579-0-1791527476093",
      "marketId": "5431579",
@@ -1284,8 +1288,8 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-09T18:28:57.416Z",
- "nextDecisionAt": "2026-10-09T18:35:00.000Z",
+ "lastRunAt": "2026-10-09T21:51:54.399Z",
+ "nextDecisionAt": "2026-10-10T00:35:00.000Z",
  "live": true,
  "log": [],
  "lastDecisionAt": "2026-10-09T18:28:25Z",
