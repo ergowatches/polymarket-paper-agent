@@ -41,8 +41,8 @@
      "avgPrice": 0.155,
      "cost": 1.0554,
      "fees": 0.0446,
-     "mark": 0.0625,
-     "bid": 0.058,
+     "mark": 0.141,
+     "bid": 0.14,
      "myProbability": 0.25,
      "reasoning": "Kalshi prices Sudan's Emergency Response Rooms at 24 to 28.5 cents to win the 2026 Nobel Peace Prize and UK bookmakers also list them as the top favorite at 11/4 to 3/1, well above Polymarket's 15.5 cent ask here, a gap too large to be fully explained by bookmaker overround since Kalshi is a real-money market like this one."
     },
@@ -98,7 +98,7 @@
      "avgPrice": 0.48,
      "cost": 2.424,
      "fees": 0.0378,
-     "mark": 0.48,
+     "mark": 0.475,
      "bid": 0.47,
      "myProbability": 0.56,
      "reasoning": "Dimers and SI both list the real total for Florida-South Carolina at 62.5 points and other books have it between 61.5 and 62, all well above the 59.5 line this market bets on, which implies roughly 56 to 58 percent for the total to clear 59.5 versus a 48 cent ask for Over."
@@ -157,7 +157,7 @@
   },
   "monkey": {
    "name": "Random picks",
-   "cash": 43.9061,
+   "cash": 57.4968,
    "positions": [
     {
      "id": "601819-0-1791160255301",
@@ -175,6 +175,29 @@
      "fees": 0.1018,
      "mark": 0.135,
      "bid": 0.13
+    }
+   ],
+   "closed": [
+    {
+     "id": "5425163-1-1791484156054",
+     "marketId": "5425163",
+     "question": "Game Handicap: CPD (-1.5) vs Maryville University (+1.5)",
+     "outcome": "Maryville University",
+     "outcomeIndex": 1,
+     "slug": "lol-mvu-cpd-2026-10-08-game-handicap-home-1pt5",
+     "eventSlug": "lol-mvu-cpd-2026-10-08",
+     "endDate": "2026-10-09T03:00:00Z",
+     "openedAt": "2026-10-08T18:29:16.054Z",
+     "shares": 5.5286,
+     "avgPrice": 0.56,
+     "cost": 3.096,
+     "fees": 0.0681,
+     "mark": 0.9995,
+     "bid": 0.999,
+     "closedAt": "2026-10-09T04:21:58.205Z",
+     "exit": "won",
+     "proceeds": 5.5286,
+     "pnl": 2.3645
     },
     {
      "id": "4469795-0-1791441002463",
@@ -191,27 +214,12 @@
      "cost": 3.0636,
      "fees": 0.095,
      "mark": 0.095,
-     "bid": 0.09
+     "bid": 0.09,
+     "closedAt": "2026-10-09T04:21:58.182Z",
+     "exit": "won",
+     "proceeds": 8.0621,
+     "pnl": 4.9035
     },
-    {
-     "id": "5425163-1-1791484156054",
-     "marketId": "5425163",
-     "question": "Game Handicap: CPD (-1.5) vs Maryville University (+1.5)",
-     "outcome": "Maryville University",
-     "outcomeIndex": 1,
-     "slug": "lol-mvu-cpd-2026-10-08-game-handicap-home-1pt5",
-     "eventSlug": "lol-mvu-cpd-2026-10-08",
-     "endDate": "2026-10-09T03:00:00Z",
-     "openedAt": "2026-10-08T18:29:16.054Z",
-     "shares": 5.5286,
-     "avgPrice": 0.56,
-     "cost": 3.096,
-     "fees": 0.0681,
-     "mark": 0.9995,
-     "bid": 0.999
-    }
-   ],
-   "closed": [
     {
      "id": "5114458-0-1791354669450",
      "marketId": "5114458",
@@ -1104,8 +1112,8 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-09T00:29:45.021Z",
- "nextDecisionAt": "2026-10-09T00:35:00.000Z",
+ "lastRunAt": "2026-10-09T04:21:57.654Z",
+ "nextDecisionAt": "2026-10-09T06:35:00.000Z",
  "live": true,
  "log": [],
  "lastDecisionAt": "2026-10-09T00:29:15Z",
