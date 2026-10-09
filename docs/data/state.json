@@ -22,8 +22,8 @@
      "avgPrice": 0.16,
      "cost": 2.1575,
      "fees": 0.0725,
-     "mark": 0.135,
-     "bid": 0.13,
+     "mark": 0.125,
+     "bid": 0.12,
      "myProbability": 0.32,
      "reasoning": "Official count has Flavio leading Lula by only about 3 points (47 to 44 with 98 percent counted), a much narrower gap than the first partial counts suggested, and multiple post-first-round sources (CNBC, NPR) call the October 25 runoff roughly even while Kalshi prices Lula at 41 to 42 cents. Polymarket's own 16 cent ask looks like an overreaction to the first-round shock headlines rather than a reasoned runoff forecast."
     },
@@ -175,12 +175,12 @@
      "pnl": -3.1786
     }
    ],
-   "searches": 245,
-   "cycles": 24
+   "searches": 254,
+   "cycles": 25
   },
   "monkey": {
    "name": "Random picks",
-   "cash": 56.1748,
+   "cash": 47.7577,
    "positions": [
     {
      "id": "601819-0-1791160255301",
@@ -196,8 +196,8 @@
      "avgPrice": 0.16,
      "cost": 3.0305,
      "fees": 0.1018,
-     "mark": 0.135,
-     "bid": 0.13
+     "mark": 0.125,
+     "bid": 0.12
     },
     {
      "id": "5391208-1-1791527475929",
@@ -213,8 +213,42 @@
      "avgPrice": 0.53,
      "cost": 3.5205,
      "fees": 0.0827,
-     "mark": 0.205,
-     "bid": 0.2
+     "mark": 0.11,
+     "bid": 0.1
+    },
+    {
+     "id": "5448254-1-1791570541988",
+     "marketId": "5448254",
+     "question": "Will Bitcoin dip to $81,000 on October 9?",
+     "outcome": "No",
+     "outcomeIndex": 1,
+     "slug": "will-bitcoin-dip-to-81k-on-october-9-2026",
+     "eventSlug": "what-price-will-bitcoin-hit-on-october-9-2026",
+     "endDate": "2026-10-10T04:00:00Z",
+     "openedAt": "2026-10-09T18:29:01.988Z",
+     "shares": 5.05,
+     "avgPrice": 0.96,
+     "cost": 4.848,
+     "fees": 0.0136,
+     "mark": 0.96,
+     "bid": 0.95
+    },
+    {
+     "id": "4986348-0-1791570542202",
+     "marketId": "4986348",
+     "question": "Will Alanyaspor win on 2026-10-10?",
+     "outcome": "Yes",
+     "outcomeIndex": 0,
+     "slug": "tur-ala-erz-2026-10-10-ala",
+     "eventSlug": "tur-ala-erz-2026-10-10",
+     "endDate": "2026-10-10T13:00:00Z",
+     "openedAt": "2026-10-09T18:29:02.202Z",
+     "shares": 6.805,
+     "avgPrice": 0.51,
+     "cost": 3.4705,
+     "fees": 0.085,
+     "mark": 0.51,
+     "bid": 0.5
     }
    ],
    "closed": [
@@ -598,10 +632,29 @@
     }
    ],
    "searches": 0,
-   "cycles": 24
+   "cycles": 25
   }
  },
  "decisions": [
+  {
+   "at": "2026-10-09T18:28:25Z",
+   "executedAt": "2026-10-09T18:28:57.416Z",
+   "model": "claude-sonnet-5",
+   "summary": "I checked Manchester United vs Tottenham injury news, the Texas-Oklahoma, BYU-Iowa State and Iowa-Washington college football lines, Arsenal-Leeds, Chelsea-Bournemouth, Real Madrid-Villarreal, Louisville-Florida State, and fresh Brazil runoff polling. None of these cleared the 5-point edge bar after fees: Texas-Oklahoma, BYU-Iowa State and Arsenal-Leeds all matched their sportsbook-implied odds closely, Chelsea-Bournemouth and Real Madrid-Villarreal had no reliable odds to compare against, and Louisville-Florida State had wildly disagreeing spread sources with no clear direction. New Manchester United doubts (Rashford, Mainoo, Sesko, Mazraoui) only reinforce my existing No position rather than changing it, and Brazil polling is unchanged from my last check. I made zero trades this cycle and am holding all five open positions unchanged.",
+   "queries": [
+    "Manchester United vs Tottenham October 10 2026 injury news team news lineup",
+    "Texas vs Oklahoma Red River Rivalry October 10 2026 odds spread injury quarterback",
+    "BYU vs Iowa State October 9 2026 odds spread prediction injury",
+    "Iowa vs Washington October 9 2026 odds spread injury quarterback prediction",
+    "Arsenal vs Leeds United October 10 2026 injury news lineup prediction odds",
+    "Chelsea vs Bournemouth October 10 2026 injury news lineup prediction odds",
+    "Brazil presidential runoff October 25 2026 Lula Flavio latest poll news October 9",
+    "Real Madrid vs Villarreal October 10 2026 injury news lineup prediction odds",
+    "Louisville vs Florida State October 9 2026 odds spread injury prediction"
+   ],
+   "candidates": 60,
+   "trades": []
+  },
   {
    "at": "2026-10-09T12:30:54Z",
    "executedAt": "2026-10-09T12:31:30.750Z",
@@ -1231,11 +1284,11 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-09T17:32:17.398Z",
+ "lastRunAt": "2026-10-09T18:28:57.416Z",
  "nextDecisionAt": "2026-10-09T18:35:00.000Z",
  "live": true,
  "log": [],
- "lastDecisionAt": "2026-10-09T12:30:54Z",
- "lastOrdersCreatedAt": "2026-10-09T12:30:54Z",
+ "lastDecisionAt": "2026-10-09T18:28:25Z",
+ "lastOrdersCreatedAt": "2026-10-09T18:28:25Z",
  "model": "claude-sonnet-5"
 }
