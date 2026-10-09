@@ -79,8 +79,8 @@
      "avgPrice": 0.48,
      "cost": 2.424,
      "fees": 0.0378,
-     "mark": 0.475,
-     "bid": 0.47,
+     "mark": 0.465,
+     "bid": 0.46,
      "myProbability": 0.56,
      "reasoning": "Dimers and SI both list the real total for Florida-South Carolina at 62.5 points and other books have it between 61.5 and 62, all well above the 59.5 line this market bets on, which implies roughly 56 to 58 percent for the total to clear 59.5 versus a 48 cent ask for Over."
     },
@@ -98,7 +98,7 @@
      "avgPrice": 0.42,
      "cost": 2.121,
      "fees": 0.0369,
-     "mark": 0.42,
+     "mark": 0.415,
      "bid": 0.41,
      "myProbability": 0.53,
      "reasoning": "A Sports Illustrated preview citing DraftKings lines this South Carolina-Florida game's real total at 62.5 points, only one point above the 61.5 line here, which implies about 52 to 53 percent for the total to clear 61.5 versus a 42 cent ask for Over."
@@ -180,7 +180,7 @@
   },
   "monkey": {
    "name": "Random picks",
-   "cash": 50.2953,
+   "cash": 56.1748,
    "positions": [
     {
      "id": "601819-0-1791160255301",
@@ -213,9 +213,11 @@
      "avgPrice": 0.53,
      "cost": 3.5205,
      "fees": 0.0827,
-     "mark": 0.575,
-     "bid": 0.57
-    },
+     "mark": 0.205,
+     "bid": 0.2
+    }
+   ],
+   "closed": [
     {
      "id": "5431579-0-1791527476093",
      "marketId": "5431579",
@@ -231,10 +233,12 @@
      "cost": 3.5277,
      "fees": 0.0706,
      "mark": 0.785,
-     "bid": 0.78
-    }
-   ],
-   "closed": [
+     "bid": 0.78,
+     "closedAt": "2026-10-09T17:32:18.028Z",
+     "exit": "won",
+     "proceeds": 5.8795,
+     "pnl": 2.2812
+    },
     {
      "id": "5425163-1-1791484156054",
      "marketId": "5425163",
@@ -1227,8 +1231,8 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-09T12:31:30.750Z",
- "nextDecisionAt": "2026-10-09T12:35:00.000Z",
+ "lastRunAt": "2026-10-09T17:32:17.398Z",
+ "nextDecisionAt": "2026-10-09T18:35:00.000Z",
  "live": true,
  "log": [],
  "lastDecisionAt": "2026-10-09T12:30:54Z",
