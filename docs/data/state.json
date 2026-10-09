@@ -41,8 +41,8 @@
      "avgPrice": 0.155,
      "cost": 1.0554,
      "fees": 0.0446,
-     "mark": 0.141,
-     "bid": 0.14,
+     "mark": 0.1445,
+     "bid": 0.134,
      "myProbability": 0.25,
      "reasoning": "Kalshi prices Sudan's Emergency Response Rooms at 24 to 28.5 cents to win the 2026 Nobel Peace Prize and UK bookmakers also list them as the top favorite at 11/4 to 3/1, well above Polymarket's 15.5 cent ask here, a gap too large to be fully explained by bookmaker overround since Kalshi is a real-money market like this one."
     },
@@ -79,8 +79,8 @@
      "avgPrice": 0.47,
      "cost": 2.3735,
      "fees": 0.0377,
-     "mark": 0.485,
-     "bid": 0.48,
+     "mark": 0.475,
+     "bid": 0.47,
      "myProbability": 0.59,
      "reasoning": "DraftKings, FanDuel, Fanatics, BetMGM and BetRivers all price this game's real total at 55.5 points, far above the 51.5 line Polymarket is asking about, which implies around a 59 to 62 percent chance the combined score clears 51.5, well above the 47 cent ask for Over."
     },
@@ -152,12 +152,12 @@
      "pnl": -3.1786
     }
    ],
-   "searches": 225,
-   "cycles": 22
+   "searches": 237,
+   "cycles": 23
   },
   "monkey": {
    "name": "Random picks",
-   "cash": 57.4968,
+   "cash": 50.2953,
    "positions": [
     {
      "id": "601819-0-1791160255301",
@@ -175,6 +175,40 @@
      "fees": 0.1018,
      "mark": 0.135,
      "bid": 0.13
+    },
+    {
+     "id": "5391208-1-1791527475929",
+     "marketId": "5391208",
+     "question": "LoL: ⁠Movistar KOI Fénix vs TLN Pirates (BO5) - EMEA Masters Playoffs",
+     "outcome": "TLN Pirates",
+     "outcomeIndex": 1,
+     "slug": "lol-koia-tlnpir-2026-10-09",
+     "eventSlug": "lol-koia-tlnpir-2026-10-09",
+     "endDate": "2026-10-09T22:00:00Z",
+     "openedAt": "2026-10-09T06:31:15.929Z",
+     "shares": 6.6424,
+     "avgPrice": 0.53,
+     "cost": 3.5205,
+     "fees": 0.0827,
+     "mark": 0.53,
+     "bid": 0.52
+    },
+    {
+     "id": "5431579-0-1791527476093",
+     "marketId": "5431579",
+     "question": "Counter-Strike: GamerLegion vs Sinners (BO3) - 1win Private Club #2: Closed Qualifier Playoffs",
+     "outcome": "GamerLegion",
+     "outcomeIndex": 0,
+     "slug": "cs2-gl1-sin2-2026-10-09",
+     "eventSlug": "cs2-gl1-sin2-2026-10-09",
+     "endDate": "2026-10-09T18:00:00Z",
+     "openedAt": "2026-10-09T06:31:16.093Z",
+     "shares": 5.8795,
+     "avgPrice": 0.6,
+     "cost": 3.5277,
+     "fees": 0.0706,
+     "mark": 0.6,
+     "bid": 0.59
     }
    ],
    "closed": [
@@ -537,10 +571,32 @@
     }
    ],
    "searches": 0,
-   "cycles": 22
+   "cycles": 23
   }
  },
  "decisions": [
+  {
+   "at": "2026-10-09T06:30:34Z",
+   "executedAt": "2026-10-09T06:31:11.873Z",
+   "model": "claude-sonnet-5",
+   "summary": "I checked the Nobel Peace Prize field about three hours before today's noon announcement, Manchester United-Tottenham injury news, Georgia-Alabama and South Carolina-Florida college football totals, the Texas-Oklahoma Red River Rivalry, Iowa-Washington, and fresh Brazil runoff polling. Nothing changed enough to trade: the Nobel odds on this market still match outside trackers, Tottenham's extra injuries are not a clear enough signal to flip the Manchester United thesis, and the Georgia-Alabama and South Carolina-Florida totals are unchanged from my existing positions. Texas-Oklahoma and Iowa-Washington had conflicting sportsbook lines with no clear edge, so I made zero trades and am holding all five open positions unchanged.",
+   "queries": [
+    "Nobel Peace Prize 2026 winner announced October 9",
+    "Manchester United vs Tottenham October 10 2026 injury news lineup prediction",
+    "Georgia vs Alabama October 10 2026 odds total points injury update",
+    "South Carolina vs Florida October 10 2026 odds total points prediction update",
+    "Brazil presidential runoff Lula Flavio Bolsonaro October 9 2026 latest poll news",
+    "\"Nobel Peace Prize\" 2026 winner name announced",
+    "Nobel Peace Prize 2026 Jørgen Watne Frydnes announcement result",
+    "Man United Tottenham October 10 2026 odds moneyline prediction who wins",
+    "Manchester United injury news Shaw Yoro Malacia Bruno Fernandes return October 2026",
+    "Texas vs Oklahoma Red River Rivalry October 10 2026 odds quarterback injury prediction",
+    "Iowa vs Washington October 9 2026 odds injury prediction quarterback",
+    "Helsinki weather forecast October 9 2026 high temperature"
+   ],
+   "candidates": 60,
+   "trades": []
+  },
   {
    "at": "2026-10-09T00:29:15Z",
    "executedAt": "2026-10-09T00:29:45.021Z",
@@ -1112,11 +1168,11 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-09T04:21:57.654Z",
+ "lastRunAt": "2026-10-09T06:31:11.873Z",
  "nextDecisionAt": "2026-10-09T06:35:00.000Z",
  "live": true,
  "log": [],
- "lastDecisionAt": "2026-10-09T00:29:15Z",
- "lastOrdersCreatedAt": "2026-10-09T00:29:15Z",
+ "lastDecisionAt": "2026-10-09T06:30:34Z",
+ "lastOrdersCreatedAt": "2026-10-09T06:30:34Z",
  "model": "claude-sonnet-5"
 }

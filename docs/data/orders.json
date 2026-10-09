@@ -1,5 +1,5 @@
 {
- "status": "pending",
+ "status": "done",
  "createdAt": "2026-10-09T06:30:34Z",
  "model": "claude-sonnet-5",
  "candidatesSeen": 60,
@@ -18,5 +18,6 @@
   "Iowa vs Washington October 9 2026 odds injury prediction quarterback",
   "Helsinki weather forecast October 9 2026 high temperature"
  ],
- "trades": []
+ "trades": [],
+ "processedAt": "2026-10-09T06:31:11.873Z"
 }

@@ -1,8 +1,31 @@
 {
- "updatedAt": "2026-10-09T04:21:57.654Z",
+ "updatedAt": "2026-10-09T06:31:11.873Z",
  "experimentEndsAt": "2026-10-10T23:31:14.701Z",
  "note": "asks and bids are prices per share in dollars for each outcome. fee = shares x feeRate x p x (1 - p).",
  "markets": [
+  {
+   "id": "5414684",
+   "question": "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs",
+   "endDate": "2026-10-09T19:30:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "FURIA",
+     "ask": 0.41,
+     "bid": 0.4
+    },
+    {
+     "index": 1,
+     "name": "MOUZ",
+     "ask": 0.6,
+     "bid": 0.59
+    }
+   ],
+   "volume24h": 336344,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/cs2-furia-mouz-2026-10-09"
+  },
   {
    "id": "5114492",
    "question": "Will Elon Musk post 320-339 tweets from October 2 to October 9, 2026?",
@@ -11,43 +34,20 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.34,
-     "bid": 0.339
+     "ask": 0.63,
+     "bid": 0.606
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.661,
-     "bid": 0.66
+     "ask": 0.394,
+     "bid": 0.37
     }
    ],
-   "volume24h": 222251,
+   "volume24h": 217960,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/elon-musk-of-tweets-october-2-october-9-2026"
-  },
-  {
-   "id": "5405587",
-   "question": "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
-   "endDate": "2026-10-09T15:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "T1",
-     "ask": 0.35,
-     "bid": 0.34
-    },
-    {
-     "index": 1,
-     "name": "Paper Rex",
-     "ask": 0.66,
-     "bid": 0.65
-    }
-   ],
-   "volume24h": 179268,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/val-t1-pr1-2026-10-09"
   },
   {
    "id": "5414695",
@@ -57,20 +57,66 @@
     {
      "index": 0,
      "name": "Team Falcons",
-     "ask": 0.44,
-     "bid": 0.43
+     "ask": 0.42,
+     "bid": 0.41
     },
     {
      "index": 1,
      "name": "Spirit",
-     "ask": 0.57,
-     "bid": 0.56
+     "ask": 0.59,
+     "bid": 0.58
     }
    ],
-   "volume24h": 163728,
+   "volume24h": 204324,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/cs2-fal2-ts7-2026-10-09"
+  },
+  {
+   "id": "5405587",
+   "question": "Valorant: T1 vs Paper Rex (BO3) - VCT Champions Playoffs",
+   "endDate": "2026-10-09T15:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "T1",
+     "ask": 0.36,
+     "bid": 0.35
+    },
+    {
+     "index": 1,
+     "name": "Paper Rex",
+     "ask": 0.65,
+     "bid": 0.64
+    }
+   ],
+   "volume24h": 190264,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/val-t1-pr1-2026-10-09"
+  },
+  {
+   "id": "5114501",
+   "question": "Will Elon Musk post 360-379 tweets from October 2 to October 9, 2026?",
+   "endDate": "2026-10-09T16:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.062,
+     "bid": 0.061
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.939,
+     "bid": 0.938
+    }
+   ],
+   "volume24h": 144501,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-2-october-9-2026"
   },
   {
    "id": "5414662",
@@ -90,56 +136,10 @@
      "bid": 0.7
     }
    ],
-   "volume24h": 162902,
+   "volume24h": 140544,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/cs2-1win-aur1-2026-10-09"
-  },
-  {
-   "id": "5114501",
-   "question": "Will Elon Musk post 360-379 tweets from October 2 to October 9, 2026?",
-   "endDate": "2026-10-09T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.138,
-     "bid": 0.136
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.864,
-     "bid": 0.862
-    }
-   ],
-   "volume24h": 162270,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-2-october-9-2026"
-  },
-  {
-   "id": "5114505",
-   "question": "Will Elon Musk post 380-399 tweets from October 2 to October 9, 2026?",
-   "endDate": "2026-10-09T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.06,
-     "bid": 0.057
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.943,
-     "bid": 0.94
-    }
-   ],
-   "volume24h": 160018,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-2-october-9-2026"
   },
   {
    "id": "637022",
@@ -149,112 +149,43 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.142,
-     "bid": 0.14
+     "ask": 0.156,
+     "bid": 0.139
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.86,
-     "bid": 0.858
+     "ask": 0.861,
+     "bid": 0.844
     }
    ],
-   "volume24h": 136685,
+   "volume24h": 139063,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/nobel-peace-prize-winner-2026-139"
   },
   {
-   "id": "5414684",
-   "question": "Counter-Strike: FURIA vs MOUZ (BO3) - ESL Pro League Playoffs",
-   "endDate": "2026-10-09T19:30:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "FURIA",
-     "ask": 0.42,
-     "bid": 0.41
-    },
-    {
-     "index": 1,
-     "name": "MOUZ",
-     "ask": 0.59,
-     "bid": 0.58
-    }
-   ],
-   "volume24h": 131985,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/cs2-furia-mouz-2026-10-09"
-  },
-  {
-   "id": "5207028",
-   "question": "Will the price of Bitcoin be above $84,000 on October 9?",
+   "id": "5114496",
+   "question": "Will Elon Musk post 340-359 tweets from October 2 to October 9, 2026?",
    "endDate": "2026-10-09T16:00:00Z",
    "outcomes": [
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.099,
-     "bid": 0.092
+     "ask": 0.293,
+     "bid": 0.275
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.908,
-     "bid": 0.901
+     "ask": 0.725,
+     "bid": 0.707
     }
    ],
-   "volume24h": 96494,
-   "feeRate": 0.07,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/bitcoin-above-on-october-9-2026"
-  },
-  {
-   "id": "637034",
-   "question": "Will Mykola Kuleba win the Nobel Peace Prize in 2026?",
-   "endDate": "2026-10-10T00:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.147,
-     "bid": 0.141
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.859,
-     "bid": 0.853
-    }
-   ],
-   "volume24h": 85930,
+   "volume24h": 134483,
    "feeRate": 0.05,
    "minShares": 5,
-   "url": "https://polymarket.com/event/nobel-peace-prize-winner-2026-139"
-  },
-  {
-   "id": "5101559",
-   "question": "Georgia vs. Alabama: O/U 51.5",
-   "endDate": "2026-10-10T23:30:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Over",
-     "ask": 0.49,
-     "bid": 0.48
-    },
-    {
-     "index": 1,
-     "name": "Under",
-     "ask": 0.52,
-     "bid": 0.51
-    }
-   ],
-   "volume24h": 69612,
-   "feeRate": 0.03,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/cfb-ga-ala-2026-10-10"
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-2-october-9-2026"
   },
   {
    "id": "5431579",
@@ -274,10 +205,79 @@
      "bid": 0.4
     }
    ],
-   "volume24h": 68312,
+   "volume24h": 116190,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/cs2-gl1-sin2-2026-10-09"
+  },
+  {
+   "id": "5207028",
+   "question": "Will the price of Bitcoin be above $84,000 on October 9?",
+   "endDate": "2026-10-09T16:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.1,
+     "bid": 0.094
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.906,
+     "bid": 0.9
+    }
+   ],
+   "volume24h": 103899,
+   "feeRate": 0.07,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/bitcoin-above-on-october-9-2026"
+  },
+  {
+   "id": "637034",
+   "question": "Will Mykola Kuleba win the Nobel Peace Prize in 2026?",
+   "endDate": "2026-10-10T00:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.173,
+     "bid": 0.149
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.851,
+     "bid": 0.827
+    }
+   ],
+   "volume24h": 94103,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/nobel-peace-prize-winner-2026-139"
+  },
+  {
+   "id": "5442758",
+   "question": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
+   "endDate": "2026-10-09T18:30:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "1win",
+     "ask": 0.13,
+     "bid": 0.12
+    },
+    {
+     "index": 1,
+     "name": "PARIVISION",
+     "ask": 0.88,
+     "bid": 0.87
+    }
+   ],
+   "volume24h": 77504,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/dota2-1win-pari-2026-10-09"
   },
   {
    "id": "5344834",
@@ -287,17 +287,17 @@
     {
      "index": 0,
      "name": "Appalachian State",
-     "ask": 0.51,
-     "bid": 0.5
+     "ask": 0.52,
+     "bid": 0.51
     },
     {
      "index": 1,
      "name": "Old Dominion",
-     "ask": 0.5,
-     "bid": 0.49
+     "ask": 0.49,
+     "bid": 0.48
     }
    ],
-   "volume24h": 61905,
+   "volume24h": 62818,
    "feeRate": 0.03,
    "minShares": 5,
    "url": "https://polymarket.com/event/cfb-old-applst-2026-10-10"
@@ -310,43 +310,66 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.71,
-     "bid": 0.7
+     "ask": 0.72,
+     "bid": 0.71
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.3,
-     "bid": 0.29
+     "ask": 0.29,
+     "bid": 0.28
     }
    ],
-   "volume24h": 55104,
+   "volume24h": 60473,
    "feeRate": 0.07,
    "minShares": 5,
    "url": "https://polymarket.com/event/bitcoin-above-on-october-9-2026"
   },
   {
-   "id": "5095288",
-   "question": "Spread: Louisville (-3.5)",
-   "endDate": "2026-10-09T23:00:00Z",
+   "id": "5414664",
+   "question": "Map Handicap: AUR (-1.5) vs 1WIN (+1.5)",
+   "endDate": "2026-10-09T14:30:00Z",
    "outcomes": [
     {
      "index": 0,
-     "name": "Louisville",
-     "ask": 0.51,
-     "bid": 0.5
+     "name": "Aurora Gaming",
+     "ask": 0.42,
+     "bid": 0.41
     },
     {
      "index": 1,
-     "name": "Florida State",
-     "ask": 0.5,
-     "bid": 0.49
+     "name": "1WIN",
+     "ask": 0.59,
+     "bid": 0.58
     }
    ],
-   "volume24h": 49661,
-   "feeRate": 0.03,
+   "volume24h": 57753,
+   "feeRate": 0.05,
    "minShares": 5,
-   "url": "https://polymarket.com/event/cfb-flst-lou-2026-10-09"
+   "url": "https://polymarket.com/event/cs2-1win-aur1-2026-10-09"
+  },
+  {
+   "id": "5433018",
+   "question": "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
+   "endDate": "2026-10-09T15:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Team Spirit",
+     "ask": 0.69,
+     "bid": 0.68
+    },
+    {
+     "index": 1,
+     "name": "Aurora",
+     "ask": 0.32,
+     "bid": 0.31
+    }
+   ],
+   "volume24h": 52900,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/dota2-ts8-aur1-2026-10-09"
   },
   {
    "id": "5414673",
@@ -366,240 +389,79 @@
      "bid": 0.15
     }
    ],
-   "volume24h": 46018,
+   "volume24h": 50233,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/cs2-vit-prv-2026-10-09"
   },
   {
-   "id": "5442758",
-   "question": "Dota 2: 1win vs PARIVISION (BO3) - BLAST Slam Playoffs",
-   "endDate": "2026-10-09T18:30:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "1win",
-     "ask": 0.12,
-     "bid": 0.11
-    },
-    {
-     "index": 1,
-     "name": "PARIVISION",
-     "ask": 0.89,
-     "bid": 0.88
-    }
-   ],
-   "volume24h": 40007,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/dota2-1win-pari-2026-10-09"
-  },
-  {
-   "id": "5433018",
-   "question": "Dota 2: Team Spirit vs Aurora (BO3) - BLAST Slam Playoffs",
-   "endDate": "2026-10-09T15:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Team Spirit",
-     "ask": 0.7,
-     "bid": 0.69
-    },
-    {
-     "index": 1,
-     "name": "Aurora",
-     "ask": 0.31,
-     "bid": 0.3
-    }
-   ],
-   "volume24h": 37377,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/dota2-ts8-aur1-2026-10-09"
-  },
-  {
-   "id": "5407449",
-   "question": "Bitcoin Up or Down on October 9?",
-   "endDate": "2026-10-09T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Up",
-     "ask": 0.9,
-     "bid": 0.89
-    },
-    {
-     "index": 1,
-     "name": "Down",
-     "ask": 0.11,
-     "bid": 0.1
-    }
-   ],
-   "volume24h": 29746,
-   "feeRate": 0.07,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/bitcoin-up-or-down-on-october-9-2026"
-  },
-  {
-   "id": "5330764",
-   "question": "Will Elon Musk post 165-189 tweets from October 8 to October 10, 2026?",
-   "endDate": "2026-10-10T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.095,
-     "bid": 0.084
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.916,
-     "bid": 0.905
-    }
-   ],
-   "volume24h": 28831,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-8-october-10-2026"
-  },
-  {
-   "id": "5405591",
-   "question": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
-   "endDate": "2026-10-10T18:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "NRG",
-     "ask": 0.58,
-     "bid": 0.57
-    },
-    {
-     "index": 1,
-     "name": "LOUD",
-     "ask": 0.43,
-     "bid": 0.42
-    }
-   ],
-   "volume24h": 27825,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/val-nrg-loud-2026-10-10"
-  },
-  {
-   "id": "5015038",
-   "question": "Will FC Barcelona win on 2026-10-10?",
-   "endDate": "2026-10-10T16:30:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.91,
-     "bid": 0.9
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.1,
-     "bid": 0.09
-    }
-   ],
-   "volume24h": 27621,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/lal-bar-get-2026-10-10"
-  },
-  {
-   "id": "5095249",
-   "question": "Columbia vs. Marist",
+   "id": "5095288",
+   "question": "Spread: Louisville (-3.5)",
    "endDate": "2026-10-09T23:00:00Z",
    "outcomes": [
     {
      "index": 0,
-     "name": "Columbia",
-     "ask": 0.56,
-     "bid": 0.55
+     "name": "Louisville",
+     "ask": 0.51,
+     "bid": 0.5
     },
     {
      "index": 1,
-     "name": "Marist",
-     "ask": 0.45,
-     "bid": 0.44
+     "name": "Florida State",
+     "ask": 0.5,
+     "bid": 0.49
     }
    ],
-   "volume24h": 25103,
+   "volume24h": 49710,
    "feeRate": 0.03,
    "minShares": 5,
-   "url": "https://polymarket.com/event/cfb-clmb-mrst-2026-10-09"
+   "url": "https://polymarket.com/event/cfb-flst-lou-2026-10-09"
   },
   {
-   "id": "5224549",
-   "question": "Will Croatia win on 2026-10-09?",
-   "endDate": "2026-10-09T16:45:00Z",
+   "id": "5414697",
+   "question": "Map Handicap: TS (-1.5) vs Team Falcons (+1.5)",
+   "endDate": "2026-10-09T22:00:00Z",
    "outcomes": [
     {
      "index": 0,
-     "name": "Yes",
-     "ask": 0.08,
-     "bid": 0.07
+     "name": "Spirit",
+     "ask": 0.34,
+     "bid": 0.33
     },
     {
      "index": 1,
-     "name": "No",
-     "ask": 0.93,
-     "bid": 0.92
+     "name": "Team Falcons",
+     "ask": 0.67,
+     "bid": 0.66
     }
    ],
-   "volume24h": 25047,
+   "volume24h": 41771,
    "feeRate": 0.05,
    "minShares": 5,
-   "url": "https://polymarket.com/event/wwcquefa-cro-ice-2026-10-09"
+   "url": "https://polymarket.com/event/cs2-fal2-ts7-2026-10-09"
   },
   {
-   "id": "5414664",
-   "question": "Map Handicap: AUR (-1.5) vs 1WIN (+1.5)",
-   "endDate": "2026-10-09T14:30:00Z",
+   "id": "5405879",
+   "question": "Map Handicap: HOTU (-1.5) vs Acend (+1.5)",
+   "endDate": "2026-10-09T15:00:00Z",
    "outcomes": [
     {
      "index": 0,
-     "name": "Aurora Gaming",
-     "ask": 0.43,
-     "bid": 0.42
+     "name": "HOTU",
+     "ask": 0.47,
+     "bid": 0.46
     },
     {
      "index": 1,
-     "name": "1WIN",
-     "ask": 0.58,
-     "bid": 0.57
+     "name": "Acend",
+     "ask": 0.54,
+     "bid": 0.53
     }
    ],
-   "volume24h": 24509,
+   "volume24h": 34715,
    "feeRate": 0.05,
    "minShares": 5,
-   "url": "https://polymarket.com/event/cs2-1win-aur1-2026-10-09"
-  },
-  {
-   "id": "5414675",
-   "question": "Map Handicap: VIT (-1.5) vs PARIVISION (+1.5)",
-   "endDate": "2026-10-09T17:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Vitality",
-     "ask": 0.56,
-     "bid": 0.55
-    },
-    {
-     "index": 1,
-     "name": "PARIVISION",
-     "ask": 0.45,
-     "bid": 0.44
-    }
-   ],
-   "volume24h": 24486,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/cs2-vit-prv-2026-10-09"
+   "url": "https://polymarket.com/event/cs2-hotu-ace1-2026-10-09"
   },
   {
    "id": "5414686",
@@ -619,10 +481,56 @@
      "bid": 0.67
     }
    ],
-   "volume24h": 23265,
+   "volume24h": 33238,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/cs2-furia-mouz-2026-10-09"
+  },
+  {
+   "id": "5414675",
+   "question": "Map Handicap: VIT (-1.5) vs PARIVISION (+1.5)",
+   "endDate": "2026-10-09T17:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Vitality",
+     "ask": 0.56,
+     "bid": 0.55
+    },
+    {
+     "index": 1,
+     "name": "PARIVISION",
+     "ask": 0.45,
+     "bid": 0.44
+    }
+   ],
+   "volume24h": 32673,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/cs2-vit-prv-2026-10-09"
+  },
+  {
+   "id": "5407449",
+   "question": "Bitcoin Up or Down on October 9?",
+   "endDate": "2026-10-09T16:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Up",
+     "ask": 0.9,
+     "bid": 0.89
+    },
+    {
+     "index": 1,
+     "name": "Down",
+     "ask": 0.11,
+     "bid": 0.1
+    }
+   ],
+   "volume24h": 31621,
+   "feeRate": 0.07,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/bitcoin-up-or-down-on-october-9-2026"
   },
   {
    "id": "5414693",
@@ -632,112 +540,135 @@
     {
      "index": 0,
      "name": "Team Falcons",
-     "ask": 0.45,
-     "bid": 0.44
+     "ask": 0.42,
+     "bid": 0.41
     },
     {
      "index": 1,
      "name": "Spirit",
-     "ask": 0.56,
-     "bid": 0.55
+     "ask": 0.59,
+     "bid": 0.58
     }
    ],
-   "volume24h": 21342,
+   "volume24h": 31166,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/cs2-fal2-ts7-2026-10-09"
   },
   {
-   "id": "5096842",
-   "question": "South Carolina vs. Florida: O/U 61.5",
-   "endDate": "2026-10-10T16:45:00Z",
+   "id": "5330761",
+   "question": "Will Elon Musk post 90-114 tweets from October 8 to October 10, 2026?",
+   "endDate": "2026-10-10T16:00:00Z",
    "outcomes": [
     {
      "index": 0,
-     "name": "Over",
-     "ask": 0.43,
-     "bid": 0.42
+     "name": "Yes",
+     "ask": 0.395,
+     "bid": 0.383
     },
     {
      "index": 1,
-     "name": "Under",
+     "name": "No",
+     "ask": 0.617,
+     "bid": 0.605
+    }
+   ],
+   "volume24h": 30247,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-8-october-10-2026"
+  },
+  {
+   "id": "5224549",
+   "question": "Will Croatia win on 2026-10-09?",
+   "endDate": "2026-10-09T16:45:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.08,
+     "bid": 0.07
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.93,
+     "bid": 0.92
+    }
+   ],
+   "volume24h": 29059,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/wwcquefa-cro-ice-2026-10-09"
+  },
+  {
+   "id": "5405591",
+   "question": "Valorant: NRG vs LOUD (BO3) - VCT Champions Playoffs",
+   "endDate": "2026-10-10T18:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "NRG",
      "ask": 0.58,
      "bid": 0.57
+    },
+    {
+     "index": 1,
+     "name": "LOUD",
+     "ask": 0.43,
+     "bid": 0.42
     }
    ],
-   "volume24h": 20208,
+   "volume24h": 28115,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/val-nrg-loud-2026-10-10"
+  },
+  {
+   "id": "5095249",
+   "question": "Columbia vs. Marist",
+   "endDate": "2026-10-09T23:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Columbia",
+     "ask": 0.56,
+     "bid": 0.55
+    },
+    {
+     "index": 1,
+     "name": "Marist",
+     "ask": 0.45,
+     "bid": 0.44
+    }
+   ],
+   "volume24h": 26736,
    "feeRate": 0.03,
    "minShares": 5,
-   "url": "https://polymarket.com/event/cfb-sc-fl-2026-10-10"
+   "url": "https://polymarket.com/event/cfb-clmb-mrst-2026-10-09"
   },
   {
-   "id": "5330763",
-   "question": "Will Elon Musk post 140-164 tweets from October 8 to October 10, 2026?",
+   "id": "5238585",
+   "question": "Will the price of Ethereum be above $2,600 on October 10?",
    "endDate": "2026-10-10T16:00:00Z",
    "outcomes": [
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.18,
-     "bid": 0.165
+     "ask": 0.058,
+     "bid": 0.046
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.835,
-     "bid": 0.82
+     "ask": 0.954,
+     "bid": 0.942
     }
    ],
-   "volume24h": 19973,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-8-october-10-2026"
-  },
-  {
-   "id": "5330760",
-   "question": "Will Elon Musk post 65-89 tweets from October 8 to October 10, 2026?",
-   "endDate": "2026-10-10T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.13,
-     "bid": 0.12
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.88,
-     "bid": 0.87
-    }
-   ],
-   "volume24h": 18965,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-8-october-10-2026"
-  },
-  {
-   "id": "5207049",
-   "question": "Will the price of Solana be above $110 on October 9?",
-   "endDate": "2026-10-09T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.594,
-     "bid": 0.528
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.472,
-     "bid": 0.406
-    }
-   ],
-   "volume24h": 18120,
+   "volume24h": 25002,
    "feeRate": 0.07,
    "minShares": 5,
-   "url": "https://polymarket.com/event/solana-above-on-october-9-2026"
+   "url": "https://polymarket.com/event/ethereum-above-on-october-10-2026"
   },
   {
    "id": "4970385",
@@ -757,15 +688,15 @@
      "bid": 0.25
     }
    ],
-   "volume24h": 17858,
+   "volume24h": 23911,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/bun-dor-wer-2026-10-09"
   },
   {
-   "id": "5096841",
-   "question": "South Carolina vs. Florida: O/U 59.5",
-   "endDate": "2026-10-10T16:45:00Z",
+   "id": "5101559",
+   "question": "Georgia vs. Alabama: O/U 51.5",
+   "endDate": "2026-10-10T23:30:00Z",
    "outcomes": [
     {
      "index": 0,
@@ -780,10 +711,125 @@
      "bid": 0.52
     }
    ],
-   "volume24h": 16452,
+   "volume24h": 22686,
    "feeRate": 0.03,
    "minShares": 5,
-   "url": "https://polymarket.com/event/cfb-sc-fl-2026-10-10"
+   "url": "https://polymarket.com/event/cfb-ga-ala-2026-10-10"
+  },
+  {
+   "id": "5015038",
+   "question": "Will FC Barcelona win on 2026-10-10?",
+   "endDate": "2026-10-10T16:30:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.91,
+     "bid": 0.9
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.1,
+     "bid": 0.09
+    }
+   ],
+   "volume24h": 22558,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/lal-bar-get-2026-10-10"
+  },
+  {
+   "id": "5330763",
+   "question": "Will Elon Musk post 140-164 tweets from October 8 to October 10, 2026?",
+   "endDate": "2026-10-10T16:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.115,
+     "bid": 0.104
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.896,
+     "bid": 0.885
+    }
+   ],
+   "volume24h": 21524,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-8-october-10-2026"
+  },
+  {
+   "id": "5428151",
+   "question": "Map Handicap: PR (-1.5) vs T1 (+1.5)",
+   "endDate": "2026-10-09T15:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Paper Rex",
+     "ask": 0.39,
+     "bid": 0.38
+    },
+    {
+     "index": 1,
+     "name": "T1",
+     "ask": 0.62,
+     "bid": 0.61
+    }
+   ],
+   "volume24h": 21164,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/val-t1-pr1-2026-10-09"
+  },
+  {
+   "id": "4985255",
+   "question": "Spread: Beijing Guoan FC (-1.5)",
+   "endDate": "2026-10-09T11:35:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Beijing Guoan FC",
+     "ask": 0.45,
+     "bid": 0.44
+    },
+    {
+     "index": 1,
+     "name": "Qingdao Hainiu FC",
+     "ask": 0.56,
+     "bid": 0.55
+    }
+   ],
+   "volume24h": 20909,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/chi-hai-bgu-2026-10-09-more-markets"
+  },
+  {
+   "id": "5330760",
+   "question": "Will Elon Musk post 65-89 tweets from October 8 to October 10, 2026?",
+   "endDate": "2026-10-10T16:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.2,
+     "bid": 0.19
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.81,
+     "bid": 0.8
+    }
+   ],
+   "volume24h": 20298,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/elon-musk-of-tweets-october-8-october-10-2026"
   },
   {
    "id": "5424028",
@@ -793,20 +839,89 @@
     {
      "index": 0,
      "name": "Elite Klan",
-     "ask": 0.44,
-     "bid": 0.42
+     "ask": 0.43,
+     "bid": 0.41
     },
     {
      "index": 1,
      "name": "Royal Foxes Esports",
-     "ask": 0.58,
-     "bid": 0.56
+     "ask": 0.59,
+     "bid": 0.57
     }
    ],
-   "volume24h": 15931,
+   "volume24h": 19727,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/cs2-ek-rfe-2026-10-09"
+  },
+  {
+   "id": "4957246",
+   "question": "Will Kashiwa Reysol win on 2026-10-09?",
+   "endDate": "2026-10-09T10:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.41,
+     "bid": 0.4
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.6,
+     "bid": 0.59
+    }
+   ],
+   "volume24h": 19243,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/jap-rey-vis-2026-10-09"
+  },
+  {
+   "id": "5418614",
+   "question": "Will Moik Baku win on 2026-10-09?",
+   "endDate": "2026-10-09T11:30:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.52,
+     "bid": 0.49
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.51,
+     "bid": 0.48
+    }
+   ],
+   "volume24h": 17730,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/aze2-mba-emi-2026-10-09"
+  },
+  {
+   "id": "5207049",
+   "question": "Will the price of Solana be above $110 on October 9?",
+   "endDate": "2026-10-09T16:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.608,
+     "bid": 0.555
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.445,
+     "bid": 0.392
+    }
+   ],
+   "volume24h": 16825,
+   "feeRate": 0.07,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/solana-above-on-october-9-2026"
   },
   {
    "id": "637031",
@@ -816,20 +931,89 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.068,
-     "bid": 0.044
+     "ask": 0.076,
+     "bid": 0.074
     },
     {
      "index": 1,
      "name": "No",
-     "ask": 0.956,
-     "bid": 0.932
+     "ask": 0.926,
+     "bid": 0.924
     }
    ],
-   "volume24h": 14736,
+   "volume24h": 16057,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/nobel-peace-prize-winner-2026-139"
+  },
+  {
+   "id": "5407450",
+   "question": "Ethereum Up or Down on October 9?",
+   "endDate": "2026-10-09T16:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Up",
+     "ask": 0.92,
+     "bid": 0.91
+    },
+    {
+     "index": 1,
+     "name": "Down",
+     "ask": 0.09,
+     "bid": 0.08
+    }
+   ],
+   "volume24h": 15758,
+   "feeRate": 0.07,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/ethereum-up-or-down-on-october-9-2026"
+  },
+  {
+   "id": "5238636",
+   "question": "Will the price of Bitcoin be above $80,000 on October 10?",
+   "endDate": "2026-10-10T16:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.942,
+     "bid": 0.94
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.06,
+     "bid": 0.058
+    }
+   ],
+   "volume24h": 14700,
+   "feeRate": 0.07,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/bitcoin-above-on-october-10-2026"
+  },
+  {
+   "id": "5099731",
+   "question": "Florida A&M vs. Alabama State: O/U 49.5",
+   "endDate": "2026-10-09T16:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Over",
+     "ask": 0.46,
+     "bid": 0.45
+    },
+    {
+     "index": 1,
+     "name": "Under",
+     "ask": 0.55,
+     "bid": 0.54
+    }
+   ],
+   "volume24h": 14561,
+   "feeRate": 0.03,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/cfb-flam-alast-2026-10-10"
   },
   {
    "id": "5098738",
@@ -849,10 +1033,79 @@
      "bid": 0.47
     }
    ],
-   "volume24h": 13362,
+   "volume24h": 13618,
    "feeRate": 0.03,
    "minShares": 5,
    "url": "https://polymarket.com/event/cfb-duke-gtech-2026-10-10"
+  },
+  {
+   "id": "4988400",
+   "question": "Will Sporting CP win on 2026-10-09?",
+   "endDate": "2026-10-09T19:15:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.42,
+     "bid": 0.41
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.59,
+     "bid": 0.58
+    }
+   ],
+   "volume24h": 13374,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/por-scb-spo-2026-10-09"
+  },
+  {
+   "id": "5430338",
+   "question": "Valorant: 100 Thieves vs Nongshim RedForce (BO3) - VCT Champions Playoffs",
+   "endDate": "2026-10-09T18:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "100 Thieves",
+     "ask": 0.63,
+     "bid": 0.62
+    },
+    {
+     "index": 1,
+     "name": "Nongshim RedForce",
+     "ask": 0.38,
+     "bid": 0.37
+    }
+   ],
+   "volume24h": 12920,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/val-100t1-ns1-2026-10-09"
+  },
+  {
+   "id": "4957248",
+   "question": "Will Vissel Kōbe win on 2026-10-09?",
+   "endDate": "2026-10-09T10:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Yes",
+     "ask": 0.32,
+     "bid": 0.31
+    },
+    {
+     "index": 1,
+     "name": "No",
+     "ask": 0.69,
+     "bid": 0.68
+    }
+   ],
+   "volume24h": 12848,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/jap-rey-vis-2026-10-09"
   },
   {
    "id": "5009082",
@@ -872,10 +1125,33 @@
      "bid": 0.62
     }
    ],
-   "volume24h": 12572,
+   "volume24h": 12580,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/epl-ast-bre-2026-10-10"
+  },
+  {
+   "id": "5442760",
+   "question": "Game Handicap: PARI (-1.5) vs 1win (+1.5)",
+   "endDate": "2026-10-09T18:30:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "PARIVISION",
+     "ask": 0.59,
+     "bid": 0.58
+    },
+    {
+     "index": 1,
+     "name": "1win",
+     "ask": 0.42,
+     "bid": 0.41
+    }
+   ],
+   "volume24h": 12310,
+   "feeRate": 0.05,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/dota2-1win-pari-2026-10-09"
   },
   {
    "id": "5101528",
@@ -895,56 +1171,10 @@
      "bid": 0.49
     }
    ],
-   "volume24h": 12251,
+   "volume24h": 12284,
    "feeRate": 0.03,
    "minShares": 5,
    "url": "https://polymarket.com/event/cfb-ga-ala-2026-10-10"
-  },
-  {
-   "id": "5407450",
-   "question": "Ethereum Up or Down on October 9?",
-   "endDate": "2026-10-09T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Up",
-     "ask": 0.94,
-     "bid": 0.93
-    },
-    {
-     "index": 1,
-     "name": "Down",
-     "ask": 0.07,
-     "bid": 0.06
-    }
-   ],
-   "volume24h": 12130,
-   "feeRate": 0.07,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/ethereum-up-or-down-on-october-9-2026"
-  },
-  {
-   "id": "5238636",
-   "question": "Will the price of Bitcoin be above $80,000 on October 10?",
-   "endDate": "2026-10-10T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.946,
-     "bid": 0.945
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.055,
-     "bid": 0.054
-    }
-   ],
-   "volume24h": 12012,
-   "feeRate": 0.07,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/bitcoin-above-on-october-10-2026"
   },
   {
    "id": "5207000",
@@ -954,43 +1184,20 @@
     {
      "index": 0,
      "name": "Yes",
-     "ask": 0.458,
-     "bid": 0.425
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.575,
-     "bid": 0.542
-    }
-   ],
-   "volume24h": 11733,
-   "feeRate": 0.07,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/ethereum-above-on-october-9-2026"
-  },
-  {
-   "id": "4985255",
-   "question": "Spread: Beijing Guoan FC (-1.5)",
-   "endDate": "2026-10-09T11:35:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Beijing Guoan FC",
-     "ask": 0.47,
+     "ask": 0.503,
      "bid": 0.46
     },
     {
      "index": 1,
-     "name": "Qingdao Hainiu FC",
+     "name": "No",
      "ask": 0.54,
-     "bid": 0.53
+     "bid": 0.497
     }
    ],
-   "volume24h": 11446,
-   "feeRate": 0.05,
+   "volume24h": 11809,
+   "feeRate": 0.07,
    "minShares": 5,
-   "url": "https://polymarket.com/event/chi-hai-bgu-2026-10-09-more-markets"
+   "url": "https://polymarket.com/event/ethereum-above-on-october-9-2026"
   },
   {
    "id": "5101148",
@@ -1039,29 +1246,6 @@
    "url": "https://polymarket.com/event/es2-ceu-sab-2026-10-10"
   },
   {
-   "id": "5099731",
-   "question": "Florida A&M vs. Alabama State: O/U 49.5",
-   "endDate": "2026-10-09T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Over",
-     "ask": 0.46,
-     "bid": 0.44
-    },
-    {
-     "index": 1,
-     "name": "Under",
-     "ask": 0.56,
-     "bid": 0.54
-    }
-   ],
-   "volume24h": 10695,
-   "feeRate": 0.03,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/cfb-flam-alast-2026-10-10"
-  },
-  {
    "id": "5097961",
    "question": "Texas vs. Oklahoma",
    "endDate": "2026-10-10T19:30:00Z",
@@ -1079,7 +1263,7 @@
      "bid": 0.25
     }
    ],
-   "volume24h": 10382,
+   "volume24h": 10882,
    "feeRate": 0.03,
    "minShares": 5,
    "url": "https://polymarket.com/event/cfb-tx-okl-2026-10-10"
@@ -1102,7 +1286,7 @@
      "bid": 0.27
     }
    ],
-   "volume24h": 10120,
+   "volume24h": 10154,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/lal-rea-vil-2026-10-10"
@@ -1125,217 +1309,10 @@
      "bid": 0.52
     }
    ],
-   "volume24h": 10003,
+   "volume24h": 10094,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/nhl-pit-cbj-2026-10-09"
-  },
-  {
-   "id": "5095485",
-   "question": "Iowa vs. Washington",
-   "endDate": "2026-10-10T01:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Iowa",
-     "ask": 0.44,
-     "bid": 0.43
-    },
-    {
-     "index": 1,
-     "name": "Washington",
-     "ask": 0.57,
-     "bid": 0.56
-    }
-   ],
-   "volume24h": 9081,
-   "feeRate": 0.03,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/cfb-iowa-wash-2026-10-09"
-  },
-  {
-   "id": "5238644",
-   "question": "Will the price of Bitcoin be above $84,000 on October 10?",
-   "endDate": "2026-10-10T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.16,
-     "bid": 0.15
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.85,
-     "bid": 0.84
-    }
-   ],
-   "volume24h": 9032,
-   "feeRate": 0.07,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/bitcoin-above-on-october-10-2026"
-  },
-  {
-   "id": "5397955",
-   "question": "Will the highest temperature in Helsinki be 12°C on October 9?",
-   "endDate": "2026-10-09T12:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.64,
-     "bid": 0.62
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.38,
-     "bid": 0.36
-    }
-   ],
-   "volume24h": 8952,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/highest-temperature-in-helsinki-on-october-9-2026"
-  },
-  {
-   "id": "5095255",
-   "question": "Spread: Columbia (-1.5)",
-   "endDate": "2026-10-09T23:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Columbia",
-     "ask": 0.55,
-     "bid": 0.54
-    },
-    {
-     "index": 1,
-     "name": "Marist",
-     "ask": 0.46,
-     "bid": 0.45
-    }
-   ],
-   "volume24h": 8903,
-   "feeRate": 0.03,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/cfb-clmb-mrst-2026-10-09"
-  },
-  {
-   "id": "5391208",
-   "question": "LoL: ⁠Movistar KOI Fénix vs TLN Pirates (BO5) - EMEA Masters Playoffs",
-   "endDate": "2026-10-09T22:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "⁠Movistar KOI Fénix",
-     "ask": 0.48,
-     "bid": 0.47
-    },
-    {
-     "index": 1,
-     "name": "TLN Pirates",
-     "ask": 0.53,
-     "bid": 0.52
-    }
-   ],
-   "volume24h": 8829,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/lol-koia-tlnpir-2026-10-09"
-  },
-  {
-   "id": "5238640",
-   "question": "Will the price of Bitcoin be above $82,000 on October 10?",
-   "endDate": "2026-10-10T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.64,
-     "bid": 0.63
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.37,
-     "bid": 0.36
-    }
-   ],
-   "volume24h": 8592,
-   "feeRate": 0.07,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/bitcoin-above-on-october-10-2026"
-  },
-  {
-   "id": "4988400",
-   "question": "Will Sporting CP win on 2026-10-09?",
-   "endDate": "2026-10-09T19:15:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.44,
-     "bid": 0.43
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.57,
-     "bid": 0.56
-    }
-   ],
-   "volume24h": 8354,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/por-scb-spo-2026-10-09"
-  },
-  {
-   "id": "5207025",
-   "question": "Will the price of Ethereum be between $2,400 and $2,500 on October 9?",
-   "endDate": "2026-10-09T16:00:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Yes",
-     "ask": 0.545,
-     "bid": 0.521
-    },
-    {
-     "index": 1,
-     "name": "No",
-     "ask": 0.479,
-     "bid": 0.455
-    }
-   ],
-   "volume24h": 8207,
-   "feeRate": 0.07,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/ethereum-price-on-october-9-2026"
-  },
-  {
-   "id": "5069974",
-   "question": "CA Aldosivi vs. CA Sarmiento: O/U 2.5",
-   "endDate": "2026-10-09T17:30:00Z",
-   "outcomes": [
-    {
-     "index": 0,
-     "name": "Over",
-     "ask": 0.38,
-     "bid": 0.37
-    },
-    {
-     "index": 1,
-     "name": "Under",
-     "ask": 0.63,
-     "bid": 0.62
-    }
-   ],
-   "volume24h": 8145,
-   "feeRate": 0.05,
-   "minShares": 5,
-   "url": "https://polymarket.com/event/arg-ald-cas-2026-10-09-more-markets"
   },
   {
    "id": "4976924",
@@ -1355,33 +1332,56 @@
      "bid": 0.59
     }
    ],
-   "volume24h": 8050,
+   "volume24h": 9800,
    "feeRate": 0.05,
    "minShares": 5,
    "url": "https://polymarket.com/event/elc-whu-qpr-2026-10-09-more-markets"
   },
   {
-   "id": "5207004",
-   "question": "Will the price of Bitcoin be between $84,000 and $86,000 on October 9?",
-   "endDate": "2026-10-09T16:00:00Z",
+   "id": "5391208",
+   "question": "LoL: ⁠Movistar KOI Fénix vs TLN Pirates (BO5) - EMEA Masters Playoffs",
+   "endDate": "2026-10-09T22:00:00Z",
    "outcomes": [
     {
      "index": 0,
-     "name": "Yes",
-     "ask": 0.091,
-     "bid": 0.081
+     "name": "⁠Movistar KOI Fénix",
+     "ask": 0.48,
+     "bid": 0.47
     },
     {
      "index": 1,
-     "name": "No",
-     "ask": 0.919,
-     "bid": 0.909
+     "name": "TLN Pirates",
+     "ask": 0.53,
+     "bid": 0.52
     }
    ],
-   "volume24h": 7642,
-   "feeRate": 0.07,
+   "volume24h": 9308,
+   "feeRate": 0.05,
    "minShares": 5,
-   "url": "https://polymarket.com/event/bitcoin-price-on-october-9-2026"
+   "url": "https://polymarket.com/event/lol-koia-tlnpir-2026-10-09"
+  },
+  {
+   "id": "5095485",
+   "question": "Iowa vs. Washington",
+   "endDate": "2026-10-10T01:00:00Z",
+   "outcomes": [
+    {
+     "index": 0,
+     "name": "Iowa",
+     "ask": 0.44,
+     "bid": 0.43
+    },
+    {
+     "index": 1,
+     "name": "Washington",
+     "ask": 0.57,
+     "bid": 0.56
+    }
+   ],
+   "volume24h": 8957,
+   "feeRate": 0.03,
+   "minShares": 5,
+   "url": "https://polymarket.com/event/cfb-iowa-wash-2026-10-09"
   }
  ]
 }
