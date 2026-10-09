@@ -1,29 +1,19 @@
 {
- "status": "done",
- "createdAt": "2026-10-09T12:30:54Z",
- "model": "claude-sonnet-5",
- "candidatesSeen": 60,
- "summary": "I checked tonight's and tomorrow's games for public-information edges: Dortmund-Werder Bremen, South Carolina-Florida, Duke-Georgia Tech, Barcelona-Getafe, Real Madrid-Villarreal, Brentford-Aston Villa, and two college football spreads (App State-Old Dominion, BYU-Iowa State). Most of these had stale, missing, or contradictory data, so I skipped them. The one clear opportunity was a second South Carolina-Florida total market at 61.5 points: a Sports Illustrated preview citing DraftKings puts the real total at 62.5, only one point above this line, which implies roughly 52 to 53 percent for the Over against a 42 cent ask, so I bought it. All five existing positions are unchanged since nothing this cycle contradicted their reasoning.",
- "queries": [
-  "Borussia Dortmund vs Werder Bremen October 9 2026 lineup injury news prediction",
-  "South Carolina vs Florida October 10 2026 odds total points over under latest",
-  "Duke vs Georgia Tech October 10 2026 odds spread total prediction injury",
-  "Barcelona vs Getafe October 10 2026 injury news lineup La Liga",
-  "Real Madrid vs Villarreal October 10 2026 injury news lineup prediction",
-  "Brentford vs Aston Villa October 10 2026 injury news lineup prediction odds",
-  "Appalachian State vs Old Dominion October 10 2026 odds spread prediction",
-  "BYU vs Iowa State October 9 2026 odds spread prediction injury"
- ],
- "trades": [
-  {
-   "action": "buy",
-   "market_id": "5096842",
-   "outcome_index": 0,
-   "stake_usd": 2,
-   "max_price": 0.44,
-   "my_probability": 0.53,
-   "reasoning": "A Sports Illustrated preview citing DraftKings lines this South Carolina-Florida game's real total at 62.5 points, only one point above the 61.5 line here, which implies about 52 to 53 percent for the total to clear 61.5 versus a 42 cent ask for Over."
-  }
- ],
- "processedAt": "2026-10-09T12:31:30.750Z"
+  "status": "pending",
+  "createdAt": "2026-10-09T18:28:25Z",
+  "model": "claude-sonnet-5",
+  "candidatesSeen": 60,
+  "summary": "I checked Manchester United vs Tottenham injury news, the Texas-Oklahoma, BYU-Iowa State and Iowa-Washington college football lines, Arsenal-Leeds, Chelsea-Bournemouth, Real Madrid-Villarreal, Louisville-Florida State, and fresh Brazil runoff polling. None of these cleared the 5-point edge bar after fees: Texas-Oklahoma, BYU-Iowa State and Arsenal-Leeds all matched their sportsbook-implied odds closely, Chelsea-Bournemouth and Real Madrid-Villarreal had no reliable odds to compare against, and Louisville-Florida State had wildly disagreeing spread sources with no clear direction. New Manchester United doubts (Rashford, Mainoo, Sesko, Mazraoui) only reinforce my existing No position rather than changing it, and Brazil polling is unchanged from my last check. I made zero trades this cycle and am holding all five open positions unchanged.",
+  "queries": [
+    "Manchester United vs Tottenham October 10 2026 injury news team news lineup",
+    "Texas vs Oklahoma Red River Rivalry October 10 2026 odds spread injury quarterback",
+    "BYU vs Iowa State October 9 2026 odds spread prediction injury",
+    "Iowa vs Washington October 9 2026 odds spread injury quarterback prediction",
+    "Arsenal vs Leeds United October 10 2026 injury news lineup prediction odds",
+    "Chelsea vs Bournemouth October 10 2026 injury news lineup prediction odds",
+    "Brazil presidential runoff October 25 2026 Lula Flavio latest poll news October 9",
+    "Real Madrid vs Villarreal October 10 2026 injury news lineup prediction odds",
+    "Louisville vs Florida State October 9 2026 odds spread injury prediction"
+  ],
+  "trades": []
 }
