@@ -41,8 +41,8 @@
      "avgPrice": 0.155,
      "cost": 1.0554,
      "fees": 0.0446,
-     "mark": 0.1445,
-     "bid": 0.134,
+     "mark": 0.0005,
+     "bid": null,
      "myProbability": 0.25,
      "reasoning": "Kalshi prices Sudan's Emergency Response Rooms at 24 to 28.5 cents to win the 2026 Nobel Peace Prize and UK bookmakers also list them as the top favorite at 11/4 to 3/1, well above Polymarket's 15.5 cent ask here, a gap too large to be fully explained by bookmaker overround since Kalshi is a real-money market like this one."
     },
@@ -190,8 +190,8 @@
      "avgPrice": 0.53,
      "cost": 3.5205,
      "fees": 0.0827,
-     "mark": 0.53,
-     "bid": 0.52
+     "mark": 0.575,
+     "bid": 0.57
     },
     {
      "id": "5431579-0-1791527476093",
@@ -207,8 +207,8 @@
      "avgPrice": 0.6,
      "cost": 3.5277,
      "fees": 0.0706,
-     "mark": 0.6,
-     "bid": 0.59
+     "mark": 0.575,
+     "bid": 0.57
     }
    ],
    "closed": [
@@ -1168,8 +1168,8 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-09T06:31:11.873Z",
- "nextDecisionAt": "2026-10-09T06:35:00.000Z",
+ "lastRunAt": "2026-10-09T11:29:37.150Z",
+ "nextDecisionAt": "2026-10-09T12:35:00.000Z",
  "live": true,
  "log": [],
  "lastDecisionAt": "2026-10-09T06:30:34Z",
