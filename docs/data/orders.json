@@ -1,5 +1,5 @@
 {
- "status": "pending",
+ "status": "done",
  "createdAt": "2026-10-09T00:29:15Z",
  "model": "claude-sonnet-5",
  "candidatesSeen": 60,
@@ -24,5 +24,6 @@
    "my_probability": 0.56,
    "reasoning": "Dimers and SI both list the real total for Florida-South Carolina at 62.5 points and other books have it between 61.5 and 62, all well above the 59.5 line this market bets on, which implies roughly 56 to 58 percent for the total to clear 59.5 versus a 48 cent ask for Over."
   }
- ]
+ ],
+ "processedAt": "2026-10-09T00:29:45.021Z"
 }
