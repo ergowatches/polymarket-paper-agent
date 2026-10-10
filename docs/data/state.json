@@ -41,8 +41,8 @@
      "avgPrice": 0.43,
      "cost": 2.1715,
      "fees": 0.0619,
-     "mark": 0.435,
-     "bid": 0.43,
+     "mark": 0.9995,
+     "bid": 0.999,
      "myProbability": 0.53,
      "reasoning": "Manchester United are missing three regular defenders (Yoro, Shaw, Malacia all out) plus have knocks to Bruno Fernandes and Mazraoui ahead of Tottenham, and sportsbook moneyline odds (+125/+175/+290) imply only about 42 percent for a United win after removing the bookmaker margin, well below the 58 cent ask here for United to win, so the No side (draw or Tottenham win) looks underpriced."
     },
@@ -60,8 +60,8 @@
      "avgPrice": 0.47,
      "cost": 2.3735,
      "fees": 0.0377,
-     "mark": 0.495,
-     "bid": 0.49,
+     "mark": 0.505,
+     "bid": 0.5,
      "myProbability": 0.59,
      "reasoning": "DraftKings, FanDuel, Fanatics, BetMGM and BetRivers all price this game's real total at 55.5 points, far above the 51.5 line Polymarket is asking about, which implies around a 59 to 62 percent chance the combined score clears 51.5, well above the 47 cent ask for Over."
     },
@@ -79,8 +79,8 @@
      "avgPrice": 0.48,
      "cost": 2.424,
      "fees": 0.0378,
-     "mark": 0.495,
-     "bid": 0.49,
+     "mark": 0.405,
+     "bid": 0.4,
      "myProbability": 0.56,
      "reasoning": "Dimers and SI both list the real total for Florida-South Carolina at 62.5 points and other books have it between 61.5 and 62, all well above the 59.5 line this market bets on, which implies roughly 56 to 58 percent for the total to clear 59.5 versus a 48 cent ask for Over."
     },
@@ -98,8 +98,8 @@
      "avgPrice": 0.42,
      "cost": 2.121,
      "fees": 0.0369,
-     "mark": 0.445,
-     "bid": 0.44,
+     "mark": 0.34,
+     "bid": 0.33,
      "myProbability": 0.53,
      "reasoning": "A Sports Illustrated preview citing DraftKings lines this South Carolina-Florida game's real total at 62.5 points, only one point above the 61.5 line here, which implies about 52 to 53 percent for the total to clear 61.5 versus a 42 cent ask for Over."
     }
@@ -175,8 +175,8 @@
      "pnl": -3.1786
     }
    ],
-   "searches": 284,
-   "cycles": 28
+   "searches": 293,
+   "cycles": 29
   },
   "monkey": {
    "name": "Random picks",
@@ -198,6 +198,29 @@
      "fees": 0.1018,
      "mark": 0.115,
      "bid": 0.11
+    }
+   ],
+   "closed": [
+    {
+     "id": "5238640-1-1791613814567",
+     "marketId": "5238640",
+     "question": "Will the price of Bitcoin be above $82,000 on October 10?",
+     "outcome": "No",
+     "outcomeIndex": 1,
+     "slug": "bitcoin-above-82k-on-october-10-2026",
+     "eventSlug": "bitcoin-above-on-october-10-2026",
+     "endDate": "2026-10-10T16:00:00Z",
+     "openedAt": "2026-10-10T06:30:14.567Z",
+     "shares": 65.6589,
+     "avgPrice": 0.05,
+     "cost": 3.2829,
+     "fees": 0.2183,
+     "mark": 0.0015,
+     "bid": 0.001,
+     "closedAt": "2026-10-10T18:30:53.943Z",
+     "exit": "lost",
+     "proceeds": 0,
+     "pnl": -3.5012
     },
     {
      "id": "4986348-0-1791570542202",
@@ -214,27 +237,12 @@
      "cost": 3.4705,
      "fees": 0.085,
      "mark": 0.335,
-     "bid": 0.33
+     "bid": 0.33,
+     "closedAt": "2026-10-10T18:30:53.804Z",
+     "exit": "lost",
+     "proceeds": 0,
+     "pnl": -3.5555
     },
-    {
-     "id": "5238640-1-1791613814567",
-     "marketId": "5238640",
-     "question": "Will the price of Bitcoin be above $82,000 on October 10?",
-     "outcome": "No",
-     "outcomeIndex": 1,
-     "slug": "bitcoin-above-82k-on-october-10-2026",
-     "eventSlug": "bitcoin-above-on-october-10-2026",
-     "endDate": "2026-10-10T16:00:00Z",
-     "openedAt": "2026-10-10T06:30:14.567Z",
-     "shares": 65.6589,
-     "avgPrice": 0.05,
-     "cost": 3.2829,
-     "fees": 0.2183,
-     "mark": 0.0015,
-     "bid": 0.001
-    }
-   ],
-   "closed": [
     {
      "id": "5448254-1-1791570541988",
      "marketId": "5448254",
@@ -657,10 +665,29 @@
     }
    ],
    "searches": 0,
-   "cycles": 28
+   "cycles": 29
   }
  },
  "decisions": [
+  {
+   "at": "2026-10-10T18:30:24Z",
+   "executedAt": "2026-10-10T18:30:52.931Z",
+   "model": "claude-sonnet-5",
+   "summary": "I checked on today's games that affect my open positions and looked for new edges in the current candidate list. My web search tool could not return live or in-progress scores for Manchester United vs Tottenham or South Carolina vs Florida, both of which had already kicked off, so I have no fresh result to act on there. Georgia-Alabama's real total is still reported inconsistently between 51.5 and 52.5 points with an unresolved tropical weather threat near Tuscaloosa, which is the same uncertain picture as last cycle, so I am not changing that position. Brazil's runoff race is still a statistical toss-up in the most recent polls I could find, none dated after the October 4 first round, so my existing Lula position stands unchanged. I found no new market in the candidate list with a clear information edge, so I made zero trades this cycle and am holding all five open positions.",
+   "queries": [
+    "Manchester United vs Tottenham October 10 2026 confirmed lineup injury news (via research agent)",
+    "South Carolina vs Florida October 10 2026 injury report odds total points latest (via research agent)",
+    "Georgia vs Alabama October 10 2026 weather forecast Tuscaloosa odds total points (via research agent)",
+    "Brazil presidential runoff Lula Flavio Bolsonaro October 2026 latest poll news (via research agent)",
+    "Texas vs Oklahoma Red River Rivalry October 10 2026 odds spread injury quarterback (via research agent)",
+    "Manchester United Tottenham score today",
+    "South Carolina Florida football score today live",
+    "Tuscaloosa Alabama weather forecast tonight October 10 2026 tropical storm Georgia Alabama game",
+    "Brazil runoff Lula Flavio Bolsonaro poll October 2026"
+   ],
+   "candidates": 60,
+   "trades": []
+  },
   {
    "at": "2026-10-10T12:28:22Z",
    "executedAt": "2026-10-10T12:28:50.658Z",
@@ -1369,11 +1396,11 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-10T14:10:58.690Z",
+ "lastRunAt": "2026-10-10T18:30:52.931Z",
  "nextDecisionAt": "2026-10-10T18:35:00.000Z",
  "live": true,
  "log": [],
- "lastDecisionAt": "2026-10-10T12:28:22Z",
- "lastOrdersCreatedAt": "2026-10-10T12:28:22Z",
+ "lastDecisionAt": "2026-10-10T18:30:24Z",
+ "lastOrdersCreatedAt": "2026-10-10T18:30:24Z",
  "model": "claude-sonnet-5"
 }
