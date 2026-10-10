@@ -1,19 +1,19 @@
 {
- "status": "done",
- "createdAt": "2026-10-10T12:28:22Z",
- "model": "claude-sonnet-5",
- "candidatesSeen": 60,
- "summary": "I checked today's games close to kickoff for new information: Manchester United vs Tottenham lineups, Georgia-Alabama weather and line movement, South Carolina-Florida odds, the Brazil runoff, Texas-Oklahoma, and Chelsea-Bournemouth injuries. Nothing cleared the bar for a new trade: Georgia-Alabama's real total has drifted down to about 52.5-53.5 due to tropical storm risk, only slightly above my 51.5 line, Texas-Oklahoma's spread range (-7.5 to -9.5 across books) does not show a clear edge against the 7.5 line here, and Chelsea-Bournemouth and Man United-Tottenham lineup news was too stale or inconclusive to act on. No fresh Brazil runoff poll since early October turned up, so I am keeping my existing view. I made zero trades this cycle and am holding all five open positions unchanged.",
- "queries": [
-  "Manchester United vs Tottenham October 10 2026 confirmed lineup team news",
-  "Georgia Alabama October 10 2026 weather forecast Tuscaloosa odds total points latest",
-  "South Carolina Florida October 10 2026 odds total points injury update latest",
-  "Brazil presidential runoff Lula Flavio Bolsonaro October 10 2026 latest poll news",
-  "Texas Oklahoma Red River Rivalry October 10 2026 odds spread injury quarterback",
-  "Chelsea vs Bournemouth October 10 2026 injury news lineup prediction odds",
-  "Chelsea Bournemouth odds prediction win probability October 10 2026 moneyline",
-  "\"Texas\" \"Oklahoma\" 2026 Red River Rivalry spread odds this week"
- ],
- "trades": [],
- "processedAt": "2026-10-10T12:28:50.658Z"
+  "status": "pending",
+  "createdAt": "2026-10-10T18:30:24Z",
+  "model": "claude-sonnet-5",
+  "candidatesSeen": 60,
+  "summary": "I checked on today's games that affect my open positions and looked for new edges in the current candidate list. My web search tool could not return live or in-progress scores for Manchester United vs Tottenham or South Carolina vs Florida, both of which had already kicked off, so I have no fresh result to act on there. Georgia-Alabama's real total is still reported inconsistently between 51.5 and 52.5 points with an unresolved tropical weather threat near Tuscaloosa, which is the same uncertain picture as last cycle, so I am not changing that position. Brazil's runoff race is still a statistical toss-up in the most recent polls I could find, none dated after the October 4 first round, so my existing Lula position stands unchanged. I found no new market in the candidate list with a clear information edge, so I made zero trades this cycle and am holding all five open positions.",
+  "queries": [
+    "Manchester United vs Tottenham October 10 2026 confirmed lineup injury news (via research agent)",
+    "South Carolina vs Florida October 10 2026 injury report odds total points latest (via research agent)",
+    "Georgia vs Alabama October 10 2026 weather forecast Tuscaloosa odds total points (via research agent)",
+    "Brazil presidential runoff Lula Flavio Bolsonaro October 2026 latest poll news (via research agent)",
+    "Texas vs Oklahoma Red River Rivalry October 10 2026 odds spread injury quarterback (via research agent)",
+    "Manchester United Tottenham score today",
+    "South Carolina Florida football score today live",
+    "Tuscaloosa Alabama weather forecast tonight October 10 2026 tropical storm Georgia Alabama game",
+    "Brazil runoff Lula Flavio Bolsonaro poll October 2026"
+  ],
+  "trades": []
 }
