@@ -1,21 +1,22 @@
 {
- "status": "done",
- "createdAt": "2026-10-10T00:29:22Z",
+ "status": "pending",
+ "createdAt": "2026-10-10T06:29:31Z",
  "model": "claude-sonnet-5",
  "candidatesSeen": 60,
- "summary": "I checked the Brazil runoff, Manchester United-Tottenham injury news, Georgia-Alabama weather and total points, South Carolina-Florida, Texas-Oklahoma, Arsenal-Leeds, and current Bitcoin price. Brazil's first round confirmed Flavio Bolsonaro narrowly ahead of Lula (47.03 to 45.16 percent) with an October 25 runoff, a margin close enough that the 10 cent bid on my existing Lula position looks too low to sell into, so I am holding it. Manchester United has four confirmed absences (Sesko, Dorgu, Mazraoui, Ugarte) plus three doubts against a healthier Tottenham side, which reinforces my existing No position, and the Georgia-Alabama and South Carolina-Florida game totals still sit above the lines in my positions despite storm uncertainty, so all five open positions stay unchanged. Bitcoin price reports were too inconsistent to trade any of the threshold markets, and Texas-Oklahoma and Arsenal-Leeds had no fresh edge versus their current prices, so I made zero trades this cycle.",
+ "summary": "I checked today's games for new public information: Manchester United vs Tottenham injury news, the Georgia-Alabama weather and line movement, South Carolina-Florida injuries and totals, the Texas-Oklahoma Red River spread, and the Brazil runoff polls. The one real change is Georgia-Alabama: the real sportsbook total has fallen from the 55.5 points I used when I bought the Over to about 51.5-52.5 now, likely tied to a tropical storm forecast for Tuscaloosa, so that edge has mostly disappeared, though the new fair value still sits slightly above the current bid so I am not selling yet. Everything else held up: United and Tottenham both have a mix of injuries that still roughly balances out, Texas-Oklahoma's spread and moneyline both match the sportsbook consensus closely, South Carolina-Florida's real total (62.5) still supports my existing Over positions which I already hold, and Brazil's runoff polling is still a near-tie consistent with my Lula position. I made zero trades this cycle and am holding all five open positions unchanged.",
  "queries": [
-  "Brazil presidential runoff Lula Flavio Bolsonaro October 2026 latest poll news",
-  "Manchester United vs Tottenham October 10 2026 confirmed lineup team news injury",
+  "Manchester United vs Tottenham October 10 2026 confirmed lineup injury news",
   "Georgia vs Alabama October 10 2026 weather forecast Tuscaloosa odds total points",
-  "South Carolina vs Florida October 10 2026 injury update odds total points latest",
-  "Texas vs Oklahoma Red River Rivalry October 10 2026 odds injury quarterback update",
-  "Arsenal vs Leeds United October 10 2026 injury news lineup prediction",
-  "Polymarket Will Luiz Inacio Lula da Silva win the 2026 Brazilian presidential election runoff",
-  "Brazil presidential election runoff date October 25 2026 Lula Flavio first round results confirmed",
-  "Manchester United Tottenham team news injury October 10 2026 Premier League matchday",
-  "bitcoin price today October 10 2026"
+  "South Carolina vs Florida October 10 2026 injury report odds total points latest",
+  "Texas vs Oklahoma Red River Rivalry October 10 2026 odds spread injury quarterback",
+  "Brazil presidential runoff Lula Flavio Bolsonaro October 2026 latest poll news",
+  "Tuscaloosa Alabama weather October 10 2026 hurricane rain forecast gameday",
+  "Manchester United Tottenham team news today match preview October 10",
+  "South Carolina Florida football DraftKings total line week 2026 Swamp",
+  "Texas Oklahoma Cotton Bowl 2026 spread DraftKings total points Red River",
+  "Georgia Alabama game total points line move October 10 2026 under weather DraftKings",
+  "Man United Tottenham injury list today Mbeumo Sesko Van de Ven Premier League October 10 2026",
+  "Georgia Alabama odds today game day total spread October 10"
  ],
- "trades": [],
- "processedAt": "2026-10-10T00:29:58.643Z"
+ "trades": []
 }
