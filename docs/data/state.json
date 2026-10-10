@@ -60,8 +60,8 @@
      "avgPrice": 0.47,
      "cost": 2.3735,
      "fees": 0.0377,
-     "mark": 0.505,
-     "bid": 0.5,
+     "mark": 0.49,
+     "bid": 0.48,
      "myProbability": 0.59,
      "reasoning": "DraftKings, FanDuel, Fanatics, BetMGM and BetRivers all price this game's real total at 55.5 points, far above the 51.5 line Polymarket is asking about, which implies around a 59 to 62 percent chance the combined score clears 51.5, well above the 47 cent ask for Over."
     },
@@ -175,8 +175,8 @@
      "pnl": -3.1786
     }
    ],
-   "searches": 276,
-   "cycles": 27
+   "searches": 284,
+   "cycles": 28
   },
   "monkey": {
    "name": "Random picks",
@@ -230,8 +230,8 @@
      "avgPrice": 0.05,
      "cost": 3.2829,
      "fees": 0.2183,
-     "mark": 0.047,
-     "bid": 0.045
+     "mark": 0.011,
+     "bid": 0.01
     }
    ],
    "closed": [
@@ -657,10 +657,28 @@
     }
    ],
    "searches": 0,
-   "cycles": 27
+   "cycles": 28
   }
  },
  "decisions": [
+  {
+   "at": "2026-10-10T12:28:22Z",
+   "executedAt": "2026-10-10T12:28:50.658Z",
+   "model": "claude-sonnet-5",
+   "summary": "I checked today's games close to kickoff for new information: Manchester United vs Tottenham lineups, Georgia-Alabama weather and line movement, South Carolina-Florida odds, the Brazil runoff, Texas-Oklahoma, and Chelsea-Bournemouth injuries. Nothing cleared the bar for a new trade: Georgia-Alabama's real total has drifted down to about 52.5-53.5 due to tropical storm risk, only slightly above my 51.5 line, Texas-Oklahoma's spread range (-7.5 to -9.5 across books) does not show a clear edge against the 7.5 line here, and Chelsea-Bournemouth and Man United-Tottenham lineup news was too stale or inconclusive to act on. No fresh Brazil runoff poll since early October turned up, so I am keeping my existing view. I made zero trades this cycle and am holding all five open positions unchanged.",
+   "queries": [
+    "Manchester United vs Tottenham October 10 2026 confirmed lineup team news",
+    "Georgia Alabama October 10 2026 weather forecast Tuscaloosa odds total points latest",
+    "South Carolina Florida October 10 2026 odds total points injury update latest",
+    "Brazil presidential runoff Lula Flavio Bolsonaro October 10 2026 latest poll news",
+    "Texas Oklahoma Red River Rivalry October 10 2026 odds spread injury quarterback",
+    "Chelsea vs Bournemouth October 10 2026 injury news lineup prediction odds",
+    "Chelsea Bournemouth odds prediction win probability October 10 2026 moneyline",
+    "\"Texas\" \"Oklahoma\" 2026 Red River Rivalry spread odds this week"
+   ],
+   "candidates": 60,
+   "trades": []
+  },
   {
    "at": "2026-10-10T06:29:31Z",
    "executedAt": "2026-10-10T06:30:10.883Z",
@@ -1351,11 +1369,11 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-10T07:43:04.415Z",
+ "lastRunAt": "2026-10-10T12:28:50.658Z",
  "nextDecisionAt": "2026-10-10T12:35:00.000Z",
  "live": true,
  "log": [],
- "lastDecisionAt": "2026-10-10T06:29:31Z",
- "lastOrdersCreatedAt": "2026-10-10T06:29:31Z",
+ "lastDecisionAt": "2026-10-10T12:28:22Z",
+ "lastOrdersCreatedAt": "2026-10-10T12:28:22Z",
  "model": "claude-sonnet-5"
 }
