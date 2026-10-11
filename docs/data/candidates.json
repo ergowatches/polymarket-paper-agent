@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-11T00:28:36.825Z",
+ "updatedAt": "2026-10-11T01:02:17.117Z",
  "experimentEndsAt": "2026-10-10T23:31:14.701Z",
  "note": "asks and bids are prices per share in dollars for each outcome. fee = shares x feeRate x p x (1 - p).",
  "markets": []
