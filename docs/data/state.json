@@ -41,8 +41,8 @@
      "avgPrice": 0.47,
      "cost": 2.3735,
      "fees": 0.0377,
-     "mark": 0.515,
-     "bid": 0.51,
+     "mark": 0.28,
+     "bid": 0.26,
      "myProbability": 0.59,
      "reasoning": "DraftKings, FanDuel, Fanatics, BetMGM and BetRivers all price this game's real total at 55.5 points, far above the 51.5 line Polymarket is asking about, which implies around a 59 to 62 percent chance the combined score clears 51.5, well above the 47 cent ask for Over."
     }
@@ -1408,9 +1408,9 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-10T22:11:36.288Z",
+ "lastRunAt": "2026-10-11T00:28:36.825Z",
  "nextDecisionAt": "2026-10-11T00:35:00.000Z",
- "live": true,
+ "live": false,
  "log": [],
  "lastDecisionAt": "2026-10-10T18:30:24Z",
  "lastOrdersCreatedAt": "2026-10-10T18:30:24Z",
