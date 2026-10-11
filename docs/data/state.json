@@ -26,7 +26,9 @@
      "bid": 0.11,
      "myProbability": 0.32,
      "reasoning": "Official count has Flavio leading Lula by only about 3 points (47 to 44 with 98 percent counted), a much narrower gap than the first partial counts suggested, and multiple post-first-round sources (CNBC, NPR) call the October 25 runoff roughly even while Kalshi prices Lula at 41 to 42 cents. Polymarket's own 16 cent ask looks like an overreaction to the first-round shock headlines rather than a reasoned runoff forecast."
-    },
+    }
+   ],
+   "closed": [
     {
      "id": "5101559-0-1791462678277",
      "marketId": "5101559",
@@ -44,10 +46,12 @@
      "mark": 0.45,
      "bid": 0.41,
      "myProbability": 0.59,
-     "reasoning": "DraftKings, FanDuel, Fanatics, BetMGM and BetRivers all price this game's real total at 55.5 points, far above the 51.5 line Polymarket is asking about, which implies around a 59 to 62 percent chance the combined score clears 51.5, well above the 47 cent ask for Over."
-    }
-   ],
-   "closed": [
+     "reasoning": "DraftKings, FanDuel, Fanatics, BetMGM and BetRivers all price this game's real total at 55.5 points, far above the 51.5 line Polymarket is asking about, which implies around a 59 to 62 percent chance the combined score clears 51.5, well above the 47 cent ask for Over.",
+     "closedAt": "2026-10-11T07:16:19.301Z",
+     "exit": "lost",
+     "proceeds": 0,
+     "pnl": -2.4112
+    },
     {
      "id": "5096842-0-1791549094558",
      "marketId": "5096842",
@@ -1408,8 +1412,8 @@
    "trades": []
   }
  ],
- "lastRunAt": "2026-10-11T01:02:17.117Z",
- "nextDecisionAt": "2026-10-11T06:35:00.000Z",
+ "lastRunAt": "2026-10-11T07:16:19.012Z",
+ "nextDecisionAt": "2026-10-11T12:35:00.000Z",
  "live": false,
  "log": [],
  "lastDecisionAt": "2026-10-10T18:30:24Z",
